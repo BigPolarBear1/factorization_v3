@@ -23,3 +23,6 @@ And since this can be represented by legendre symbols... it can be reduced to a 
 
 I cant see in my head why I cant solve it this way. I'm just so fucking depressed. These last few days, I literally feel like wanting to kill myself.
 Guess being broke and hopeless about the future does that to someone.... it's just hard man... just so depressed it physically hurts.
+
+People better hope all this traffic I have been seeing ever since the 23rd of August is just stalkers and stupid infosec idiots who google me to feel better about their own shit life (yea, my entire career people wanted nothing more then for me to fail, I know how it is).
+That that is all there is too it... because I swear, if I am right about my math and people knew about it for months but treated me like "the enemy" ... I am going to be in the worst mood ever. I will literally go live in a hut in the woods and never talk to a human being again. Anyway... quadratic reciprocity... lets finish this this weekend... I have a feeling I am about to "find out". It would be nice if we could use legendre symbols instead of exponent matrices... for so many reasons. I just need to work out the exact details and write the code. But in my head I cant immediatly spot why it wouldn't work.
