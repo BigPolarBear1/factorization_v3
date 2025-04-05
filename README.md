@@ -31,3 +31,5 @@ Anyway.... I have figured out how to represent this problem finally and solve it
 You know... I knew there was a way to do it. I know it was basically just looking for linear dependence, and that implied there had to be a mathematical tool to do this.. it just took me nearly two weeks to figure out the right tool.. but legendre symbols are perfect for the job.. it's literally all coming together like a match made in heaven. Having quadratic coefficients mod p... being able to use legendre... all the stuff I figured out in the last 2 years... it's been a chaotic journey... but this is it... I just know it.
 
 If anyone is listening... and you want to stop what is going to happen.. happy to chat: big_polar_bear1@proton.me  ... ofcourse I will need to see justice for my former manager, because I rather burn this rotten world down then to live in these ruins you people made.
+
+I will start writing it now... and it will come online as soon as its done.. if people cared, life wouldnt have been this nightmare..
