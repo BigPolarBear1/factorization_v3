@@ -33,3 +33,5 @@ You know... I knew there was a way to do it. I know it was basically just lookin
 If anyone is listening... and you want to stop what is going to happen.. happy to chat: big_polar_bear1@proton.me  ... ofcourse I will need to see justice for my former manager, because I rather burn this rotten world down then to live in these ruins you people made.
 
 I will start writing it now... and it will come online as soon as its done.. if people cared, life wouldnt have been this nightmare..
+
+ps: all the people simping for msft, I know and will remember all your names. Youre all the fucking enemy.
