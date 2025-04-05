@@ -35,3 +35,5 @@ If anyone is listening... and you want to stop what is going to happen.. happy t
 I will start writing it now... and it will come online as soon as its done.. if people cared, life wouldnt have been this nightmare..
 
 ps: all the people simping for msft, I know and will remember all your names. Youre all the fucking enemy.
+
+Fucking shit day. Some days I wish some piece of shit wannabe gangster tried to pick a fight with me, so I can fucking murder them. Maybe thats just the trauma of having been threatened with a gun and everything else that happened... but lately, I often feel like that. Lets just get this code done with this weekend... get this factoziation shit over with so I can focus on my revenge against Microsoft. For all care, Microsoft are as big of a pieces of shit as those fuckers who threatened me with a gun, they are the same. 
