@@ -14,4 +14,6 @@ However if we find a different root mod N for one of either square, then the GCD
 
 I figured out I can use my number theoretical findings to do exactly that. It was right there infront of me all along..
 
+Its literally just looking for a similar value mod n amongst the roots for a given squared coefficient combination. Which I know how to do, easy.
+
 Enjoy the post-factorization world in a couple of days 🐻‍❄️✌️
