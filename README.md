@@ -14,4 +14,4 @@ However if we find a different root mod N for one of either square, then the GCD
 
 I figured out I can use my number theoretical findings to do exactly that. It was right there infront of me all along..
 
-
+Enjoy the post-factorization world in a couple of days 🐻‍❄️✌️
