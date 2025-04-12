@@ -27,3 +27,10 @@ Update: Bleh, only slept 4 hours. Depression really fucks with your sleep schedu
 
 Update: Its kind of funny... seeing like expert math folks make these huge blunders in their PoCs... and not just on the programming side, on the math side too. I fixed a public number field sieve PoC, it wasn't doing at all what it was supposed to do.. in a matter of fact, it was finding squares of the form a^2 = (n-a)^2 mod n, and then calling into the sage library function sqrt() to factor n and find a different root... bc they did not  calculate algebraic smooth candidates properly. I mean, these things ofcourse happen.. my first LLL PoC missed the mark more then any of these PoCs. After 2 years... I'm finally starting to feel a little more confident in my math abilities. And my own work has truely come full circle... working on the final version as we speak... not sure if it will be done by tomorrow (depression just playing a number right now)... but definitely in the coming days. It all finally clicked, how roots and coefficients of quadratics mod p work together, and taking square roots over finite fields... and how to put all of that together to improve what I was doing in v2. This won't be another number field sieve PoC.. this will be something much better :).
 
+Update: Depression day. I didn't get a lot of work done today. I did figure out the exact math now I believe.
+
+So its basically just v2, but we add a quadratic character base to the matrix and take the square root over the primes our quadratic coefficients are assembled from.
+I thought I could do it without matrix, but that won't work.. since the trick is to find a square mod p1,p2,p3,p4 and it's best to just use a matrix for that.
+
+So we basically end up with a much more straightforward and less conveluted version of number field sieve. Upload that... write a c++ implementation, set factorization record. easy.
+That better work. I'm at the fucking end of my rope for real. 
