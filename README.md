@@ -41,3 +41,5 @@ Anyway.. tomorrow... tomorrow I'll finish this. Just reduce that right side of t
 
 
 Update: Something spooked our dog at 3am. Maybe just the weather. I too am spooked now. However, I must sleep bc tomorrow is an important day.
+
+Update: Shit day. I hate this place. Some god awful smells coming from the neighbours or some shit. Gonna tape all the cracks in my walls. Literally keeping me up at night and even waking me up out of my sleep. Just so much noise here and annoying smells. Cant live like this anymore. Just need one good day to finish my work... really need these fucking weird smells gone though.. literally cant think.
