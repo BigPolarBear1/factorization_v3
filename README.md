@@ -9,7 +9,7 @@ And it was so simple.... you can just adjust that coefficient so the other side 
 The fuck have I done.... fucking hell.
 
 
-I guess doing this overcomplicated shit, was needed to realize how simple the actual solution just really was.. something its hard to see the simple straightforward thing... it's only after "seeing" it that it becomes obvious in retrospect.
+I guess doing this overcomplicated shit, was needed to realize how simple the actual solution just really was.. sometimes its hard to see the simple straightforward thing... it's only after "seeing" it that it becomes obvious in retrospect.
 Perhaps fate wanted me to delay my work.. for whatever reason. But now is the time I guess. 
 Sadly tomorrow I have an appointment at the bank, but after that I will work day and night to finish this now. 
 It's going to be great folks. Imagine all the things we're going to do, factoring numbers and shit. Hehehehheheheheheehehe. The machine at the end of time will be pleased.
