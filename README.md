@@ -16,3 +16,5 @@ It's going to be great folks. Imagine all the things we're going to do, factorin
 
 Update: Adjusting the coefficient works.... works perfectly.. trick was to just subtract primes from the coefficient that the other side divides to.. that way you maintain congruence. Instant smooth finding. 
 I'll call it a night for today. Tomorrow go to appointment.. once I get back... the final hours of my work begin until publication... it's just math, don't worry folks, with math we'll make this world a better place. cheers.
+
+Update: Alright, no other matters to take care of the rest of the week. Time to get my game face on (or whatever the saying is). Finish python poc, then move to c++ poc. I will get it all done this week no matter what. Then after that its time to pick up the pieces of my life again. 
