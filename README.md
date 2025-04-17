@@ -1,22 +1,13 @@
 # factorization_v3
 
-Dropping this week.
+Should be any day now.... trying to add to v2 in a meaningful way has been a bit chaotic. Too many different ideas. 
+I do honestly believe I got it now. I hope to get it done this week. Next week I'll start doing other work aswell, because I am completely broke and I need an income.
 
-Update: Ergh, I was massively overcomplicating things... trying to do too much fancy math and not really thinking about this logically... ok.. dropping in a few days for real now....  pfft. 
+Speaking of an income... I am also willing to take a job, I have a decade of experience in vuln research and found many bugs in windows 10, secure channel, kerberos, ipsec, openssl, etc.
+Will relocate anywhere. Am a Belgian citizen with no criminal convictions. but if a pathway is open I will become a citizen somewhere else... as Belgium is a dead end for me, especially having no formal education and very niche work experience.
 
-god damnit. And it was right there in v2 all along. That PoC was literally one step away from breaking factorization lol.
-And it was so simple.... you can just adjust that coefficient so the other side is a smaller number inside the factor base... it was so dead simple. 
-The fuck have I done.... fucking hell.
+Email: Big_polar_bear1@proton.me
+
+I can also do contract work... and if needed also relocate for the during of the contract. I can move and start immediatly. Quite desperate to restart my career at this moment to be honest.
 
 
-I guess doing this overcomplicated shit, was needed to realize how simple the actual solution just really was.. sometimes its hard to see the simple straightforward thing... it's only after "seeing" it that it becomes obvious in retrospect.
-Perhaps fate wanted me to delay my work.. for whatever reason. But now is the time I guess. 
-Sadly tomorrow I have an appointment at the bank, but after that I will work day and night to finish this now. 
-It's going to be great folks. Imagine all the things we're going to do, factoring numbers and shit. Hehehehheheheheheehehe. The machine at the end of time will be pleased.
-
-Update: Adjusting the coefficient works.... works perfectly.. trick was to just subtract primes from the coefficient that the other side divides to.. that way you maintain congruence. Instant smooth finding. 
-I'll call it a night for today. Tomorrow go to appointment.. once I get back... the final hours of my work begin until publication... it's just math, don't worry folks, with math we'll make this world a better place. cheers.
-
-Update: Alright, no other matters to take care of the rest of the week. Time to get my game face on (or whatever the saying is). Finish python poc, then move to c++ poc. I will get it all done this week no matter what. Then after that its time to pick up the pieces of my life again. 
-
-Update: Investigating some more. With all the info we have.. its perfectly do-able to calculate when a coefficient squared - x * N is a smooth. Or atleast has a high chance of being a smooth. I'll start porting everything to c++ and then write this new strategy as I go. Like right now it's just brute forcing x * N ... and not really adjusting the coefficient in an intelligent way either.. both of these things need to be addressed. Just starting with a coefficient combination, we know how many times x * N needs to be subtracted to get a multiple of the primes on the other side. The we can adjust with the modulus both in the coefficient and in the amount of times N is subtracted to find smooths. This adjusting can be done in a smart way. It's not hard at all.
