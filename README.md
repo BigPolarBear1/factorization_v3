@@ -26,6 +26,6 @@ Lets take 11 and 13.
 
 148 % (11*13) = 5
 
-So lets say we found 5 in the finite field of 11*13.
-Now we can find smooths in a finite field. Subtract 4 * N = 5^2 - 4387*4 = -17523 % 13*11 = 66.
+So lets say we found 5 in the finite field of 11 * 13.
+Now we can find smooths in a finite field. Subtract 4 * N = 5^2 - 4387 * 4 = -17523 % (13 * 11) = 66.
 66 factors over 2,3,11. It is not a square, but we can use it as a smooth relation. If one of the primes in the fininite field, divides the integer when x * N is subtracted, then reducing it to the finite field, will keep that divisor. And often times, it also includes the other correct divisors, as is the case here.
