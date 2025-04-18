@@ -10,12 +10,22 @@ Email: Big_polar_bear1@proton.me
 
 I can also do contract work... and if needed also relocate for the during of the contract. I can move and start immediatly. Quite desperate to restart my career at this moment to be honest.
 
-Update: Maybe tomorrow... I do really think I finally understand the math of smooths and how to "build" them just using a factor base of primes and their quadratic coefficients. I'll need to check more sample semiprimes to make sure the math holds true. I guess from release of v2 and then the many many many weeks spent learning about number field sieve and all ... it wasn't a complete waste... it did help me uncover the things I have been uncovering this week... helped refocus and give me new insights and idea. I do really think I'm on the brink of a breakthrough now... I have the math. Tomorrow I verify the math. Then finish v3 finally. Fucking rollercoaster. Never again doing something like this for 2 years without income. Even if I break factorization and change the world, still not worth the absolute nightmare of these last two years and the bloodbath in my life, and the life of people around me. I still feel deep sadness that Microsoft also went after my manager. It's like reality became unreal at some point... like the fabric of society has collapsed. People just have no respect anymore. Microsoft forcing me to leave behind all the friends I had known for years and firing my manager bc he defended me, it left a hole in my heart that will never heal for the rest of my life. In the last 2 years, not a day has gone by I havnt felt incredible pain and sadness bc of it. And I cant do anything about it. The only justice would be breaking factorization, and if I don't succeed, I will never feel normal again.
+Bleh.
 
-You know, even though these last 2 years, have been filled with nothing but pain and misery.. I know bc of how my brain is wired, that one day I will look back with nostalgia to those days I was in my 30s, living like a lunatic and doing math all day. Those days, when nothing else mattered but to achieve factorization. Sometimes singleminded focus can be a great way to deal with emotional torment. I really wish I could be in Vancouver right now, meet with my former teamlead and also my former director (whom Microsoft fired) ... sit on sunset beach and walk the sea wall, talk about life and shit, reminisce about the old days... the agony of people and places you cant be with again due to circumstance. There truely is no greater pain in life. Especially with the full knowledge how short life is and how fleeting everything is. I doubt I will ever again have days as great as those.
+Now I seem to have got it.
 
-Update: Just thinking again about legendre symbols in gf(2) tonight.
+So we can reduce things to a finite field of small primes.
 
-If we have a smooth relation like this: 69^2 - 4387 = 374  where 374 factors over 2 * 11 * 17. Now in version 2 I have shown how we can see which primes are possible dividers if N is subtracted X amount of times. So we just collect all of them. Add N  x amount of times and modulo reduce to a couple of distinct other primes (enough to result in a square-ish matrix) and take the legendre symbols... then we can easily read combinations wich are possibly the result of a square... and we can quickly test them by adding N to it again and check if the result is a square in the integers. If a smooth is present, then shouldn't something like this yield it? For sure would be miles better then any bruteforcing shit. I'm all over the place with my head. Like, I understand it all now. It's just getting on my nerves now to finish it in the "most" elegant way I can think of. I don't want to make a 0.1% improvement on quadratic sieve, which by itself is overshadowed by number field sieve anyway. I have to break it entirely and completely. I'll give this appraoch a try tomorrow... just might work.
+I.e p=107 and q=41 thus N=4387
 
-Eureka! The above obviously wont work. Since dealing with multiples and then appending N you cant really look at the primes individually (since you're mixing multiplication and addition). But then I had a look at the partial results I'm creating and their jacobi symbols.... and BOOM. I got it now. Stand-by... factorization in progress.
+The correct coefficient is 148 and 66 on the other side of the congruence. 148^2 = 66^2 + 4387*4
+
+Now, we lets say we find coefficient combinations in prime pairs for example.
+
+Lets take 11 and 13.
+
+148 % (11*13) = 5
+
+So lets say we found 5 in the finite field of 11*13.
+Now we can find smooths in a finite field. Subtract 4 * N = 5^2 - 4387*4 = -17523 % 13*11 = 66.
+66 factors over 2,3,11. It is not a square, but we can use it as a smooth relation. If one of the primes in the fininite field, divides the integer when x * N is subtracted, then reducing it to the finite field, will keep that divisor. And often times, it also includes the other correct divisors, as is the case here.
