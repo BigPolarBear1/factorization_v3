@@ -29,3 +29,5 @@ Lets take 11 and 13.
 So lets say we found 5 in the finite field of 11 * 13.
 Now we can find smooths in a finite field. Subtract 4 * N = 5^2 - 4387 * 4 = -17523 % (13 * 11) = 66.
 66 factors over 2,3,11. It is not a square, but we can use it as a smooth relation. If one of the primes in the fininite field, divides the integer when x * N is subtracted, then reducing it to the finite field, will keep that divisor. And often times, it also includes the other correct divisors, as is the case here.
+
+I wonder... I should then be able to extend the prime field with primes of the divisor... as long as the divisors are in the factor base.. I should be able to do that... until the coefficient grows large enough, at which point we have constructed a smooth. Hmm... I like this direction of thinking... lets get the math and code done this weekend... I am mentally tired.
