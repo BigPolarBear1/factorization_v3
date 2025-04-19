@@ -47,3 +47,5 @@ You know, when you are deprived of a life by an industry. Unable to get anywhere
 I rather have a few more years of dignity and go out in a blaze of glory then just slowly fade away like this, denied a life of dignity, being mocked by shitheads.
 
 I will upload a new version tomorrow... v3... it isn't perfect yet.. but it is a big leap forward compared to v2...
+
+Honestly, I dont think I will ever mentally recover from what Microsoft has done. I'm pretty sure it will haunt me until I die. Those years in Vancouver, best days of my life, but all the people I had known there, the friends... those days are never coming back. Its just being alone in the world until I die now. Hope to make some money (through cybercrime) so I can go backpacking and live a nomadic life. Maybe one day I will find something close to the life I used to have... but I don't think I will ever heal from it.
