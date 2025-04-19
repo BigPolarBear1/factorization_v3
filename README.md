@@ -45,3 +45,5 @@ My work is almost done now.... semiprimes all around the world will tremble in f
 You know, when you are deprived of a life by an industry. Unable to get anywhere in life. You just got to do whatever it takes. And if the cops come, you just fight as if your life depended on it, bc it does. And that is really all there is to it anymore. its just the way it is, and I'll never see my frieds anymore bc of microsoft.
 
 I rather have a few more years of dignity and go out in a blaze of glory then just slowly fade away like this, denied a life of dignity, being mocked by shitheads.
+
+I will upload a new version tomorrow... v3... it isn't perfect yet.. but it is a big leap forward compared to v2...
