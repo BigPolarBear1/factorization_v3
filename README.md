@@ -6,3 +6,7 @@ We can't do calculations mod N, since it requires knowledge of the factors of N.
 And I believe I just found the last piece of the puzzle to get that approach to work, building on two years of research.
 
 Going from v2, to v3 has been the most difficult and chaotic so far... but with some luck, v3 will come online soon now... I want v3 to break factorization, to finish this chapter in my life and move on to the next big challenge. I'm not settling for less. I don't care about improving quadratic sieve... maybe 30 years ago people would have cared about that.. I have to break it completely, it is the only way any of this will have mattered. 
+
+Update: Making some good progress now. I think I have finally smashed through the final wall now. Just need a few good days without insomnia or depression.
+Definitely 100% can make big improvements to v2 already. But I'm hoping this will break factorization now... we'll see.
+I don't quite understand why nobody seems to genuinly care, considering what is at stake.. but it is what it is. Maybe if they hadn't fired my manager, I would have given second thought, but now I only feel pain and regret. 
