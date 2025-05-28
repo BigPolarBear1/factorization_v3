@@ -25,4 +25,5 @@ I hate this place. I miss the friends I used to have but havnt seen in over a ye
 
 update: EUREKA!!!!! I GOT IT. PREPARE FOR YOUR WORST NIGHTMARE TOMORRROW, HAHAHAHAHAHAHAHAHAHAHHAHAA. I 100% got it now. This was the right direction. I finally found it! Tomorrow. Watch me. Its going to happen now.
 Those roots of the quadratic... that was the secret. I shouldn't have zeroed in on the coefficients while ignoring the roots for 2 years. There's this really neat trick which easily yields the factorization of N. You'll see tomorrow.
+Its a truely great reduction in complexity compared to quadratic sieve and v2.. what I found just now, no matter what, it will come online tomorrow... there's only one way forward. I must succeed. Even if it ruins my life, I do this for all the other people like me, so they dont need to get harassed and insulted for who they are. I want a better world. This world is fucking shit.
 
