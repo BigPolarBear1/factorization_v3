@@ -23,4 +23,5 @@ The thing thats broken right now is that before you take the derivative of the r
 
 I hate this place. I miss the friends I used to have but havnt seen in over a year bc of msft. For a few years, it was nice to learn to be myself. Here its back to my repressed self. I'm going to kill myself soon if this doesn't work. This isnt a life worth living anymore. Its just a pure nightmare now.
 
+update: EUREKA!!!!! I GOT IT. PREPARE FOR YOUR WORST NIGHTMARE TOMORRROW, HAHAHAHAHAHAHAHAHAHAHHAHAA. I 100% got it now. This was the right direction. I finally found it! Tomorrow. Watch me. Its going to happen now.
 
