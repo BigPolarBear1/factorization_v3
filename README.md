@@ -11,3 +11,5 @@ Right now, it will bruteforce every coefficient and root combination, that is wh
 I know the math behind it and will upload improvements soon.
 
 In addition I also need to fix coefficient lifting to higher powers. That code is broken atm.
+
+Once I finish with the main improvements I'll also upload an updated paper. I've written large sections of it already.
