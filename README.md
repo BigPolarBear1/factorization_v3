@@ -19,3 +19,4 @@ It's annoying.. because I have been barely able to work this last year, but beca
 Anyway... almost there now.. everything should get uploaded within a week now... 
 
 Update: I'll upload a fixed version tomorrow. Since we are doing calculations mod m, where m is constructed from mod p<sub>i</sub> and p is prime ... we need to adjust things to mod n. I know how to do it. And there's even a way to tell if a coefficient and root combination is even worth the cpu cycles to try and adjust to mod n. That's how I'm going to crack this wide open.... stay tuned :), going to be some good shit soon.
+The thing thats broken right now is that before you take the derivative of the root and coefficient to calculate the other coefficient, you need to adjust the root so we are working mod n. Which is not super hard, its just understanding quadratic sequences.
