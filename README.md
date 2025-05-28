@@ -17,3 +17,5 @@ Once I finish with the main improvements I'll also upload an updated paper. I've
 Hope to upload some of the big improvements I have in mind today or tomorrow.. these last few months have been shit, just really depressed. Like my head is working in slow motion.
 It's annoying.. because I have been barely able to work this last year, but because of depression and being broke.. I also havn't had a chance to recover from it either.. if I hadn't been broke I would have gone backpacking for some months.
 Anyway... almost there now.. everything should get uploaded within a week now... 
+
+Update: I'll upload a fixed version tomorrow. Since we are doing calculations mod m, where m is constructed from mod p<sub>i</sub> and p is prime ... we need to adjust things to mod n. I know how to do it. And there's even a way to tell if a coefficient and root combination is even worth the cpu cycles to try and adjust to mod n. That's how I'm going to crack this wide open.... stay tuned :), going to be some good shit soon.
