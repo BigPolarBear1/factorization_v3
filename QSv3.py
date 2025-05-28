@@ -435,7 +435,7 @@ def find_comb(lists,xlist,n,procnum,return_dict):
             for l in r:
                 root+=l   
                 del l
-            co2=formal_deriv(co,root%total)
+            co2=formal_deriv(co,-(root%total))
             co2=co2%total
             gcdres=gcd(abs(co-co2),n)
             if gcdres != 1 and gcdres != n: 
