@@ -22,3 +22,5 @@ Update: I'll upload a fixed version tomorrow. Since we are doing calculations mo
 The thing thats broken right now is that before you take the derivative of the root and coefficient to calculate the other coefficient, you need to adjust the root so we are working mod n. Which is not super hard, its just understanding quadratic sequences.
 
 I hate this place. I miss the friends I used to have but havnt seen in over a year bc of msft. For a few years, it was nice to learn to be myself. Here its back to my repressed self. I'm going to kill myself soon if this doesn't work. This isnt a life worth living anymore. Its just a pure nightmare now.
+
+Wait actually.. instead of adjusting the root, I can adjust the coefficient... quadratics with the same root but different coefficient can be added together.. I should be able to do quadratic sieve with regular not-squared coefficients then... maybe that's easier then what I'm trying to do.
