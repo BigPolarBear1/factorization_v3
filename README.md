@@ -13,3 +13,7 @@ I know the math behind it and will upload improvements soon.
 In addition I also need to fix coefficient lifting to higher powers. That code is broken atm.
 
 Once I finish with the main improvements I'll also upload an updated paper. I've written large sections of it already.
+
+Hope to upload some of the big improvements I have in mind today or tomorrow.. these last few months have been shit, just really depressed. Like my head is working in slow motion.
+It's annoying.. because I have been barely able to work this last year, but because of depression and being broke.. I also havn't had a chance to recover from it either.. if I hadn't been broke I would have gone backpacking for some months.
+Anyway... almost there now.. everything should get uploaded within a week now... 
