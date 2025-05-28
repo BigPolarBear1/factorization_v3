@@ -1,5 +1,13 @@
 # factorization_v3
 
-UPDATE: IT WORKS!! I CAN TAKE THE GCD DIRECTLY NOW!!! We have lift-off. Lets go. PoC coming later this week. It does work. Just take the derivative of a root and coefficient combination to generate the other coefficient. It works because of how we are calculating these roots and coefficients. Go to hell assholes. 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!WORK IN PROGRESS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-IT WORKS. First draft will get uploaded tomorrow. It won't be optimized. But it will prove the math. Its just everything I was doing before. But you just generate the other coefficient with the derivative from a root and coefficient combination. Bypassing smooth finding and just taking the gcd like this, testing with small numbers, I can easily get something where in the set of all possible permutations, we get about 1 in 8 where the gcd yields the non-trivial factors. I believe this is directly correlated to the size of the modulus we build our coefficients and roots in compared to the size of N. FINALLY. ITS OVER. A real breakthrough. I don't care. Tomorrow this ends. (28/05/2025) .... Shouldn't have fired my manager. Out of all the mistakes you people made, that was the big one, the one you shouldn't have made. Anyway, this is just the beginning. I'm never stopping. A price will be paid.
+Useage: python3 QSv3.py -keysize 40
+
+To do: Will only factor below 50 bits for now, THIS IS AS EXPECTED.
+This is a first draft. I will be uploading improvements frequently now.
+The approach here is to bypass smooth finding and directly take the GCD on quadratic coefficients.
+Right now, it will bruteforce every coefficient and root combination, that is why its so slow.
+I know the math behind it and will upload improvements soon.
+
+In addition I also need to fix coefficient lifting to higher powers. That code is broken atm.
