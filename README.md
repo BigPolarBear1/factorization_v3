@@ -6,7 +6,7 @@ Useage: python3 QSv3_version_b.py -keysize 30
 
 Uploaded QSv3_version_b
 
-This is even slow then the previous v3 version. I know that!!
+This is even slower then the previous v3 version. I know that!!
 However, I am finally able to make the link to number field sieve. That's what this upload is about.
 
 This will calculate coefficient combinations and roots, and then try to find another root that yields the same results mod N when solving the quadratic x<sup>2</sup> + xy = a mod N.
