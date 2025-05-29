@@ -27,3 +27,4 @@ update: EUREKA!!!!! I GOT IT. PREPARE FOR YOUR WORST NIGHTMARE TOMORRROW, HAHAHA
 Those roots of the quadratic... that was the secret. I shouldn't have zeroed in on the coefficients while ignoring the roots for 2 years. There's this really neat trick which easily yields the factorization of N. You'll see tomorrow.
 Its a truely great reduction in complexity compared to quadratic sieve and v2.. what I found just now, no matter what, it will come online tomorrow... there's only one way forward. I must succeed. Even if it ruins my life, I do this for all the other people like me, so they dont need to get harassed and insulted for who they are. I want a better world. This world is fucking shit.
 
+Update: Hope you are ready for today... it all finally fell into place now. I don't care. All that was good in my life has been destroyed by vile people, now I'll destroy them. Go to hell. Can't stop me. People don't understand what they are up against.
