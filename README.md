@@ -13,3 +13,5 @@ This will calculate coefficient combinations and roots, and then try to find ano
 If it is the same, we can add or subtract both roots, solve the quadratic again, and use that result to take the GCD with N.
 
 Now, we can truely begin. version_b just does bruteforce. But you don't have to do that. I'm not going to spill the beans completely yet (its really simple.. you can probably figure it out).. but version_c will solve this, hope to upload today or tomorrow.
+
+hint: There is a very similar approach to how we created a hashmap in v2, to incorporate it with this. Almost done working out the details... I'll probably upload it tomorrow, going for a run and try to sleep after. This will all make sense within the next few days now... almost, so close.
