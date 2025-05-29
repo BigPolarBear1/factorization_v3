@@ -2,7 +2,7 @@
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!WORK IN PROGRESS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-Useage: python3 QSv3.py -keysize 30
+Useage: python3 QSv3_version_b.py -keysize 30
 
 Uploaded QSv3_version_b
 
