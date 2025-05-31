@@ -14,3 +14,5 @@ Going to take a break for the rest of the day. I'll push version_d tomorrow at t
 
 For the final version the goal is to query some hashmap datastructure and find a pair of roots that when used in a quadratic yield the same results mod N. Right now there is still too much brute force going on. Ideally we don't want to bruteforce roots and then try to find matching roots. We want to pull pairs of roots out of that hashmap without bruteforcing. It will get done eventually... give me a few days.
 The upside of this approach is that we completely bypass smooth finding :). 
+
+ps: I am absolutely aware its still slow. However, its about the math we are doing. With everything I learned while making v2... v3 is going to start improving really fast now that Ive written the "core idea". I need to make some adjustments to the code later, such that we improve the likely hood of hitting something thats the same value mod N. I know how to do it from v2... just tired right now. Expect all these things to get fixed in the next few days. This is basically going to be v2 without the need for smooth finding once all is said and done.
