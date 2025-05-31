@@ -13,3 +13,4 @@ I have to improve a lot of the parts of this code. I'll push updates regulary no
 Going to take a break for the rest of the day. I'll push version_d tomorrow at the end of the day I think.
 
 For the final version the goal is to query some hashmap datastructure and find a pair of roots that when used in a quadratic yield the same results mod N. Right now there is still too much brute force going on. Ideally we don't want to bruteforce roots and then try to find matching roots. We want to pull pairs of roots out of that hashmap without bruteforcing. It will get done eventually... give me a few days.
+The upside of this approach is that we completely bypass smooth finding :). 
