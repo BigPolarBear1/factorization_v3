@@ -16,3 +16,5 @@ For the final version the goal is to query some hashmap datastructure and find a
 The upside of this approach is that we completely bypass smooth finding :). 
 
 ps: I am absolutely aware its still slow. However, its about the math we are doing. With everything I learned while making v2... v3 is going to start improving really fast now that Ive written the "core idea". I need to make some adjustments to the code later, such that we improve the likely hood of hitting something thats the same value mod N. I know how to do it from v2... just tired right now. Expect all these things to get fixed in the next few days. This is basically going to be v2 without the need for smooth finding once all is said and done.
+
+pps: For tomorrow, I'll direct my main energy to pulling roots from the hashmap such that we have the same result mod N. Similar to how it was done in v2, but its slightly more complicated since we arn't working with the squares themselves.. but I'm fairly sure I know how to achieve it. I didn't have the pieces to do it when working purely with the coefficients, but I believe I do have them now.
