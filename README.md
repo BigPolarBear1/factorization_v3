@@ -4,8 +4,6 @@
 
 Useage: python3 QSv3_version_c.py -keysize 30
 
-Uploaded QSv3_version_c
-
 Just upload version_c (31 may 2025).
 It's still very slow, nothing has been optimized. But this will be the foundation for future versions.
 The approach is as following right now:
