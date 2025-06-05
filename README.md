@@ -13,3 +13,5 @@ Also need to add worker support and coefficient lifting... but hey... the math c
 
 The optimized version will come tomorrow. 
 This is simply a proof of idea. 
+
+I'll spent the rest of the day working on my paper, which I hope to release also this weekend or next week. I'll begin optimizing this uploaded PoC tomorrow. The performance ceiling will be incredibly good, it will easily surpass factorization_v2 and then some. And we completely eliminate the need for smooth finding. Which as far as I know, is novel and a breakthrough. So yea, go to hell. Could have just treated me with the tiniest bit of respect... but noo.. you had to do it like this.. so be it, pay the price then.
