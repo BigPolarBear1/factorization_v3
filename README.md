@@ -1,1 +1,3 @@
 Coming in an hour...
+
+Moved the previous v3 to https://github.com/BigPolarBear1/factorization_v3_temp ... to delete the commits in a sec, bc not everyone needs to know the things from those commits :) .. just those assholes stalking me.
