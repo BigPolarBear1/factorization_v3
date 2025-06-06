@@ -24,4 +24,4 @@ I'll pivot back to the PoC mainly tomorrow.... get that working better... then f
 
 Btw, 2 years ago, I started with pre-highschool math knowledge. This is my result in only 2 years. Literally, the training wheels are coming off now. Watch what else I am going to do now, it's all going to start happening very quickly now. Quantum isn't going to save you. You'll have to come kill me to stop me, haha. And I won't forget the last 2 years of complete disrespect by western countries.
 
-You all made the future gay with your incompetence. Shit's about to get gay real fast now. Go to hell losers.
+
