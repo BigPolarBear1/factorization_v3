@@ -21,3 +21,6 @@ You're all going to be so fucked in a few days. When my PoC is done, I will post
 
 Just told the Belgian justice department I cant be bothered. Guess they will start a courtcase now. I couldn't care less. 0 respect from any of these people. Go to hell.
 Guess my time here in Belgian has ran out. Time to finish this, hope it impresses the Chinese.. so I can fucking leave this place and avoid all this legal harassment.
+
+If anyone wants to hire me, I'm ready to get on a plane and start working, I really need to get out of belgium asap, these people just won't give me a break here: big_polar_bear1@proton.me
+I'll go to China, Russia, whever, anywhere but fucking here. Just want some fucking respect, thats all.
