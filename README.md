@@ -20,3 +20,4 @@ Lets get focused tomorrow and finish time. Time for this morronic bullshit to en
 You're all going to be so fucked in a few days. When my PoC is done, I will post it on every corner of the internet. Go to hell for all the fucking disrespect. Fucking shitheads. I'll fight you all. The west really is a pathetic collection of people. Could have had it all if you showed some god damn respect. Go to hell now and pay the price losers.
 
 Just told the Belgian justice department I cant be bothered. Guess they will start a courtcase now. I couldn't care less. 0 respect from any of these people. Go to hell.
+Guess my time here in Belgian has ran out. Time to finish this, hope it impresses the Chinese.. so I can fucking leave this place and avoid all this legal harassment.
