@@ -12,3 +12,7 @@ Update: Instead of indexing that xN datastructure (or I<sub>i</sub>N in the pape
 Something like that.. hmm. I have a lot of ideas right now, but I am trying to come up with the MOST optimal one.. since I don't want to spent weeks doing rounds of refactoring my code. I want to get it right the first time around. I should go for a run in a few hours and think about this.
 
 I'll get to work tomorrow.. just did some updates to the paper today.. I know how to write this code, just too god damn tired today.
+
+Yea it is time to finish this asap, since the Belgian justice department keeps harassing me, bc I got angry at the FBI (for ruining my life) lol. 
+Wish I could find a job somewhere, so I could just leave this country.. I'll go to China, I don't care anymore. Just fucking broke I guess.
+Lets get focused tomorrow and finish time. Time for this morronic bullshit to end. Fuck all these fucking piece of shit cops and justice department shitheads. I'll go to war with this world.
