@@ -28,3 +28,5 @@ I'll go to China, Russia, whever, anywhere but fucking here. Just want some fuck
 Just tired. As if 2 years of unemployment and being unable to see my friends isn't enough, they also got to keep harassing me through the justice department. Just leave me the fuck alone. 
 
 Oh. I know how to finish this code now. Guess some fucking rage helps with inspiration. This is going to work beautifully. You're all fucked. And after this, I am going to China, because fuck this shit. 
+
+All this legal bullshit and persistent unemployment is making me so depressed. And everyone treats me like I have gone insane. Most people don't say it out loud.. but I can see it. I might just take the last of my savings and dissappear in the coming days. This fucking nightmare. Just want some fucking respect and a fucking job so I can have a life with some fucking dignity. Can't even have that anymore.
