@@ -30,3 +30,5 @@ Just tired. As if 2 years of unemployment and being unable to see my friends isn
 Oh. I know how to finish this code now. Guess some fucking rage helps with inspiration. This is going to work beautifully. You're all fucked. And after this, I am going to China, because fuck this shit. 
 
 All this legal bullshit and persistent unemployment is making me so depressed. And everyone treats me like I have gone insane. Most people don't say it out loud.. but I can see it. I might just take the last of my savings and dissappear in the coming days. This fucking nightmare. Just want some fucking respect and a fucking job so I can have a life with some fucking dignity. Can't even have that anymore.
+
+Yea I know how to finish this PoC now, definitely... tomorrow I have to finish it, all this extra stress from all this legal bullshit, its too much. My life has been complete shit, everything good is gone, and just summoning the mental energy to do this math, it takes everything from me... and I can't deal with this extra external stress, I just can't, its literally pushing me over the edge right now. Tomorrow I will finish this no matter what.
