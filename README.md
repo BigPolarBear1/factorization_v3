@@ -17,4 +17,4 @@ Yea it is time to finish this asap, since the Belgian justice department keeps h
 Wish I could find a job somewhere, so I could just leave this country.. I'll go to China, I don't care anymore. Just fucking broke I guess.
 Lets get focused tomorrow and finish time. Time for this morronic bullshit to end. Fuck all these fucking piece of shit cops and justice department shitheads. I'll go to war with this world.
 
-You're all going to be so fucked in a few days. When my PoC is done, I will post it on every corner of the internet. Go to hell for all the fucking disrespect. Fucking shitheads. I'll fight you all. 
+You're all going to be so fucked in a few days. When my PoC is done, I will post it on every corner of the internet. Go to hell for all the fucking disrespect. Fucking shitheads. I'll fight you all. The west really is a pathetic collection of people. Could have had it all if you showed some god damn respect. Go to hell now and pay the price losers.
