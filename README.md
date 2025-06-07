@@ -24,3 +24,5 @@ Guess my time here in Belgian has ran out. Time to finish this, hope it impresse
 
 If anyone wants to hire me, I'm ready to get on a plane and start working, I really need to get out of belgium asap, these people just won't give me a break here: big_polar_bear1@proton.me
 I'll go to China, Russia, whever, anywhere but fucking here. Just want some fucking respect, thats all.
+
+Just tired. As if 2 years of unemployment and being unable to see my friends isn't enough, they also got to keep harassing me through the justice department. Just leave me the fuck alone. 
