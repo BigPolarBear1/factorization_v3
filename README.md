@@ -26,3 +26,5 @@ If anyone wants to hire me, I'm ready to get on a plane and start working, I rea
 I'll go to China, Russia, whever, anywhere but fucking here. Just want some fucking respect, thats all.
 
 Just tired. As if 2 years of unemployment and being unable to see my friends isn't enough, they also got to keep harassing me through the justice department. Just leave me the fuck alone. 
+
+Oh. I know how to finish this code now. Guess some fucking rage helps with inspiration. This is going to work beautifully. You're all fucked. And after this, I am going to China, because fuck this shit. 
