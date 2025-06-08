@@ -38,3 +38,5 @@ Hate today. I cant cope with my life circumstances anymore. I need a job. Everyo
 God damnit, I miss living in Vancouver with my teamlead. And having a job and an income. Tomorrow I will work until my work is done. It's the only way to save myself.. because these law enforcement people are just going to keep harassing me endlessly. When I'm successful.. I can just move to China, they'll be eager to have me.. I wont ever have to be disrespected like this ever again.
 
 I'm just going to become homeless in the next few weeks... leave belgium and live in a tent. Good luck harassing me then. Atleast I'll be able to live with some dignity for a little while.
+
+I should have just gone to China when they asked me to come... they have always shown the utmost respect for me and my work. Meanwhile, here I cant get a job, I get endlessly harassed.. I'm going to die here in the west soon if I don't get out. Even my parents at this point would support me going to China.
