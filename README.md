@@ -49,3 +49,5 @@ update: Everything is shit. Did some more updates to the paper and expanded the 
 Fuck the Belgian justice department. I'll go to war with them. Fuck the FBI, and fuck the americans. And fuck that tiny man pete hegseth and fuck trump, fucking imbeciles. Shit world filled with fucking idiots. I don't care anymore. Anyone try to harass me, I'll fight to the death. I have nothing left to lose. You took everything that mattered to me away. Go to hell now and fuck off, I have math to do, don't have patience for this bullshit.
 
 Waging cryptologic warfare against the west, they are just too stupid to realize it yet, hahaha. Fuck you.
+
+People want to portray me as insane and unstable, because the reality is too difficult for them... (that they are fucking stupid)
