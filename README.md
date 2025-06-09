@@ -51,3 +51,5 @@ Fuck the Belgian justice department. I'll go to war with them. Fuck the FBI, and
 Waging cryptologic warfare against the west, they are just too stupid to realize it yet, hahaha. Fuck you.
 
 People want to portray me as insane and unstable, because the reality is too difficult for them... (that they are fucking stupid)
+
+For a little while, live was good, with my friends in the PNW, most of them were really smart, but also smart as in how they see the world... now I have to deal with fucking idiots again (FBI and Belgian justice department) who wont leave me alone, and somehow it makes me sad I cant be with my friends anymore, because all the stupidity of these people is making me depressed, and I just long to be with some intelligent people again. I just dont have the patience to deal with these fucking shitheads. They are not about justice, its about using the system to harass people, just like these morrons from msft HR did.
