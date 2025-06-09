@@ -53,3 +53,5 @@ Waging cryptologic warfare against the west, they are just too stupid to realize
 People want to portray me as insane and unstable, because the reality is too difficult for them... (that they are fucking stupid)
 
 For a little while, live was good, with my friends in the PNW, most of them were really smart, but also smart as in how they see the world... now I have to deal with fucking idiots again (FBI and Belgian justice department) who wont leave me alone, and somehow it makes me sad I cant be with my friends anymore, because all the stupidity of these people is making me depressed, and I just long to be with some intelligent people again. I just dont have the patience to deal with these fucking shitheads. They are not about justice, its about using the system to harass people, just like these morrons from msft HR did.
+
+Fuck, cant focus on work today. Didn't get much sleep again from all this stress bc of the legal harassment. Already struggling bc of my life's circumstances, this shit is too much extra stress. Like, seriously, if the cops came today, in my current mood, I would go out in a blaze of glory, because thats how little I care anymore right now.
