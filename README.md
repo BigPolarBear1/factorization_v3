@@ -14,3 +14,6 @@ WE ARE AT THE EDGE OF THE ABYSS NOW, AND ITS TIME TO TAKE THE PLUNGE. HAHAHAHAHA
 Shit's about to get real tomorrow (11 June) ... I don't even care anymore... I've shouted from the rooftops I was working on this for 2 years, I've shouted on the rooftops that I was looking for a job for 2 years... nothing.
 Anyway, maybe Mirosoft just shouldn't have fired the best manager in the world, if they hadn't fired my former manager, I probably would have been doing bug bounties. 
 Pay the price tenfold now. Fucking humans and their arrogance. Can't compete against a polar bear.
+
+If only you people knew the level of shit you're all going to be in tomorrow...lol. Anyway, I will need a good night's sleep first, no need to rush the destruction of my enemies, I'll have all day tomorrow. :)
+Prepare yourselves!!!!!!!!!!!!!!!!!!!!! losers.
