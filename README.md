@@ -19,3 +19,4 @@ I think at this rate I will have no choice but to leave this country again, prob
 Earlier, before February.. my mental health was much worse... because I didn't believe my math work was getting results, and my life was just falling apart... but now I know what I've discovered, I know this will work, all I need now is time, even if nobody else sees it, even if nobody else cares anymore... I see it now, and factorization will fall. 
 
 Fuck Belgium, I despise this country, my entire life here has been shit. You would think that going overseas for 4 years and making a name and career for yourself would change anything, but the moment I came back, it was just a resumption of the hopeless shit life I had before with no future. Fucking despise Europe.
+Literally, Europe is a dystopian society. If you dont have higher education degrees and the right social connections, NOTHING, NOTHING YOU EVER DO OR ACHIEVE, will change your fate. I despise Europeans, fucking despise them.
