@@ -9,3 +9,6 @@ I have an idea to achieve this using linear algebra over gf(2). I think this rep
 So next version will include some linear algebra....
 
 Factorization hasn't fallen yet today, but I know what I've got, and in the coming days, it will fall. So go to hell. Wait until you see my next version with linear algebra lol. 
+
+Update: Hmm. Thinking about it some deeper. Perhaps linear algebra would be overcomplicating it. We can simply represent our iN datastructure in a way we can quickly query for iN values... by extending each of the primes up to a certain predefined bound.
+Fuck, I am so tired and sleep deprived today. I should go for a run soon, get some proper sleep and try again tomorrow. I KNOW I GOT IT NOW. I just need to fix this fucking code.
