@@ -23,3 +23,5 @@ Update 11 june: God damn, slept like shit last night, time to begin loading up o
 To Belgian justice department: I would like to clarify I have no respect for the legal system, because I am a polar bear, and I will now conjure a tsunami of shit to swallow this world whole. Get fucked by a polar bear you stupid losers. 
 
 None of this would have happened, had people just shown some fucking respect. Remember that. Fuck you.
+
+You know why I hate Belgium? Aside from the persistent unemployment and hopelessness here? Bc you fuckers put me in mental institutes for years when I was young, where I often spent weeks at a time tied to beds in isolation cells.... and not even like sedated... just clear minded, having to stare at the ceiling all day, just to realize how fucking slow the passage of time is. I had nightmares for years after about that.. not to speak, the long road of recovery from all those pills you forced me to take. Fuck you, fuck Belgium, fuck you people. I don't care about your laws, i'll fight you, i'll fight to the death. 
