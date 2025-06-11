@@ -19,3 +19,5 @@ If only you people knew the level of shit you're all going to be in tomorrow...l
 Prepare yourselves!!!!!!!!!!!!!!!!!!!!! losers.
 
 Update 11 june: God damn, slept like shit last night, time to begin loading up on caffeine and start my work once I'm awake. Which usually takes a few hours. Guess I need to hype myself up, get some cortisol going into my system, so I can be a vicious polar bear and tear this math to shreds. Hahaha. This is going to be glorious (once I'm awake).
+
+To Belgian justice department: I would like to clarify I have no respect for the legal system, because I am a polar bear, and I will now conjure a tsunami of shit to swallow this world whole. Get fucked by a polar bear you stupid losers. 
