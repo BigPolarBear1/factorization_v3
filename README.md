@@ -1,27 +1,11 @@
-Just uploaded v3_003:
+Just uploaded v3_004:
 
-useage: python QSv3_003.py -keysize 30
+useage: python QSv3_004.py -keysize 40
 
-Just uploading my work in progress, going for a run now. I'll continue tomorrow.
+Just uploading my work in progress. This one will easily factor 40 bit. Which is way too slow. But I have finally gained a good understanding.
 
-Update: went for a run and it clicked. Very close now. Few more days. When I break factorization, I can get a job in China and escape the legal harassment here in Europe, hehehehe.
+So we need to maximize the modulus of two selection at different i values, while minimizing the i value.
+I have an idea to achieve this using linear algebra over gf(2). I think this representation is perfect for it.
+So next version will include some linear algebra....
 
-ps: Once I am done with this, I am coming after ECC, and I will fuck all you fucking crypto bros, hahaha.
-
-EUREKA. I GOT IT. In the currently uploaded PoC, I just figured out how to get rid of the inner loop. I DID IT. And the more "partial results" we precalculate the more we can narrow it all down.
-WE ARE AT THE EDGE OF THE ABYSS NOW, AND ITS TIME TO TAKE THE PLUNGE. HAHAHAHAHAHAHAHA. All I wanted was respect... and you people failed to show me any... pay the price now. 
-
-Shit's about to get real tomorrow (11 June) ... I don't even care anymore... I've shouted from the rooftops I was working on this for 2 years, I've shouted on the rooftops that I was looking for a job for 2 years... nothing.
-Anyway, maybe Mirosoft just shouldn't have fired the best manager in the world, if they hadn't fired my former manager, I probably would have been doing bug bounties. 
-Pay the price tenfold now. Fucking humans and their arrogance. Can't compete against a polar bear.
-
-If only you people knew the level of shit you're all going to be in tomorrow...lol. Anyway, I will need a good night's sleep first, no need to rush the destruction of my enemies, I'll have all day tomorrow. :)
-Prepare yourselves!!!!!!!!!!!!!!!!!!!!! losers.
-
-Update 11 june: God damn, slept like shit last night, time to begin loading up on caffeine and start my work once I'm awake. Which usually takes a few hours. Guess I need to hype myself up, get some cortisol going into my system, so I can be a vicious polar bear and tear this math to shreds. Hahaha. This is going to be glorious (once I'm awake).
-
-To Belgian justice department: I would like to clarify I have no respect for the legal system, because I am a polar bear, and I will now conjure a tsunami of shit to swallow this world whole. Get fucked by a polar bear you stupid losers. 
-
-None of this would have happened, had people just shown some fucking respect. Remember that. Fuck you.
-
-You know why I hate Belgium? Aside from the persistent unemployment and hopelessness here? Bc you fuckers put me in mental institutes for years when I was young, where I often spent weeks at a time tied to beds in isolation cells.... and not even like sedated... just clear minded, having to stare at the ceiling all day, just to realize how fucking slow the passage of time is. I had nightmares for years after about that.. not to speak, the long road of recovery from all those pills you forced me to take. Fuck you, fuck Belgium, fuck you people. I don't care about your laws, i'll fight you, i'll fight to the death. 
+Factorization hasn't fallen yet today, but I know what I've got, and in the coming days, it will fall. So go to hell. Wait until you see my next version with linear algebra lol. 
