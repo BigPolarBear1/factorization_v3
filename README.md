@@ -17,3 +17,5 @@ Pay the price tenfold now. Fucking humans and their arrogance. Can't compete aga
 
 If only you people knew the level of shit you're all going to be in tomorrow...lol. Anyway, I will need a good night's sleep first, no need to rush the destruction of my enemies, I'll have all day tomorrow. :)
 Prepare yourselves!!!!!!!!!!!!!!!!!!!!! losers.
+
+Update 11: God damn, slept like shit last night, time to begin loading up on caffeine and start my work once I'm awake. Which usually takes a few hours. Guess I need to hype myself up, get some cortisol going into my system, so I can be a vicious polar bear and tear this math to shreds. Hahaha. This is going to be glorious (once I'm awake).
