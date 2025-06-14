@@ -1,3 +1,5 @@
+Note: That last chapter in the paper is becoming a bit of a frankenstein chapter. I will first finish the PoC, then redo that entire chapter. Most of the math is already in there... its just not pretty looking and all over the place right now.
+
 Just uploaded v3_004:
 
 useage: python QSv3_004.py -keysize 40
