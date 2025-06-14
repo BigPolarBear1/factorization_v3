@@ -7,3 +7,5 @@ Just uploading my work in progress. This one will easily factor 40 bit. Which is
 OMG. I AM A FUCKING IDIOT. 
 I get it now. Now that I understand how the correct iN value for a given coefficient is calculated.. I get it now. 
 Proper PoC and fixed paper coming very soon................................................. fucking hell. That took way to long to understand something as simple as this.
+
+The fact that these things take this long to figure out, makes me realize I really just suck at math. I don't think I'm cut out for this math stuff. Oh well... atleast factorization is about to break now hehehehe. Way too fucking slow though. 
