@@ -584,7 +584,7 @@ def jacobi(a, n):
 def find_comb(lists,n,procnum,return_dict,rstart,rstop,primeslist1,hmap,fast_ind_map):
     alpha=rstart
     while alpha < rstop:
-        if jacobi(alpha,n) !=1: #Me and jacobi go way back
+        if jacobi(alpha,n) !=1: #Me and jacobi go way back (fbi furiously smashing their keyboards to figure out "who is this jacobi???? an accomplice???") Hahahaha
             alpha+=1
             continue
         res,mod,index_list,iN=lookup(lists,alpha,fast_ind_map,hmap)
