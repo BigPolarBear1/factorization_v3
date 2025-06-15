@@ -14,3 +14,5 @@ I think tomorrow.... I know how to solve it now. If alpha is a small coefficient
 
 Me, becoming a threat to national security, like the polar bear I was supposed to be. Hahaha. Fuck you all.
 Fuck the fbi and fuck the Belgian justice department for their legal harassment. I didnt start this war, you people did. We're deep into cryptologic warfare now, no turning back anymore. This is my kamikaze run on factorization, I will succeed and I have nothing left to lose, you people already destroyed everything.
+
+What people may or may not understand is that finding an iN value where every solution mod p, has a mapping for every possible prime p (up to infinity in theory)... is that it gives us an instrument to sieve for the correct iN value very effectively... hence, this is why I have already won. Ofcourse, this is but a first battle won, in cryptologic warfare, there is no stopping until the complete annihalation of the enemy. Shouldn't have fired my manager. That one was your fatal mistake in a series of many mistakes.
