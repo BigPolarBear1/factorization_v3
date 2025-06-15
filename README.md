@@ -18,3 +18,5 @@ Fuck the fbi and fuck the Belgian justice department for their legal harassment.
 What people may or may not understand is that finding an iN value where every solution mod p, has a mapping for every possible prime p (up to infinity in theory)... is that it gives us an instrument to sieve for the correct iN value very effectively... hence, this is why I have already won. Ofcourse, this is but a first battle won, in cryptologic warfare, there is no stopping until the complete annihalation of the enemy. Shouldn't have fired my manager. That one was your fatal mistake in a series of many mistakes.
 
 Update: Slow sunday.... just feeling particulary depressed today. People, they really have destroyed everything that was good in my life. It is very difficult, thinking back about better days. 
+
+Update: Wait actually, this can be easily used for smooth finding on steroids with everything I understand now... let me upload that. Fix the paper. And then... for what I *really* want to do, I will do as part of factorization_v4. Let me skip my run today and just work through the night to get this done asap.
