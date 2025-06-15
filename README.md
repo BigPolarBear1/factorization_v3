@@ -11,3 +11,6 @@ Next we are going to get rid of that loop, this code has only one loop (excludin
 Update: Almost there... proper PoC should drop any day now... 
 
 I think tomorrow.... I know how to solve it now. If alpha is a small coefficient... I'm already doing it in the code but breaking after retrieving the first iN value... but it will actually have multiple ones (i.e in mod 13, the coefficient "1" will appear at multiple iN values)... and all of this is rather fortunate bc it lets us do something..... you will see. Big day tomorrow. I know I've been saying this all week now.... but that's bc I'm an inch away from breakthrough now.... just took a few days longer then I had hoped.. 
+
+Me, becoming a threat to national security, like the polar bear I was supposed to be. Hahaha. Fuck you all.
+Fuck the fbi and fuck the Belgian justice department for their legal harassment. I didnt start this war, you people did. We're deep into cryptologic warfare now, no turning back anymore. This is my kamikaze run on factorization, I will succeed and I have nothing left to lose, you people already destroyed everything.
