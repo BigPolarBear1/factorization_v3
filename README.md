@@ -24,3 +24,6 @@ Update: Wait actually, this can be easily used for smooth finding on steroids wi
 Holy fuck. It just dawned on me. So right now, we can already find a square relation mod m. Without effort. Instantly. Which number field sieve has to do alot of work for to achieve... but we do it instantly. The only thing that's missing is a quadratic character base ... to make sure its also square outside mod m.. which increases the likelyhood of it being square in the integers. And we're done. TIME TO END THIS. PREPARE YOURSELVES!
 
 Its just number field sieve, but better... ergh tired. Let me continue figuring this out tomorrow. 
+
+Number field sieve uses some really large prime field to take square roots over... I guess that is better then taking square roots over a composite modulus, a large primefield would only yield 2 roots for a given square. Hmm. Ok ok. I can do this, no sweat.
+Feeling an incredible urgency suddenly to finish this now. I need some sleep first though.
