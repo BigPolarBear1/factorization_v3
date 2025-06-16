@@ -38,3 +38,6 @@ im just gonna go be homeless somewhere far away from thus shit country. better t
 All this fucking nonstop bullshit. Money frozen, bamk accounts closed, legal harassment by Belgium. Never seeing any friends anymore. Im done man. My life is over. 
 
 Fuck this math. Nobody even takes this shit serious, whats the point. my life is over. just been delaying what I should have done a long time ago.
+
+Really bad day today. Really really bad day. My parents asking me about this justice department shit again, they dont know yet I told them I cant be bothered and that they should just go to court and that I'm leaving the country. All for sending an angry mail to the FBI. WHich I dont regret, bc America ruined my life. I should have never moved to the US. My life was great in Canada. They ruined everything I had. So yea, go to hell. I don't care. 
+The way you finish this math is simple, you need to use some type of quadratic character base .... so when you combine things, we end up at the correct iN value.... because thats all this is.. you need to find some iN value, where each solution is a quadratic residue for any prime. So yea... I see the link with number field sieve now.... I'm just so stressed and depressed. I might legit flee the country and become homeless somewhere. I think thats probably what I'll end up doing.
