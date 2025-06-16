@@ -603,7 +603,7 @@ def find_comb(lists,n,procnum,return_dict,rstart,rstop,primeslist1,hmap,fast_ind
                 i+=1
             if bad ==0:
                 print("found: ",iN2)
-                alpha2=alpha+iN2*n
+                alpha2=alpha**2+iN2*n
                 if fast_sqr_test(alpha2,primeslist1,15):
                     alpha2sqr=isqrt(alpha2)
                     if alpha2sqr**2 == alpha2:
