@@ -29,3 +29,4 @@ Number field sieve uses some really large prime field to take square roots over.
 Feeling an incredible urgency suddenly to finish this now. I need some sleep first though.
 
 Fuck fuck fuck, its number field sieve, but simplified, I need to adjust to a large primefield and then use tonelli to take the root. I believe that should fix that issue with finding that correct iN value.. i need some sleep first. brain is overactive. Fuck. I should have studied abstract algebra harder so  i could read these math papers on numberfield sieve, then it wouldnt have taken months to make this fucking connection. Someone else will beat me to publication if I dont hurry lol.
+ DAMN IT, I DESPISE HOW BAD I AM AT MATH. fuck. Too fucking slow. I need to hurry now.
