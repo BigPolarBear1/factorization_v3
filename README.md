@@ -22,3 +22,5 @@ Update: Slow sunday.... just feeling particulary depressed today. People, they r
 Update: Wait actually, this can be easily used for smooth finding on steroids with everything I understand now... let me upload that. Fix the paper. And then... for what I *really* want to do, I will do as part of factorization_v4. Let me skip my run today and just work through the night to get this done asap.
 
 Holy fuck. It just dawned on me. So right now, we can already find a square relation mod m. Without effort. Instantly. Which number field sieve has to do alot of work for to achieve... but we do it instantly. The only thing that's missing is a quadratic character base ... to make sure its also square outside mod m.. which increases the likelyhood of it being square in the integers. And we're done. TIME TO END THIS. PREPARE YOURSELVES!
+
+Its just number field sieve, but better... ergh tired. Let me continue figuring this out tomorrow. 
