@@ -32,3 +32,5 @@ Fuck fuck fuck, its number field sieve, but simplified, I need to adjust to a la
  DAMN IT, I DESPISE HOW BAD I AM AT MATH. fuck. Too fucking slow. I need to hurry now.
 
  After this, i swear, i will actually study math instead of trying to yolo it like this and losing my sanity.
+
+im just gonna go be homeless somewhere far away from thus shit country. better then this life.
