@@ -73,3 +73,5 @@ God damnit man. This is just like number field sieve in a way... the solution is
 I see how this relates to number field sieve.. its that exact same setup number field sieve is doing with the rational and algebraic factor base... the exact same residue math to find squares.
 I really need some type of quadratic character base to get that correct iN value... we can find "correct" iN values within our modulus.... but we need to extend it to primes outside the modulus too so we are garantueed a square in the integers.
 I SEE IT. I SEE IT IN MY HEAD. ITS RIGHT THERE INFRONT OF ME, WAITING FOR ME TO REACH OUT AND GRAB IT. This will be fucking number field sieve on steroids. You people don't know what is coming the moment I solve this. You will all be completely screwed.
+
+Oh..... I just had an idea. Maybe I'm too fixated on getting the correct iN value. I wonder though if we can generate coefficients in a divisor of the iN value and then take the GCD.... hmm.  That should work. In theory. 
