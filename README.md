@@ -65,3 +65,5 @@ etc ..
 
 Where 65 is the i value we must figure out somehow. 
 There is some residue math here to calculate this.. I just know it... just got to get focused for a few days to figure it out.
+
+God damnit man. This is just like number field sieve in a way... the solution is at the tip of my tongue now... an inch away from solving it. I just know it.
