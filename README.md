@@ -54,12 +54,12 @@ Tomorrow, I'll wake up and break factorization. I'll do it. I should know everyt
 
 Update: Wait wait, the conclusion I made that I added yesterday to the paper isn't correct. I mean, this number progression is correct:
 
-1^2+4387\*65\*(1^2) = 534^2 ## 
-2^2+4387\*65\*(2^2) = (534\*2)^2 ## 
-3^2+4387\*65\*(3^2) = (534\*3)^2 ## 
-4^2+4387\*65\*(4^2) = (534\*4)^2  ##
-5^2+4387\*65\*(5^2) = (534\*5)^2  ##
-6^2+4387\*65\*(6^2) = (534\*6)^2  ##
+1^2+4387\*65\*(1^2) = 534^2 <br/>
+2^2+4387\*65\*(2^2) = (534\*2)^2 <br/> 
+3^2+4387\*65\*(3^2) = (534\*3)^2 <br/>
+4^2+4387\*65\*(4^2) = (534\*4)^2  <br/>
+5^2+4387\*65\*(5^2) = (534\*5)^2 <br/>
+6^2+4387\*65\*(6^2) = (534\*6)^2  <br/>
 
 etc ..
 
