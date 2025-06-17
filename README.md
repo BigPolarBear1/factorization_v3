@@ -51,3 +51,17 @@ Maybe tomorrow.... this approach seems promising.. and I've arrived at a point n
 Hmmm... if this calculating of the correct iN value works like I think it may work... then tomorrow could be the day factorization comes tumbling down. Figuring out that correct iN value is basically congruent to factoring N. Lets see tomorrow. I have to hurry now, I am mere days away from the walls closing in on me. These people in Belgium want nothing more then for me to just vanish into some mental institute for the rest of my life... they nearly succeed when I was a kid, and losing years of my life in those places already and the insanity of them... I swore I would fight to the death before ever going inside one of those places again. I had nightmares for years. And I still intent to fight to the death if thats what people will push for. 
 
 Tomorrow, I'll wake up and break factorization. I'll do it. I should know everything I need now. I'll break factorization and fix this world. I'll turn this entire world gay and queer as shit and break the minds of all the haters. 
+
+Update: Wait wait, the conclusion I made that I added yesterday to the paper isn't correct. I mean, this number progression is correct:
+
+1^2+4387\*65\*(1^2) = 534^2
+2^2+4387\*65\*(2^2) = (534\*2)^2
+3^2+4387\*65\*(3^2) = (534\*3)^2
+4^2+4387\*65\*(4^2) = (534\*4)^2
+5^2+4387\*65\*(5^2) = (534\*5)^2
+6^2+4387\*65\*(6^2) = (534\*6)^2
+
+etc ..
+
+Where 65 is the i value we must figure out somehow. 
+There is some residue math here to calculate this.. I just know it... just got to get focused for a few days to figure it out.
