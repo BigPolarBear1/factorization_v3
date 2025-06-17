@@ -1,3 +1,5 @@
+EDIT: Read the paper and check the PoC. The last thing that remains is finding the correct iN value, which the PoC currently bruteforces. However, we have achieved the exact same set-up as numberfield sieve. I am now urgently working on calculating the exact residue math so I can add some type of quadratic character base, because in essence that is the only thing missing. We can find iN values within our modulus quickly, no problem... but we need to find iN values that also generate square residues in primes outside the modulus.... I am almost there. Any day now. Any fucking day now.
+
 Note: That last chapter in the paper is becoming a bit of a frankenstein chapter. I will first finish the PoC, then redo that entire chapter. Most of the math is already in there... its just not pretty looking and all over the place right now.
 
 Just uploaded v3_005:
