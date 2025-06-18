@@ -11,4 +11,4 @@ When all is said and done, I am hoping to overtake v2 in performance. Without ha
 
 Anyway, I will fix that Cartesian product issue tomorrow or friday. Going to relax for the rest of the day now because tomorrow I have to go to court for sending an angry email to the FBI. Since they seem hellbend on making a big deal out of it. Yea well, America ruined my life the way I see it. I had all my friends there. You people threaten me with a gun and kick me of the country, forcing me to leave behind the friends I had known for 4 years in the region (I should have stayed in Canada, moving to the US was one of the biggest regrets in my life, but I cant even go back to Canada because I was on a work visa). You people chose the path of cryptologic warfare, not me. A price will be paid. You can also thank Microsoft for firing my manager with blatant lies out of retaliation for his support of me, that, more then anything is what caused this.
 
-Note: Someone pointed out the Sigma notation used in the paper is wrong. Which it is, I just assumed you had to write some formula for the nth position... but thats incorrect. Ill fix it later.
+
