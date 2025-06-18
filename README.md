@@ -1,15 +1,10 @@
 I GOT IT!
 
-Use: QSv3_006.py -keysize 50
+Use: QSv3_007.py -keysize 50
 
-It will factor fast! And its a first draft.. a lot of stuff has to be improved still.
-I will fix the paper soon.
-I realized that if we take the gcd with coefficients, it doesn't have to be a coefficients from the correct total iN value.. if it's a divisor, then the gcd will also succeed.
-
-To do: Since composite moduli have many roots, perhaps moving the results to a primefield, like number field sieve does, and then taking the root will be faster. Anyway, got it now. Lets go.
-
-Update: Rewrote the last chapter in the paper quickly, I still need to proof-read it and edit it a bit, but its 2 am and I need some sleep first.
-
-Don't worry we're going to fix this world. Hahahaha. The dominoes falling just like they are supposed to. 
-
-The irony is that the US for 2 years, had a near infinite amount of oppurtunities to prevent this from happening. Don't they have intelligent people working at their intelligence agencies? It is funny how assymetrically effective brainwashing and sowing political division has been in the west. You people have become so brain washed, you can't even accept the reality of some transgender person, succeeding at this math stuff. I'm not doing anything, you people are creating your own downfall. Don't blame me for this, because you had all the chances to prevent this.
+Just added v007. Just some minor improvements over v6. 
+As you see, when it finds a good relative i-value, we are almost garantueed to find a good coefficients (although we may need to add the modulus a couple of times).
+The main bottleneck now is reducing the cartesian product of coefficients mod p<sub>i</sub>.
+Which I know how to do... so expect it to be fixed shortly.
+With that bottleneck removed soon, we'll see how fast it ends up being. After that we can gain some more performance here and there.. there is definitely a lot of i-values we can eliminate from the start which don't have valid solutions... so I may need to think how I'm going to do that in code... Lets see.
+When all is said and done, I am hoping to overtake v2 in performance. Without having to find smooth numbers, which would be a major breakthrough. Plus all of this is in python... this has a lot of potential to be super-optimized since we only use straightforward operations.
