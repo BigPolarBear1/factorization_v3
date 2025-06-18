@@ -13,3 +13,5 @@ Anyway, I will fix that Cartesian product issue tomorrow or friday. Going to rel
 
 
 Update: Can't sleep. If I am not active anymore after tomorrow, it means I have been robbed of my freedom. In which case, I hope someone will finish my work, it is basically done now... just need to address the size of that cartesian product...
+
+ps: CPB losers. 0 opsec.
