@@ -11,3 +11,5 @@ To do: Since composite moduli have many roots, perhaps moving the results to a p
 Update: Rewrote the last chapter in the paper quickly, I still need to proof-read it and edit it a bit, but its 2 am and I need some sleep first.
 
 Don't worry we're going to fix this world. Hahahaha. The dominoes falling just like they are supposed to. 
+
+The irony is that the US for 2 years, had a near infinite amount of oppurtunities to prevent this from happening. Don't they have intelligent people working at their intelligence agencies? It is funny how assymetrically effective brainwashing and sowing political division has been in the west. You people have become so brain washed, you can't even accept the reality of some transgender person, succeeding at this math stuff. I'm not doing anything, you people are creating your own downfall. Don't blame me for this, because you had all the chances to prevent this.
