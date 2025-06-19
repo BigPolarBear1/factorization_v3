@@ -10,4 +10,6 @@ However, in number field sieve, they transfer the result to a primefield, which 
 My hope is that that will yield a correct root each time. 
 If not, I will need to dig in some more and have a look at the math.
 
+At the very least this confirms that just iterating i-values is a valid strategy, as long as both y<sub>1</sub> and y<sub>0</sub> come from a sufficiently large modulus. Then it has garantueed roots amongst its members that yields the factorization of N.
+
 I'll try to implement that tomorrow. Tired today from all the stress. 
