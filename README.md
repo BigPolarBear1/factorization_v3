@@ -12,4 +12,6 @@ If not, I will need to dig in some more and have a look at the math.
 
 At the very least this confirms that just iterating i-values is a valid strategy, as long as both y<sub>1</sub> and y<sub>0</sub> come from a sufficiently large modulus. Then it has garantueed roots amongst its members that yields the factorization of N.
 
+In a sense, this whole setup is very similar to number field sieve, but just different enough that I struggled for some months to make the right connections. In numberfield sieve we have just one polynomial congruent to N. Here we basically have fragments of quadratics mod p<sub>i</sub> that we then reassemble. I see how it relates. But it's pretty complicated. Whoever this Carl Pomerance was, that was some really intelligent guy to come up with these things (Number field sieve and Quadratic Sieve).
+
 I'll try to implement that tomorrow. Tired today from all the stress. 
