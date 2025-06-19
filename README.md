@@ -15,3 +15,5 @@ At the very least this confirms that just iterating i-values is a valid strategy
 In a sense, this whole setup is very similar to number field sieve, but just different enough that I struggled for some months to make the right connections. In numberfield sieve we have just one polynomial congruent to N. Here we basically have fragments of quadratics mod p<sub>i</sub> that we then reassemble. I see how it relates. But it's pretty complicated. Whoever this Carl Pomerance was, that was some really intelligent guy to come up with these things (Number field sieve and Quadratic Sieve).
 
 I'll try to implement that tomorrow. Tired today from all the stress. 
+
+I really hope moving those results to a prime field and then taking the root with tonelli fixes this last issue... then I am finally done. If not, I'll keep going... but I really need a breakthrough right now. Life has not been easy at all.
