@@ -14,3 +14,4 @@ Anyway, I will fix that Cartesian product issue tomorrow or friday. Going to rel
 
 Update: Can't sleep. If I am not active anymore after tomorrow, it means I have been robbed of my freedom. In which case, I hope someone will finish my work, it is basically done now... just need to address the size of that cartesian product...
 
+Update: They just want me to do court ordered therapy for a year. Which is far less worse then what I had feared. Plus it also means the road is wide open for me now to finish my math research (short of getting drone striked by the Americans bc they are mad about my math.. which with the current administration woulldn't even be out of character). One final sprint now, nearly there. We're going to fix this world with math, hahahaha. 
