@@ -16,4 +16,4 @@ In a sense, this whole setup is very similar to number field sieve, but just dif
 
 I'll try to implement that tomorrow. Tired today from all the stress. 
 
-I really hope moving those results to a prime field and then taking the root with tonelli fixes this last issue... then I am finally done. If not, I'll keep going... but I really need a breakthrough right now. Life has not been easy at all.
+I really hope moving those results to a prime field and then taking the root with tonelli fixes this last issue... then I am finally done. If not, I'll keep going... but I really need a breakthrough right now. Life has not been easy at all. Just haunted every day by memories of better times, people and places I can't go back to anymore. It truely is the worst type of torment.
