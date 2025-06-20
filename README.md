@@ -8,7 +8,7 @@ Update: I am still missing something big time. Let me spent the weekend reading 
 
 Update: Oh ok, I think I see now what went wrong. Give me a few days to correct it.... was 99.99% there. Just this last thing now. I get it now.
 
- Update: It really boils down to quickly finding that correct i-value without bruteforce. I'm working out some type of math using derivatives .... the probably with this vs number field sieve, is that in number field sieve we have a nice polynomial congruent to N. Here we have polynomials congruent N * i ... and unless we can figure out that i value, we cant take the correct root. But because the derivatives of both sides reveal the correct coefficient of the other side.. I suspect there is a way to do it.
+ Update: It really boils down to quickly finding that correct i-value without bruteforce. I'm working out some type of math using derivatives .... the problem with this vs number field sieve, is that in number field sieve we have a nice polynomial congruent to N. Here we have polynomials congruent N * i ... and unless we can figure out that i value, we cant take the correct root. But because the derivatives of both sides reveal the correct coefficient of the other side.. I suspect there is a way to do it.
 
  I.e in 534^2 = 1^2 + 4387 * 65, the i value is 65.
 
