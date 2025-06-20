@@ -16,7 +16,7 @@ Update: Oh ok, I think I see now what went wrong. Give me a few days to correct 
 
  I.e taking the derivatives:
 
- 13\*41 - 534 = -1 
+ 13\*41 - 534 = -1 <br/>
  13\*41 + 1 = 534 
 
  Ofcourse we don't know the lower factor. And we only know "1" as coefficient. However, if we choose 13 as i-value, then using the above, it is quite easy to arrive at 534 without knowledge of the lower factor.
