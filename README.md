@@ -27,3 +27,5 @@ Update: Oh ok, I think I see now what went wrong. Give me a few days to correct 
  I know I can get rid of that entire i-value problem by working with polynomial rings and all that complicated stuff number field sieve does.. but I really want to avoid it because having this i-value is more natural, other wise everything gets shifted and complicated. But I really need to overcome this issue of finding the i-value.
 
  I'll get some sleep.
+
+ps: I'll have to refactor that last chapter in the paper again once this is done. It's closer now.... really getting to the root of the problem. Definitely closer then were I was a month ago. I've gained a much better understanding... it's just this last issue. It's very annoying. I do think I really need to work with derivatives going forward... none of that bullshit with squares, just linear congruences. 
