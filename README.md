@@ -1,9 +1,8 @@
 I GOT IT!
 
-Use: QSv3_008.py -keysize 50
+Use: QSv3_009.py -keysize 50
 
-Added v3_008. Just quickly fixed the debugging output to show the actual relative i-value, because it was showing y<sub>0</sub> in 007 by accident.
-Also prints the size of the Cartesian product now and enabled lifting of prime moduli.
+Added v3_009 ... just fixes a small bug where the modulus for y<sub>0</sub> wasn't calculated correctly... next version will include transfering the result to a primefield..
 
 If you run it, 50-bit is still near instant. But at 60-bit the cartesian product gets out of control, even with prime lifting.
 However, in number field sieve, they transfer the result to a primefield, which has only two roots. So that's what I will do.
