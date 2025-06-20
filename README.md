@@ -29,3 +29,5 @@ Update: Oh ok, I think I see now what went wrong. Give me a few days to correct 
  I'll get some sleep.
 
 ps: I'll have to refactor that last chapter in the paper again once this is done. It's closer now.... really getting to the root of the problem. Definitely closer then were I was a month ago. I've gained a much better understanding... it's just this last issue. It's very annoying. I do think I really need to work with derivatives going forward... none of that bullshit with squares, just linear congruences. 
+
+pps: Oh shit, an idea just lit up in my head. I think I know how to calculate this i-value. Anyway, some sleep first.
