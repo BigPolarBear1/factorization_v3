@@ -9,3 +9,6 @@ Factorization must die! hahahaha.
 Note: The uploaded PoC code is a work in progress, it still bruteforces the i value, but I hope with my latest finding to calculate it effeciently instead.
 
 I'm not ever stopping btw. Even if it takes the rest of whatever life I have left. I will make a breakthrough. I am understanding more and more pieces of the puzzle as time goes on... eventually I'll have them all. Although I am hoping this will be rather sooner then later. I don't care that all the odds are stacked against me. It's just numbers, I'll understand it eventually.
+
+
+Update: Just looked some more at today's findings. And I just had a realization.... it's easy now!!!!!! I know what to do! I know exactly what to do!!!! Big day tomorrow. :) 
