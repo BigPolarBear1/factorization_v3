@@ -1,41 +1,6 @@
-I GOT IT!
+Big update: Just uploaded v030 of the paper. At the very last page it goes deeper into how to i value (aka the number of times N divides the difference between both squares) relates to the coefficient of the quadratic term and also their derivatives.
+I would consider this a major milestone in my work. I should have realized this earlier.. but being uneducate as I am... I took a while...
 
-Use: QSv3_009.py -keysize 50
+I will finish the paper and probably rework the entire thing to incorporate these latest findings one the code is done. I am now fairly confident that with this, I finally have the tools to complete the algorithm.
 
-Added v3_009 ... just fixes a small bug where the modulus for y<sub>0</sub> wasn't calculated correctly... next version will include transfering the result to a primefield..
-
-Update: I am still missing something big time. Let me spent the weekend reading this paper on number field sieve and dissecting it properly. I know there is a connection, but it's a little bit more complicated then what I am imagining in my head. I'll get there very soon...
-
-Update: Oh ok, I think I see now what went wrong. Give me a few days to correct it.... was 99.99% there. Just this last thing now. I get it now.
-
- Update: It really boils down to quickly finding that correct i-value without bruteforce. I'm working out some type of math using derivatives .... the problem with this vs number field sieve, is that in number field sieve we have a nice polynomial equal to N. Here we have polynomials equal to N * i ... and unless we can figure out that i value, we cant take the correct root. But because the derivatives of both sides reveal the correct coefficient of the other side.. I suspect there is a way to do it.
-
- I.e in 534^2 = 1^2 + 4387 * 65, the i value is 65.
-
- For the lower factor the i value 13.
-
- I.e taking the derivatives:
-
- 13\*41 - 534 = -1 <br/>
- 13\*41 + 1 = 534 
-
- Ofcourse we don't know the lower factor. And we only know "1" as coefficient. However, if we choose 13 as i-value, then using the above, it is quite easy to arrive at 534 without knowledge of the lower factor.
- So that way we don't need to find a i value of 65, but 13 instead. Then the question becomes... how to quickly find that 13 without iterating 1,2,3,4,5,6,7... etc.
-
- I'll bash my head against it tomorrow. 
-
- I know I can get rid of that entire i-value problem by working with polynomial rings and all that complicated stuff number field sieve does.. but I really want to avoid it because having this i-value is more natural, other wise everything gets shifted and complicated. But I really need to overcome this issue of finding the i-value.
-
- I'll get some sleep.
-
-ps: I'll have to refactor that last chapter in the paper again once this is done. It's closer now.... really getting to the root of the problem. Definitely closer then were I was a month ago. I've gained a much better understanding... it's just this last issue. It's very annoying. I do think I really need to work with derivatives going forward... none of that bullshit with squares, just linear congruences. 
-
-pps: Oh shit, an idea just lit up in my head. I think I know how to calculate this i-value. Anyway, some sleep first.
-
-OH I GOT IT!!!!!!!!!!!!! DERIVATIVES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! I GOT IT, I GOT IT!!!! HEHEHEHEHEHEEHHEHEHEHEHEHEHEHE. There's some neat residue math we can do with derivatives for the upper and lower factor that must meet certain conditions. That's how you calculate that i value. LETS GO! Factorization incoming, hehehehee. 
-
-DERIVATIVES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! God damnit. That took way too long. Finally I can complete my work now. This weekend, I will finish it. 
-
-Update: Ok, I figured out the math using derivatives to calculate if an i value works for any arbitrary prime (so outside the group of primes we calculated partial results in). So if we have the wrong i value, then we can figure that out that way. Plus it should be possible to then also calculate the closest matching, correct i value. So I can see there is a kind of mechanism to correct that i value.  Ah fuck I am depressed today. I know I can do it... these last 2 years... just the constant mental agony. I know this mental agony and trauma is probably what drives me, but there is days I honestly just want to dissappear in the arctic. I mean, I'm pretty sure within the coming years I'll dissappear in the arctic, because the damage that has been done cannot be undone anymore. I could have healed from the damage done to me, but they went after my manager, one of the few people in the world who really supported me and helped me. And I cant even talk to him irl anymore, because msft made that impossible by forcing me back to Europe and leaving me broke.
-
-Update: Today was a massive learning day. Learned deeper about derivatives and also integrating them back to quadratics. How that relates to that "i-value". Which is basically the quadratic term's coefficient (well two divisors of the i-value are depending on which root is used). Pretty sure I have all the tools in my toolbox now to finish my work. *sigh* I wonder how much of this math is obvious to people with proper education. Taking derivatives and integrals of polynomials.... I wish I had learned more about this when I was younger. And even right now, I see how it works and I have an abstract notion of why it works in my head... but I bet people with education can put all that stuff into graphs in their head and better understand the structure like that. 
+Factorization must die! hahahaha.
