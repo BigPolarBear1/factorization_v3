@@ -14,3 +14,5 @@ I'm not ever stopping btw. Even if it takes the rest of whatever life I have lef
 Update: Just looked some more at today's findings. And I just had a realization.... it's easy now!!!!!! I know what to do! I know exactly what to do!!!! Big day tomorrow. :) 
 
 I'll just tell it. YOU CAN JUST LOOKUP LINEAR COEFFICIENT PAIRINGS BY INDEXING A HASHMAP WITH QUADRATIC COEFFICIENTS. Similar to v2 but like way more advanced and without having to do smooth number finding. That's it! I know this is it! This will work. I just did the math already. This will 100% work. I did it. Tomorrow. Wait what will happen!!!!
+
+Also if I get drone-striked during the night. It was 100% those transphobic americans trying to cling onto their cryptologic secrets (shouldn't have fired my manager and threatened me with a gun and kicked me out of your country, assholes).
