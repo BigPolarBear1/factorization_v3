@@ -4,3 +4,6 @@ I would consider this a major milestone in my work. I should have realized this 
 I will finish the paper and probably rework the entire thing to incorporate these latest findings one the code is done. I am now fairly confident that with this, I finally have the tools to complete the algorithm.
 
 Factorization must die! hahahaha.
+
+
+Note: The uploaded PoC code is a work in progress, it still bruteforces the i value, but I hope with my latest finding to calculate it effeciently instead.
