@@ -33,3 +33,5 @@ ps: I'll have to refactor that last chapter in the paper again once this is done
 pps: Oh shit, an idea just lit up in my head. I think I know how to calculate this i-value. Anyway, some sleep first.
 
 OH I GOT IT!!!!!!!!!!!!! DERIVATIVES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! I GOT IT, I GOT IT!!!! HEHEHEHEHEHEEHHEHEHEHEHEHEHEHE. There's some neat residue math we can do with derivatives for the upper and lower factor that must meet certain conditions. That's how you calculate that i value. LETS GO! Factorization incoming, hehehehee. 
+
+DERIVATIVES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! God damnit. That took way too long. Finally I can complete my work now. This weekend, I will finish it. 
