@@ -11,3 +11,9 @@ I need one week max now to finish the PoC and I'll have to massively refactor th
 Expect the final v3 version to be uploaded within the timeframe of a week.
 
 Thanks for your patience, and if I die before publication, I garantuee you it was the americans.
+
+Update: God damnit. This actually works great. It's perfect. People must have known right? If not, and everyone just dismissed my work, then I guess we have arrived here next week:
+
+https://www.youtube.com/watch?v=9cNQFB0TDfY
+
+I wish everyone the best of luck in the coming storm. 
