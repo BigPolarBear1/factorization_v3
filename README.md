@@ -1,35 +1,13 @@
-Big update: Just uploaded v030 of the paper. At the very last page it goes deeper into how to i value (aka the number of times N divides the difference between both squares) relates to the coefficient of the quadratic term and also their derivatives.
-I would consider this a major milestone in my work. I should have realized this earlier.. but being uneducated as I am... I took a while...
+Announcement: As of today, the 22th of June. I made the final breakthrough that was required and constructed proof of concept code.
 
-I will finish the paper and probably rework the entire thing to incorporate these latest findings one the code is done. I am now fairly confident that with this, I finally have the tools to complete the algorithm.
+The thing that I missed before was how the coefficient for the quadratic term relates to how many times N divides the difference between both squared coefficients.
+With that, knowledge, I finally succeeded in creating a hashmap that can now be queried by using coefficients for the quadratic term as hashmap index.
+This then returns possible coefficient pairings. No longer do we now need to bruteforce this i-value that I talked about in the paper (which is just the coefficients for the quadratic term on both sides of the congruence multiplied together) ..
+now we find pairs of coefficients at the garantueed correct i-value (because knowing it represents quadratic term coefficients it was easy to figure out the math for this).
 
-Factorization must die! hahahaha.
+Hence this solves it. This solves the very last issue I had. 
+I need one week max now to finish the PoC and I'll have to massively refactor the paper too. 
 
+Expect the final v3 version to be uploaded within the timeframe of a week.
 
-Note: The uploaded PoC code is a work in progress, it still bruteforces the i value, but I hope with my latest finding to calculate it effeciently instead.
-
-I'm not ever stopping btw. Even if it takes the rest of whatever life I have left. I will make a breakthrough. I am understanding more and more pieces of the puzzle as time goes on... eventually I'll have them all. Although I am hoping this will be rather sooner then later. I don't care that all the odds are stacked against me. It's just numbers, I'll understand it eventually.
-
-
-Update: Just looked some more at today's findings. And I just had a realization.... it's easy now!!!!!! I know what to do! I know exactly what to do!!!! Big day tomorrow. :) 
-
-I'll just tell it. YOU CAN JUST LOOKUP LINEAR COEFFICIENT PAIRINGS BY INDEXING A HASHMAP WITH QUADRATIC COEFFICIENTS. Similar to v2 but like way more advanced and without having to do smooth number finding. That's it! I know this is it! This will work. I just did the math already. This will 100% work. I did it. Tomorrow. Wait what will happen!!!!
-
-Also if I get drone-striked during the night. It was 100% those transphobic americans trying to cling onto their cryptologic secrets (shouldn't have fired my manager and threatened me with a gun and kicked me out of your country, assholes).
-
-Update: Just in bed watching some youtube trying to wind down the day. I am very nervous. Because I know this will work. These findings today, they solve everything I was struggling with. It all fell into place suddenly. I know I can do it now. One or two days is all I need now to get a PoC up and running. I am nervous. Because I realize what I am about to do. Even if nobody seems to believe me (because then I wouldn't be in my current situation) ... I know with absolute certainity that this is it. The storm is coming now. This time for real. I don't want a storm, because while I can deal with it myself, I don't want the people I care about me to deal with it aswell. But somehow, fate has brought me here, and now I must cross the threshold. There is no other options. People have given me no other options. Good luck.
-
-Great, the doomsday clock just ticked closer to midnight. It is urgently time I finish my work tomorrow.. somehow, there is a sense of urgency, that this has to be completed no matter the cost. 
-
-Violence is never justified unless it is self-defense (Like the bear, if you stay away from the bear and respect its space, the bear won't harm a fly). Doesn't matter who. I don't agree with Iran's regime, they put gay people in jail, but I don't go in dropping bombs, exploding buildings and killing people. The act of killing people is the most severe and grave thing that anyone can do and it causes ripple effects people do not seem to understand.... violence does not stop violence, it causes an endless cycle of violence. People are losing fathers, sons, daughters, family members... at the hand of foreign bombs... for the rest of their life, they will feel nothing but hate, and rightly so. It's a psychopathic thing to do. Such actions are only taken lightly by people detached from reality who have never been on the receiving end of unprovoked violence. Such tends to be the case with career politicians who come from wealthy backgrounds and have no real life experience. I hate humans. I will fix this world with math hahahaha. 
-
-Oh well. Time to get to work.
-
-It works! I have found a way to get coefficient pairings by indexing a hashmap purely with a i value (or the quadratic term's coefficient). It has quite a bit of complicated calculations. I will need a few days to iron out all the bugs and write it in an optimal way. But we're getting there now. Also realized we should restrict ourself to even coefficients, since odds ones change the quadratic. It's still do-able, but then I need to adjust it in code I guess. 
-
-If we index by a quadratic term's coefficient, it only yields two possible linear coefficients. This means, I broke factorization. I did it!!!!!!
-I'll skip running for a few days and finish this now. I guess a few days of not running isn't the end of the world. 
-
-Update: I'll go for a run today. There is still a lot of coding to be done. And things do get slightly more complicated as coefficients grow. But I can adjust for it, I understand the math behind it now. It 100% works for small coefficients already. That proves my point enough. Now its just grinding it out to the finish line. A week max, more I don't need now. Understanding those quadratic term's coefficients, that was the catalyst that I needed to finally kick into full gear and finish my work.
-
-Ok, enough math for today. It works now. Just fixed the code, was a minor bug in it... now it works for any coefficient, big or small.. whatever... creates a hashmap that we can query to return coefficient pairings.... and with that we can very easily construct the right square relations, AT THE CORRECT i-value (the thing I was bruteforcing before). Hence this completes my research project finally. Just got to finish everything. But enough for today.. time for a run.
+Thanks for your patience, and if I die before publication, I garantuee you it was the americans.
