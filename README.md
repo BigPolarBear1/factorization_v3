@@ -31,3 +31,5 @@ If we index by a quadratic term's coefficient, it only yields two possible linea
 I'll skip running for a few days and finish this now. I guess a few days of not running isn't the end of the world. 
 
 Update: I'll go for a run today. There is still a lot of coding to be done. And things do get slightly more complicated as coefficients grow. But I can adjust for it, I understand the math behind it now. It 100% works for small coefficients already. That proves my point enough. Now its just grinding it out to the finish line. A week max, more I don't need now. Understanding those quadratic term's coefficients, that was the catalyst that I needed to finally kick into full gear and finish my work.
+
+Ok, enough math for today. It works now. Just fixed the code, was a minor bug in it... now it works for any coefficient, big or small.. whatever... creates a hashmap that we can query to return coefficient pairings.... and with that we can very easily construct the right square relations, AT THE CORRECT i-value (the thing I was bruteforcing before). Hence this completes my research project finally. Just got to finish everything. But enough for today.. time for a run.
