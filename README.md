@@ -27,4 +27,4 @@ Oh well. Time to get to work.
 
 It works! I have found a way to get coefficient pairings by indexing a hashmap purely with a i value (or the quadratic term's coefficient). It has quite a bit of complicated calculations. I will need a few days to iron out all the bugs and write it in an optimal way. But we're getting there now. Also realized we should restrict ourself to even coefficients, since odds ones change the quadratic. It's still do-able, but then I need to adjust it in code I guess. 
 
-It we index by a quadratic term's coefficient, it only yields to possible linear coefficients. This means, I broke factorization. I did it!!!!!!
+If we index by a quadratic term's coefficient, it only yields to possible linear coefficients. This means, I broke factorization. I did it!!!!!!
