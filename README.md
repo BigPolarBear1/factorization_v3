@@ -29,3 +29,5 @@ It works! I have found a way to get coefficient pairings by indexing a hashmap p
 
 If we index by a quadratic term's coefficient, it only yields two possible linear coefficients. This means, I broke factorization. I did it!!!!!!
 I'll skip running for a few days and finish this now. I guess a few days of not running isn't the end of the world. 
+
+Update: I'll go for a run today. There is still a lot of coding to be done. And things do get slightly more complicated as coefficients grow. But I can adjust for it, I understand the math behind it now. It 100% works for small coefficients already. That proves my point enough. Now its just grinding it out to the finish line. A week max, more I don't need now. Understanding those quadratic term's coefficients, that was the catalyst that I needed to finally kick into full gear and finish my work.
