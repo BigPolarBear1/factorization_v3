@@ -6,7 +6,7 @@ This then returns possible linear coefficient pairings. No longer do we now need
 now we find pairs of coefficients at the garantueed correct i-value (because knowing it represents quadratic term coefficients it was easy to figure out the math for this).
 
 Hence this solves it. This solves the very last issue I had. 
-I need one week max now to finish the PoC and I'll have to massively refactor the paper too. 
+I need one week max now to finish the PoC and I'll have to massively refactor the paper too (I already have some barebones code that proofs the math though). 
 
 Expect the final v3 version to be uploaded within the timeframe of a week.
 
