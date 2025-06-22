@@ -18,3 +18,5 @@ Update: God damnit. This actually works great. It's perfect. People must have kn
 https://www.youtube.com/watch?v=9cNQFB0TDfY
 
 I wish everyone the best of luck in the coming storm. 
+
+Update: God damnit, I am seriously nervous. Something feels off. Have I truely snuck  under the radar and made a major breakthrough? Like, any math educated person, who would have looked at my work, would have realized what was going on there, right? Then why did things go down the way they did? I just have this nagging feeling that something is off. Factorization_v2 was so close.. I just didn't realize that damned coeffiicent for the quadratic term.. that was the only clue I had missed for months, but smart people must have looked at factorization_v2 and immediatly made that connection, right? So what the fuck is going on? Perhaps this was supposed to go down this way. People gave me no other choice. No way out. So what will happen, will happen now. And also, the future will be gay as hell and you haters cant stop it, hahaahaa.
