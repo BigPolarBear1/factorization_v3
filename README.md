@@ -8,7 +8,7 @@ However this demonstrates indexing a hashmap by relative i-value. So that any co
 
 There is two loops:
 
-1. The outer loop collects coefficient pairings for a relative i-value.
+1. The outer loop collects coefficient pairings for a relative i-value. (this does not matter, since we WANT those i-values to be small anyway)
 2. The inner loop then finds small coefficients in that collection.
 
 Step 2 needs to be approached completely differently. As depending on the size of the modulus, there will be many good coefficients that garantuee a result. 
