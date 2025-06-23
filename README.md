@@ -18,3 +18,5 @@ So that will be reworked in the coming days.
 Secondly, we should take the square root over a prime field. This reduces the size needed for the modulus and will also massively boost performance. 
 
 Give me a few days now to address these issues, and you'll see ;).
+
+Update: Ah lol, I see how it works now. We just need to get the modulus big enough, then most of those coefficient combinations will work since we are now garantueed to be at the correct i value
