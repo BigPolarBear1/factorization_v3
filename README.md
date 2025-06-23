@@ -11,7 +11,7 @@ There is two loops:
 1. The outer loop collects coefficient pairings for a relative i-value.
 2. The inner loop then finds small coefficients in that collection.
 
-Step 2 needs to be approach completely differently. As depending on the size of the modulus, there will be many good coefficients that garantuee a result. 
+Step 2 needs to be approached completely differently. As depending on the size of the modulus, there will be many good coefficients that garantuee a result. 
 We shouldnt iterate there, that's horribly slow. I have an idea using the math I figured out earlier in the weekend (I realized the relative-i value is just the quadratic term's coefficients from both sides of the congruence multiplied together).
 So that will be reworked in the coming days.
 
