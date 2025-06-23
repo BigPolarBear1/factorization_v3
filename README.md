@@ -19,4 +19,6 @@ Secondly, we should take the square root over a prime field. This reduces the si
 
 Give me a few days now to address these issues, and you'll see ;).
 
-Update: Ah lol, I see how it works now. We just need to get the modulus big enough, then most of those coefficient combinations will work since we are now garantueed to be at the correct i value
+Update: Ah lol, I see how it works now. We just need to get the modulus big enough, then most of those coefficient combinations will work since we are now garantueed to be at the correct i value.
+
+I'll fix it tomorrow. Enough work for today. I know I have it now. Few more day doesn't matter. 
