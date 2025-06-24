@@ -22,3 +22,5 @@ Give me a few days now to address these issues, and you'll see ;).
 Update: Ah lol, I see how it works now. We just need to get the modulus big enough, then most of those coefficient combinations will work since we are now garantueed to be at the correct i value.
 
 I'll fix it tomorrow. Enough work for today. I know I have it now. Few more day doesn't matter. 
+
+Update: You know, I understand it now. In theory, if we take square roots over a prime field, and then keep lifting... eventually we will hit a square in the integers. I'm just curious, why does number field sieve, sieve, when you can just set it up like this? I'll get that square root taking code to work... I guess potentially some of those coefficient combinations, they may grow to be incredibly big numbers... I've kind of figured out already, if the coefficient and i-value is kept small, we are garantueed to have a square relation with small-ish numbers... so there is a way to mitigate that.. but I'm just curious how big some of these will grow until they hit their square relation. 
