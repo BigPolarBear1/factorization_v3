@@ -33,3 +33,11 @@ Update3: I modified the paper somewhat. It is super rushed. Had little time toda
 Update4: Making some more progress today working out the math to take square roots over polynomial rings in finite fields.. never worked with polynomial rings before, so it's taking up a bit of time. I'll work out a couple of full examples by hand this evening, and then tomorrow start figuring out how to implement it in code. It's good I'm restricted to quadratics... it makes it easier, since we're mainly working with derivatives (which are thus linear).... 
 
 Update5: Wait wtf, I just found something, this can't be right. God damnit. Let me go for a run and verify this when I get back. If this is true, I'm going to punch myself or some shit for not seeing this earlier... 
+
+
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH. FUCK.
+I don't need polynomial rings and all that complicated stuff. I have everything I need already. I just didn't fucking see it.
+FUCK. Let me go for a run and I'll write a PoC tomorrow.... i'm a fucking idiot. I see it now, I see it now. Fucking hell.
+I'm terrible at this math, not cut out for this shit, after breaking factorizaton (tomorrow) I'm going to quit math and do manual labor in the arctic.
+
+
