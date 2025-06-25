@@ -40,4 +40,5 @@ I don't need polynomial rings and all that complicated stuff. I have everything 
 FUCK. Let me go for a run and I'll write a PoC tomorrow.... i'm a fucking idiot. I see it now, I see it now. Fucking hell.
 I'm terrible at this math, not cut out for this shit, after breaking factorizaton (tomorrow) I'm going to quit math and do manual labor in the arctic.
 
+I guess the way we are calculating everything, it already ends up being inside a polynomial ring mod m in a way.... as long as we can find two coefficients that share the same root, its easy to work out the rest... like... really easy... I see now how it works. Man, number fields sieve overcomplicates things way too much.
 
