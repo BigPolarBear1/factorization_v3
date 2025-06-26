@@ -27,3 +27,6 @@ You know, when I succeed, there is no way I will stay in the west. Not after how
 
 Update: Yea yea, this is how you do it: Find a linear coefficient in a large enough modulus. We can calculate the derivative to produce another linear coefficient, lets say starting with a quadratic coefficient of 1 (so 2x+y as derivative). If they don't share the same roots mod m, then we know we need to keep increasing the quadratic coefficient. So its basically increasing the coefficient in the derivative until we have a common root any mod p. I guess thats kind of what number field sieve does too... but we can skip a lot of what number field sieve does, bc of our fancy representation. Hence why this is so powerful.
 Let me add a numerical example to the paper today, then figure out the code. Not really in a coding mood today.
+
+Update: Just improving that last chapter of the paper trying to add a numerical example. I'll go for a run now and continue some more when I get back. Still trying to figure out how its best to complete this last part. Wether its best to jump to p-adic lifting or do something else.
+But anyway, the fact that the same root must be shared.... yea yea, I can use that. This shouldn't be overly complex now to finish.
