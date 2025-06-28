@@ -26,3 +26,6 @@ The only way, I am not going to China after this, or at the very least an Asian 
 Because unless that gets done, they'll just have to kill me to prevent me from going to China. I despise the west for this last year. People think I am easily fooled... but I'm not. You're all creating your own enemies. Could have just shown some respect. THat was all that was needed in the beginning. We're past that point now. I won't ever truely forgive this.
 
 The west are just a bunch of tech bro losers, 0 talent. Fuck trump, fuck hegseth, and fuck all those other transphobic lunatics. You got outplayed by a polar bear, now go fuck yourselves. I'll fight every single on of you pathetic idiots. You choose war with me. You choose war with trans people. You braindead shitheads. Pay the price, pay the price in blood now.
+
+
+ You know the fucking problem with this world? Its rich assholes being fucking cunts. 0 intelligence tech bros. I piss on you all.
