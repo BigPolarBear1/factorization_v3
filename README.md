@@ -5,32 +5,10 @@ Useage: python3 QSv3_010.py -keysize 40
 It is very slow still. It is as intended. Just uploading my work in progress for the day.
 However this demonstrates indexing a hashmap by relative i-value. So that any coefficient pairings we find are garantueed to be at the correct i-value.
 
-TO DO: I will finish the paper first tomorrow. 
-I've already added a bit about how this i-value is actually just the quadratic coefficient.
-Since these quadratic coefficients dictate how many times N the quadratic should produce... we can easily verify if a given linear coefficient pairing is at the correct quadratic coefficients.
-And if not, we can adjust the quadratic coefficient until it is. I'll add this to the paper tomorrow...and then finish the code. I think I'm almost at the end of this now.... atleast I am seeing a mechanism now that allows me to finish it.
-Something that can tell me if a linear coefficient pairing is right or wrong in the integers.
-
-Really, I am almost certain I am going to succeed in the coming days. And literally, the only way I will stay in the west is if people make right what they did to my former manager and make sure no injustice ever again happens to any of my friends. That is the only way. Bc else, I wont forget western law enforcement chasing away 0day buyers, all the other bullshit. The persistent unemployment, not even getting job interviews... the obviously not taking serious this math work, or if they do, then they obviously distrust me so much they arn't telling me.. which again, is more reason for me to go to China or some country. Seems like a lot of western talent is going to China anyway. 
-
-Update: Just confirmed the math to use p-adic lifting (aka modulo prime powers) to verify if a quadratic coefficient is correct or not. That works... there will be a point where we can tell that no matter how much we keep lifting, we're not ever going to get a good solution and that we need to infact adjust the quadratic coefficient. Then the last thing that remains is figure out some math to adjust that quadratic coefficient... because I don't want to bruteforce that quadratic coefficient...  really almost there now..... fbi about to have a really bad day very soon, heheheheheheehehhehehehehe.
-
-Update: Just got back from running. I like these zone 2 recovery runs in the forest. Always helps to think about my math and see things more clearly. I really want to get into ultra running... just obscenely long zone 2 runs during which I can ponder the meaning of the universe. Anyway, I think finding a way to calculate those quadratic coefficients isn't going to be easy. Maybe I'll attempt it for factorization_v4. I think for now, what I can do, is a much much stronger number field sieve version, by basically having algebraic factor basis on both sides of the congruence. Let me give that a try... now that I understand quadratic coefficients, I think I can actually pull it off now.
-
-I don't know. I'm feeling a bit depressed this evening. Almost 2 years of unemployment and no income. Unable to see my friends anymore that I had known for years. I have to keep grinding. If I give up, then the worst people in this world win (you all know who you are). I must succeed. And after that I must break the next problem, and the next, and never stop. This is the only way a better world can be born. Evil people dont try to win by hard work, they try to win by keeping others down....and right now, that is exactly what is happening, being treated like a pariah by the west... bc they know I will succeed, and that's what they fear more then anything, they want me to dissappear... but I will never stop, I'll fight all these losers. Evil and small men wont triumph in this world any longer, their days are numbered, the future is coming.
-
-Anyway... let me set up some sieving this weekend.. it's just number field sieve on steroids... took me too long to understand this properly... but now I can do it. I shouldn't need more then a weekend to code this now. I kind of hate how literal months go by to understand these in retrospect obvious things.. but when I move to a new problem eventually, once this is done, like discrete log problem... I can skip the learning curve, I'll have years of deep experience most people don't have to leverage. It's one thing to understand math on paper, its another thing to truely understand the structure and bigger picture of it. If I had known quadratics could factor numbers, and threaten the security of the internet... I would have paid more attention in highschool... but they made it all so boring in school.
-
-Very closely to succeeding. I just know it. And I know other people must know this too, because I'm not an idiot. People seem to think I am one though, because that's the only way I can explain the last year.
-The only way, I am not going to China after this, or at the very least an Asian country, is if they kill me or make right the injustice that happened to my former manager, and make sure no other injustices happen to anyone I consider my friend, ever again.
-Because unless that gets done, they'll just have to kill me to prevent me from going to China. I despise the west for this last year. People think I am easily fooled... but I'm not. You're all creating your own enemies. Could have just shown some respect. THat was all that was needed in the beginning. We're past that point now. I won't ever truely forgive this.
-
-The west are just a bunch of tech bro losers, 0 talent. Fuck trump, fuck hegseth, and fuck all those other transphobic lunatics. You got outplayed by a polar bear, now go fuck yourselves. I'll fight every single on of you pathetic idiots. You choose war with me. You choose war with trans people. You braindead shitheads. Pay the price, pay the price in blood now.
-
-
- You know the fucking problem with this world? Its rich assholes being fucking cunts. 0 intelligence tech bros. I piss on you all.
-
-
-Hmm, taking the norm of those quadratics is quite interesting. I'm really starting to see the full picture now. I could totally do my own variant of number field sieve, right now... but.... I really really want to figure out how to do it without rational factor base.. I feel like at this point, it should be possible. 
-
-
+TO DO: I've added to the paper some info about how quadratic coefficients relate to the amount of times N divides the difference between both squares.
+I feel like that was the last big thing I had to figure out.
+All that's left now, is finding a fast algorithm leveraging all this knowledge.
+Having a bit of trouble focusing. I looked deeper into number field sieve this weekend... but honestly, it is so wildly different from my own approach, its hard to find anything useful there.
+Which is also a good thing, because I am starting to realize now, how truely different my own approach is to anything else out there.
+But just improving standard quadratic sieve for slightly faster smooth finding (factorization_v2) isn't good enough. Lets see if I can pull of something better with all I know now in the coming days.....
+the paper is also still a work in progress.... until I figure it out..
