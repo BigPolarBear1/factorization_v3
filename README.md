@@ -34,22 +34,3 @@ The west are just a bunch of tech bro losers, 0 talent. Fuck trump, fuck hegseth
 Hmm, taking the norm of those quadratics is quite interesting. I'm really starting to see the full picture now. I could totally do my own variant of number field sieve, right now... but.... I really really want to figure out how to do it without rational factor base.. I feel like at this point, it should be possible. 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-UPDATE: AAAAAAAAAAAAAANYWAY. To sieve this, you need to multiply quadratics together such that a common root produces the same results mod N on the left and right side, which is a problem that can be solved with linear algebra.
-I am working on the code as we speak. A few days at most. Seriously, go to hell. Literally, this was so avoidable. Its like you people made all the wrong choices on purpose just to antagonize me. I won't forget this past year and the disrespect that was shown. Good luck assholes. Oh, and I'll keep going after this. This was just practicing with training wheels on, they are coming off now. Say goodbye to your cryptologic advantage, you people arn't worthy of it anyway. Time to level the playing field for everyone. Fucking transphobes. Not so smart now huh?
