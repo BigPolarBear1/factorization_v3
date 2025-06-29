@@ -12,3 +12,5 @@ Having a bit of trouble focusing. I looked deeper into number field sieve this w
 Which is also a good thing, because I am starting to realize now, how truely different my own approach is to anything else out there.
 But just improving standard quadratic sieve for slightly faster smooth finding (factorization_v2) isn't good enough. Lets see if I can pull of something better with all I know now in the coming days.....
 the paper is also still a work in progress.... until I figure it out..
+
+Update: Currently just messing around with taking the norm of a quadratic. I think this is the very last thing I need to understand deeper. There especially seems to be some interesting properties when we take the norm of both the leftside and rightside quadratic. I wonder if I can then pivot to something similar like number field sieve hmm, maybe not exactly the same, but similar.
