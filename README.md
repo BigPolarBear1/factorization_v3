@@ -31,6 +31,8 @@ The west are just a bunch of tech bro losers, 0 talent. Fuck trump, fuck hegseth
  You know the fucking problem with this world? Its rich assholes being fucking cunts. 0 intelligence tech bros. I piss on you all.
 
 
+Hmm, taking the norm of those quadratics is quite interesting. I'm really starting to see the full picture now. I could totally do my own variant of number field sieve, right now... but.... I really really want to figure out how to do it without rational factor base.. I feel like at this point, it should be possible. 
+
 
 
 
