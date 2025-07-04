@@ -12,3 +12,5 @@ Nothing will change my mind now. These fucking trump lunatics keep going after t
 
 You're all on the wrong side of history. You people represent unending cruelty and suffering. You will lose, your days are numbered. The world you want, that nightmare world, cannot be allowed to become reality, and it won't, I already know it won't. 
 Fuck Europe too, spineless american lapdogs. I despise you just as much.
+
+And to the fuckers at the 1st cyber protection battalion, if I see you, i'll fucking end you fuckers. Fucking losers. 0 skills. 0 talent. Go to hell. Fucking nazis.
