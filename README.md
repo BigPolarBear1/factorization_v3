@@ -9,3 +9,6 @@ I am serious, I will fight these americans until my last dying breath. They have
 e-mail: big_polar_bear1@proton.me setup a meeting at the Chinese embassy in Brussels and I will come. Nobody in the west will care if I leave here. They have shown me exactly 0 respect.
 
 Nothing will change my mind now. These fucking trump lunatics keep going after trans people. Keep misgendering them, depriving them of dignity. Nothing will stop me from taking from America everything it has. They will lose everything. THey will become a third world country, powerless, powerless like the innocents they prey on. I swear this, I will never stop until I achieve this goal. Fuck pete hegseth, fucking tiny little man, fuck trump, fuck kristie noem, fuck all you other transphobes, you fucking ugly pieces of shit. You will all die soon. It is coming for you all. Justice is coming.
+
+You're all on the wrong side of history. You people represent unending cruelty and suffering. You will lose, your days are numbered. The world you want, that nightmare world, cannot be allowed to become reality, and it won't, I already know it won't. 
+Fuck Europe too, spineless american lapdogs. I despise you just as much.
