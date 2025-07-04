@@ -42,3 +42,6 @@ ps: You people declared cryptologic warfare to me. Not the other way around. In 
 
 
 Oh and I know Im about to succeed. I want justice for my former manager or I am moving to China and I'll continue this cryptologic war over there, I don't care. You'll have to come kill me to stop me, fucking pussies, but even at that you would probably fail. You people crossed a line you shouldn't have. I will never rest until there is either justice or Microsoft is destroyed completely. I will destroy this world if I must.
+
+
+When I saw kristie noem going around arresting immigrants with that serial harasser libsoftiktok, and now dhs and ice becoming the most powerful government branch. I will fight these people to the bitter end. I will wage war against america and im not ever stopping. Fuck pete hegseth too, you fucking little man. If i see you in europe, I'll end you, you stupid fucker. And tell your cyber protection battalion to go to hell, fucking losers. I know what they are doing. 0 opsec you fucking losers.
