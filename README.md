@@ -14,3 +14,5 @@ You're all on the wrong side of history. You people represent unending cruelty a
 Fuck Europe too, spineless american lapdogs. I despise you just as much.
 
 And to the fuckers at the 1st cyber protection battalion, if I see you, i'll fucking end you fuckers. Fucking losers. 0 skills. 0 talent. Go to hell. Fucking nazis.
+
+update: Anyway, I think I can upload a first draft of what will be the final version of this algorithm tomorrow. Either that or early next week. Its just some coding left to do.
