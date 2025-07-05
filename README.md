@@ -16,3 +16,5 @@ Fuck Europe too, spineless american lapdogs. I despise you just as much.
 And to the fuckers at the 1st cyber protection battalion, if I see you, i'll fucking end you fuckers. Fucking losers. 0 skills. 0 talent. Go to hell. Fucking nazis.
 
 update: Anyway, I think I can upload a first draft of what will be the final version of this algorithm tomorrow. Either that or early next week. Its just some coding left to do.
+
+Update2: Yea yea, I will definitely be able to upload a first draft of the final version tomorrow. My head hurts tonight. I feel really depressed. Every day is the same routine, can't hang out with my friends anymore bc of microsoft, can't go hiking because I'm broke, just sit in bed with my laptop, do math, go for a run, shower, eat, watch youtube, try to sleep... repeat... every day for months, without income. This better work now, or I am just going to dissappear.
