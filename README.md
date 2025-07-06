@@ -8,11 +8,11 @@ It's very unoptimized and some of the strategies I have in mind still need to be
 
 To do:
 
--Bunch of places where I really need to use tonelli or optimize things.
--We probably shouldn't waste time on p-adic lifting results that arn't above the ceiling yet (arn't garantueed to be a solution in higher exponents)
--Shouldn't waste time on small moduli because a solutions went above the ceiling early
--Fix lifting for powers of 2.. since that will be a big performance gainer.
--Explore different strategies, maybe we should just check if there is a small common solution in the liftedn quadratic coefficient solutions rather then doing cartesian product.
+-Bunch of places where I really need to use tonelli or optimize things.<br/>
+-We probably shouldn't waste time on p-adic lifting results that arn't above the ceiling yet (arn't garantueed to be a solution in higher exponents)<br/>
+-Shouldn't waste time on small moduli because a solutions went above the ceiling early<br/>
+-Fix lifting for powers of 2.. since that will be a big performance gainer.<br/>
+-Explore different strategies, maybe we should just check if there is a small common solution in the liftedn quadratic coefficient solutions rather then doing cartesian product.<br/><br/>
 
 I'll probably address these things in the coming days. Today is a shit day. I'll go for a very long run in the rain soon.<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
