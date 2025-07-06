@@ -14,7 +14,7 @@ To do:
 -Fix lifting for powers of 2.. since that will be a big performance gainer.
 -Explore different strategies, maybe we should just check if there is a small common solution in the liftedn quadratic coefficient solutions rather then doing cartesian product.
 
-I'll probably address these things in the coming days. Today is a shit day. I'll go for a very long run in the rain soon.
+I'll probably address these things in the coming days. Today is a shit day. I'll go for a very long run in the rain soon.<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 
 
