@@ -10,7 +10,7 @@ To do:
 
 -Bunch of places where I really need to use tonelli or optimize things.<br/>
 -We probably shouldn't waste time on p-adic lifting results that arn't above the ceiling yet (arn't garantueed to be a solution in higher exponents)<br/>
--Shouldn't waste time on small moduli because a solution went above the ceiling early at a low exponent.. meaning it causes to many solutions it higher exponents<br/>
+-Shouldn't waste time on small moduli because a solution went above the ceiling early at a low exponent.. meaning it causes to many solutions at higher exponents<br/>
 -Fix lifting for powers of 2.. since that will be a big performance gainer.<br/>
 -Explore different strategies, maybe we should just check if there is a small common solution in the liftedn quadratic coefficient solutions rather then doing cartesian product.<br/><br/>
 
