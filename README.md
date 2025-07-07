@@ -1,3 +1,5 @@
+Update: I need a few more days, I realized I am still missing one thing. It's that variable z2. Or the quadratic coefficient for the upper factor. There's a way to work with divisors of these quadratic coefficients. I need a few days to work out the math. Just bruteforcing things isn't going to scale. 
+
 Just upload QSv3_020.py
 
 This is a first draft of what should eventually be the final version of v3.
