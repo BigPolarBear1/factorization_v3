@@ -4,7 +4,7 @@ Update2: Aha. It's really those linear 0 coefficients that I need to exclusively
 
 Update3: Thinking some more about "0" coefficients and v2... lol ..... it just hit me like a hammer... I am waaaay too overcomplicating things... I can just pull smoooths from a hashmap now that I know how those quadratic coefficients work lol. I'm a morron. God DAMNIT. I'll skip running today. I know how to do this now. Jesus fucking christ, I hate myself right now. I gave the americans waay to much time to mitigate their systems. This HAS to end tonight. Disclosure incoming.
 
-Update4: Almost there now... I will try this, so we 1. create a hashmap that we index by quadratic coefficient, we pull linear coefficient pairings from that hashmap, but only those where the big linear coefficient (y<sub>0</sub> in the paper) has a 0 solution. Then we can lift the small coefficient, y<sub>1</sub> p-adically. And that should let us quickly determine which subset of those coefficients mod p<sub>i</sub> form a relation together. I'll try and get as much done tonight as I can. I'll probably upload it tomorrow somewhere during the day.
+Update4: Almost there now... I will try this, so we 1. create a hashmap that we index by quadratic coefficient, we pull linear coefficient pairings from that hashmap, but only those where the big linear coefficient (y<sub>0</sub> in the paper) has a 0 solution. Then we can lift the small coefficient, y<sub>1</sub> p-adically. And that should let us quickly determine which subset of those coefficients mod p<sub>i</sub> form a relation together (within a certain limit, determined by how much lifting we perform). I'll try and get as much done tonight as I can. I'll probably upload it tomorrow somewhere during the day.
 
 Just upload QSv3_020.py
 
