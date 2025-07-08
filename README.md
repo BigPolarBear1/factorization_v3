@@ -1,5 +1,7 @@
 Update: Bleh, ok now I got it. Let me fix it tomorrow. There is a way to tell wether a quadratic coefficient is going to be large or small while lifting. That makes things significantly easier.... 3am now... I should sleep. I hope when my enemies sleep, they have nightmares about a massive grinning polar bear, devouring the world. These western idiots, they don't know a polar bear never stops.
 
+Update2: Aha. It's really those linear 0 coefficients that I need to exclusively work with. Because those are the ones which will lift to higher exponents favorably. So similar to v2 in a way... ok, I know what to zero in on now.... few more days. Today is a shit day, just wasted most of the day feeling depressed. 
+
 Just upload QSv3_020.py
 
 This is a first draft of what should eventually be the final version of v3.
