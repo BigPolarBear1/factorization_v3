@@ -2,6 +2,8 @@ Update: Bleh, ok now I got it. Let me fix it tomorrow. There is a way to tell we
 
 Update2: Aha. It's really those linear 0 coefficients that I need to exclusively work with. Because those are the ones which will lift to higher exponents favorably. So similar to v2 in a way... ok, I know what to zero in on now.... few more days. Today is a shit day, just wasted most of the day feeling depressed. 
 
+Update3: Thinking some more about "0" coefficients and v2... lol ..... it just hit me like a hammer... I am waaaay too overcomplicating things... I can just pull smoooths from a hashmap now that I know how those quadratic coefficients work lol. I'm a morron. God DAMNIT. I'll skip running today. I know how to do this now. Jesus fucking christ, I hate myself right now. I gave the americans waay to much time to mitigate their systems. This HAS to end tonight. Disclosure incoming.
+
 Just upload QSv3_020.py
 
 This is a first draft of what should eventually be the final version of v3.
