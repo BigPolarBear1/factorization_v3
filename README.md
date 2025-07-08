@@ -1,4 +1,4 @@
-Update: I need a few more days, I realized I am still missing one thing. It's that variable z2. Or the quadratic coefficient for the upper factor. There's a way to work with divisors of these quadratic coefficients. I need a few days to work out the math. Just bruteforcing things isn't going to scale. 
+Update: Bleh, ok now I got it. Let me fix it tomorrow. There is a way to tell wether a quadratic coefficient is going to be large or small while lifting. That makes things significantly easier.... 3am now... I should sleep. I hope when my enemies sleep, they have nightmares about a massive grinning polar bear, devouring the world. These western idiots, they don't know a polar bear never stops.
 
 Just upload QSv3_020.py
 
