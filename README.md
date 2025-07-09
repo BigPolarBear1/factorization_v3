@@ -1,11 +1,15 @@
-Update: Ignore the uploaded PoC. I will get some sleep and then upload a proper PoC.
-So a big bottleneck in factorization_v2 is that we don't know in advance the exponents of the factors for a smooth candidate.
-However while messing with p-adic lifting... it finally hit me that it is very easy and efficient to determine this now that I know how these quadratic coefficients work.
-So we index a hashmap by quadratic coefficient, and for each linear coefficient pairing, if one has a 0 solution.... we can try to p-adicly lift it and see if it remains a 0 solution in higher exponents too (the condition is that both quadratics share a similar root, and we know the other coefficient can be calculated with the derivative... that is all that is needed to pull this off).
+I just uploaded QSv3_030.py
+Use: python3 QSv3_030.py -keysize 50
 
-Anyway..... let me get some sleep for a few hours. Then one last epic struggle to finish this. 
+This is a very quick first rought draft.
+A lot needs to be done now. But it demonstrates smooth finding using lifting.
+However right now its just lifting a coefficient mod p and checking if its smooth, which is lazy and not at all what we really want to do.
+However, since this demonstrates how we can predict the exponent of the factor in the smooth candidate.... now we can really get started. 
+Next we need to literally build smooths, no more bruteforce. Just query the hashmap, do some lifting mod p and be able to generate smooths without trial division of the smooth candidate.
 
+Since we can figure out the exponent and factors now... this can be done. 
 
-ps: Yea yea, I am now 100% convinced someone out there knows I am correct about my research. And I fucking hate you for this last year. Sad day for the american cryptologic advantage. This is just the start. I'm not going back to 0day lol. I am going to get better and better at this, until I fucking die.
+I will update the paper too once the PoC is ready.
+I am very sleepy today, but I will start pushing updates regularly now. This will be much better then v2 when it's done. 
 
-pps: And yea, go to hell, sure, realizing that I also quickly and effictively can enumerate the exponents mod p<sub>i</sub><sup>a</sup> too took me 4 months... way too long, but in those 4 months, I didn't just learn this one thing... I learned a lot of things, even though only this exponent thing is useful for the algorithm... but the next time, it won't take 4 months... those 4 months wern't a waste... I was putting in the hours, and building up my experience. I started with 0 knowledge about math 2 years ago, didn't finish highschool. Even if I was smart (i'm just really persistent, not smart as in iq smart) .... I don't think I could have done this in a smaller time frame... I don't think anyone could have in those circumstances. I worked my hardest, I bled for it, I lost everything, and it paid off. And now it is time to devour the world like the polar bear, for all you people did. I will get justice for what msft did to my former manager, until a price is paid, this will never end. I will keep going until I die if I have to. I'll go after dlp and lattice based algorithms too if I have to, if that is what it takes to get justice. I don't care. I have nothing to lose. You took everything from me and you took everything from one of the few people who has ever supported me in this fucking clown industry. I hate you all and I hope you all burn in hell for this.
+Microsoft shouldn't have fired my manager. They will pay the price. I'm never stopping. I'll destroy the world if I must.
