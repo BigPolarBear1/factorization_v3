@@ -1,4 +1,4 @@
-I just uploaded QSv3_030.py
+I just uploaded QSv3_030.py<br />
 Use: python3 QSv3_030.py -keysize 50
 
 This is a very quick first rought draft.
