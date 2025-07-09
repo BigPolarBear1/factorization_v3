@@ -8,6 +8,8 @@ Update4: Almost there now... I will try this, so we 1. create a hashmap that we 
 
 Update5: So anyway, the uploaded PoC is kind of in the right direction. But I ended up doing it the wrong way around. The uploaded PoC indexes by small linear coefficient y<sub>1</sub>, however we need to index by quadratic coefficient and look for solutions where the big linear coefficient is 0 then do p-adic lifting while only lifting the small linear coefficient and not touching the quadratic coefficient. That's how its done. Almost now. I know someone out there knows I am correct... I just know it... and whoever they are, they can go to hell, bc they decided to make my life a nightmare for this last year, it's the only way any of this adds up. Because I know I am doing everything right with this research, even if figuring out things takes way longer then it should have, I'm still doing everything right and someone knows, and if I ever meet these people, I will punch them in their fucking faces.
 
+Update6: Ok. I need some sleep first for a few hours. But we can easily construct smooths now by using p-adic lifting on pairings where one has atleast one linear coefficient with a 0 solution... because it will tell us exactly how many exponents will be found in the smooth candidate.. from just the hashmap. And that then gives us an incredibly fast way to find smooths. Which is a super big improvement over v2. I still want to bypass smooth finding completely eventually but let me attempt that for v4 and wrap up v3 now... first some sleep though.
+
 Just upload QSv3_020.py
 
 This is a first draft of what should eventually be the final version of v3.
