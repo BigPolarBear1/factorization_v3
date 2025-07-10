@@ -1,16 +1,18 @@
-I just uploaded QSv3_030.py<br />
-Use: python3 QSv3_030.py -keysize 50
+I just uploaded QSv3_032.py<br />
+Use: python3 QSv3_032.py -keysize 50
 
-This is a very quick first rought draft.
-A lot needs to be done now. But it demonstrates smooth finding using lifting.
-However right now its just lifting a coefficient mod p and checking if its smooth, which is lazy and not at all what we really want to do.
-However, since this demonstrates how we can predict the exponent of the factor in the smooth candidate.... now we can really get started. 
-Next we need to literally build smooths, no more bruteforce. Just query the hashmap, do some lifting mod p and be able to generate smooths without trial division of the smooth candidate.
+A work in progress.
 
-Since we can figure out the exponent and factors now... this can be done. 
+To do:
 
-I will update the paper too once the PoC is ready.
-I am very sleepy today, but I will start pushing updates regularly now. This will be much better then v2 when it's done. 
+-Fix lifting for powers of 2.
+-Get rid of trial division for smooth candidates... now that we can determine the exponent, this is redundant
+-Work out the details of a strategy to combine coefficients such that the factors outside the factor base shrink. 
+This should be possible. I have a general idea in my head already on how to approach this now algorithmically. 
+
+Once all that is done, it should blast past the performance of factorization_v2.
+Then I need to write the paper, and start porting to c++ and optimize everything (and in addition use thing such as block lanczos instead of gaussian elimination)
+
 
 Microsoft shouldn't have fired my manager. They will pay the price. I'm never stopping. I'll destroy the world if I must.
 
