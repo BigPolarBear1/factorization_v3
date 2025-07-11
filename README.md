@@ -21,4 +21,3 @@ Started wearing rainbow colors while out on my run. I think in a way it is copin
 
 The future will judge you transphobes very harshly. The really gay and woke future that is. Hahaha. Morrons don't know what they are up against. Fucking 0 braincell shitheads.
 
-Btw, you assholes think you can sneak under the radar. But I know you all stalk me. You all know whats coming. Cant win against me. You literally cannot outmanouver me. Losers. Could have just respected me 2 years ago. You people chose war. You will have it. Also pete hegseth is a tiny little man and so are all you other ugly transphobes. Pieces of shit.
