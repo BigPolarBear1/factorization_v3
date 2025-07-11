@@ -20,3 +20,5 @@ Ah man, I feel so depressed. After everything that happened in 2023 and the pers
 Started wearing rainbow colors while out on my run. I think in a way it is coping with everything that happened while I was in the US. Often times, I am hoping for someone to get in my face again like those fucking shitheads with their gun in Redmond, I want to fight, I want violence so badly. Say something bad about gay people or trans people to my face. I beg you. Give me an excuse. Pieces of shit. I will gladly do final battle. Hahahaa. Fuck you all.
 
 The future will judge you transphobes very harshly. The really gay and woke future that is. Hahaha. Morrons don't know what they are up against. Fucking 0 braincell shitheads.
+
+Btw, you assholes think you can sneak under the radar. But I know you all stalk me. You all know whats coming. Cant win against me. You literally cannot outmanouver me. Losers. Could have just respected me 2 years ago. You people chose war. You will have it. Also pete hegseth is a tiny little man and so are all you other ugly transphobes. Pieces of shit.
