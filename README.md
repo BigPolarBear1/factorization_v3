@@ -21,3 +21,4 @@ Started wearing rainbow colors while out on my run. I think in a way it is copin
 
 The future will judge you transphobes very harshly. The really gay and woke future that is. Hahaha. Morrons don't know what they are up against. Fucking 0 braincell shitheads.
 
+Update: Insomnia, slept maybe 3 hours. Might just take a break from work today and finish it this weekend. A day more or less doesn't matter. Need to pace myself, because this is not the end of my work, it is the beginning. Many more PKI schemes to attack and I'll have to continue my work on factorization too... this will already be pretty good... but it must come tumbling down completely. Must make the future gay by breaking PKI schemes, hahaha. Fucking transphobes. All of this is happening because of transphobes and bc microsoft fired my manager. I'm never stopping. You'll have to kill me, hahahahaha. Fight me losers.
