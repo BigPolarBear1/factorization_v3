@@ -15,3 +15,5 @@ To do: We need to fix lifting for powers of 2. That way we can eliminate trial d
 Then there is still a bunch of other things I need to fix here and there...and perhaps also think how I can further improve the current strategy.
 
 In addition I also need to think about speeding up building the iN map, because once we get rid of trial division, this will be the biggest bottleneck by far.
+
+I'll go for a run and continue tomorrow. The goal for tomorrow is to overtake v2 in performance. Should be easy enough.
