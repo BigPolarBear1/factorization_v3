@@ -1,16 +1,17 @@
-# factorization_v3
+Update 15 june:
 
-Update 14 june: Remade this repository and moved the old one to private, as I prepare for releasing my final version this week.
+I just uploaded QSv3_034.py
 
-Update: I will be ready to upload a much better. more final, version tomorrow. Took me some time to really narrow down the best approach. Everyone can go to hell. Screw the americans, I see what they are doing. And their fucking european lapdog friends are just as complicit. I won't forget this. There is no way, at any point in the future, I ever want any business with any western countries. You treated me without respect from the start of my career. The one person who treated me with respect you fire, blaming him of giving me a promotion. I will destroy the american cryptologic advantage, even if it is the last thing i do in my life. I swear you this. I won't ever stop. I will succeed. You made this personal.
+Use: python3 QSv3_034.py -keysize 100
 
+With a factor base of 300, it will take about 30 seconds to build the iN map. This is one of the big things I'll need to improve eventually.
+But it should then find enough smooths for 100 bit in a couple of seconds.
 
-People genuinly think im stupid, but i know exactly what is happening. The truth will come out one day. And you'll all burn 
+Uploaded PoC easily factors up to 100.
 
+In addition, it is still an early draft.
 
-At the end of this, the americans and europeans will be patting eachother on the back, saying what "great opsec" they had.  And then they will try their damned hardest to portray me as a villain again. Just like they have always done, for all of my career. Not ever looking at their own actions and the way they fail to show any ounce of respect. 
+To do: We need to fix lifting for powers of 2. That way we can eliminate trial division completely. This will be the biggest performance boost. This alone should let it overtake factorization_v2.
+Then there is still a bunch of other things I need to fix here and there...and perhaps also think how I can further improve the current strategy.
 
-You know. Thinking about things, in a logical manner, you can deduce many interesting things. I for example know with very high confidence how the US always knows everything.
-They tap undersea cables and satellite signals, that is well documented already. And from the landscape, because the US does not have competitive cyber talent, not in the way countries like China have, and because of the types of bugs I've seen them burn while at microsoft, which they would only do if they had better alternatives... I can only deduce that their main "thing" isn't 0days and exploits, it's a side gimmick for them.. their main thing is cryptology. I have 0 doubt they are pouring massive amounts of finances, or atleast used to, in breaking assymetric key exchange ciphers (since that leads to compromise of symmetric ciphers too, since they use PKI to establish a shared secret). Knowing everything I know about the factorization problem, and the discrete log problem... the hardness of these problems is wildly exegerated. There is little doubt left that they are attacking these problems already, rather successfully. Which makes all this even more confusing, because then they would also know that maintaining that cryptologic edge is the most important thing in the world... yet, I am being treated like absolutely fucking shit. I will succeed and I won't forget being treated like shit. This is 2 years of my life that you people robbed from me. 2 years of being broke and hopeless. I won't forget this. You are causing your own problems. Ofcourse I imagine it is much easier to just assasinate me, but your CIA are incompetent idiots too.
-
-The thing is, I know very well, I am dramatically reducing my life expectancy. For the same reason nuclear scientists in Iran don't have a long life expectancy. We live in a violent world, where denying capability by means of violence is often less troublesome then showing respect. People will choose violence long before they choose to show me any respect. Because I am everything the intelligence community, politicians and corporate tech bros hate. I learned this when I dropped 0days. The endless demonizing. The doxing. I know what is coming is going to be much worse. I likely won't live very long anymore. And that's fine. When I dropped my initial work on august 2024, due to not being given alternatives or being taken serious, I knew from that point on, I had sealed my fate, that this was going to be a kamikaze run. Something that wasn't going to benefit me and only bring misfortune to me and those around me. But this has to be done. There is a bigger picture. I do this for idealism and revenge. Because I despise people. I despise them for what they did to my former manager. I despise them for being so opiniated about me dropping 0days in the past. I despise their transphobia. This is my fuck you to the world. My "I was here" moment. And I do not care that I have sealed my fate. 
+In addition I also need to think about speeding up building the iN map, because once we get rid of trial division, this will be the biggest bottleneck by far.
