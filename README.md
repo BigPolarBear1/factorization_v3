@@ -1,22 +1,15 @@
-Update 15 june:
+Update 16 June:
 
-I just uploaded QSv3_034.py
+Uploaded QSv3_036.py 
 
-Use: python3 QSv3_034.py -keysize 100
+use: python3 Qsv3_036.py -keysize 120
+This one massively improves the building of the iN map. Even for a factor base of 1000, it takes only a few seconds. 
+Also sped up the lifting code a little by using a faster root finding method.
 
-With a factor base of 300, it will take about 30 seconds to build the iN map. This is one of the big things I'll need to improve eventually.
-But it should then find enough smooths for 100 bit in a couple of seconds.
+And I made some progress toward removing trial division. It will now only factor a smooth if the log base 2 is an integer (power of 2). I tried implementing lifting for powers of 2 today, but in my honest opinion, 2 is not a real prime... and I'm not even sure if it is worth the trouble adding all these special cases just to be able to handle powers of 2. I might aswell calculate log2 to see if something factors over a factor base and then check if its log is an integer (meaning the remainder can be factored by powers of 2). I will think about this some more in the future.
 
-Uploaded PoC easily factors up to 100.
-
-In addition, it is still an early draft.
-
-To do: We need to fix lifting for powers of 2. That way we can eliminate trial division completely. This will be the biggest performance boost. This alone should let it overtake factorization_v2.
-Then there is still a bunch of other things I need to fix here and there...and perhaps also think how I can further improve the current strategy.
-
-In addition I also need to think about speeding up building the iN map, because once we get rid of trial division, this will be the biggest bottleneck by far.
-
-I'll go for a run and continue tomorrow. The goal for tomorrow is to overtake v2 in performance. Should be easy enough.
+Anyway, I lost a lot of time today messing with powers of two only to end up deleting all that code. But we're already close to the performance of v2. We can factor 120-bit in about 2 minutes now. 
+Tomorrow I will begin refactoring ALL of that smooth finding code. The idea is really good and works really well, but my current implementation is very sloppy. I know how to fix it though and will begin working on it tomorrow. The cool thing is, that even with this code, we can now pull many smooths just one iN value (or quadratic coefficient) ... so it does work... I just need to fix that code and be smart about it.
 
 --------------------------------------------------------------------------------------------------------------------
 I know shit is about to hit the fan now, for real.
