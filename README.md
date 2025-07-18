@@ -21,6 +21,8 @@ Update: Definitely some people here who don't like me running around the city wi
 
 Update: Just get agitated when people act in a threatening manner. Like was the case in Redmond non-stop. It doesn't happen nearly as much here in Belgium, but the days it does, it really grinds my gears, because to be honest, that getting threatened with a gun thing and losing everything in the months after... I have nothing left to lose. And I will tell you this, if anyone touches me, or threatens me with a weapon, I will fight to the death. I swore that I would never turn my back ever again and walk away from a fight. I don't care if they have a gun. Lets see if they have the balls to shoot me before I close the distance. Fuckers. I wish I could live in a castle, far away from any humans, my parents could live there too, and all my friends. But no fucking humans who stress me out like fucking wannabe piece of shit criminals and transphobes. Fucking shit world. I mean, look at these fucking shitheads in the US, fucking transphobes. Little men. Guess the americans spend too much time in afghanistan and now they have become like them. Fucking losers. Fucking hate all these 0 braincell people. They make me violent. 
 
+I need to finish my PoC this weekend... its really about time to finish this now. I need to break this world, its the only way to make the future gay and woke. I'm going to make the future gay and woke and nobody can stop me. Fuck you little men. Cry more, fuckers.
+
 --------------------------------------------------------------------------------------------------------------------
 I know shit is about to hit the fan now, for real.
 I have been working on this for 2 years. 
