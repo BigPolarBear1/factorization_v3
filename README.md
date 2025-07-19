@@ -23,6 +23,8 @@ Update: Just get agitated when people act in a threatening manner. Like was the 
 
 I need to finish my PoC this weekend... its really about time to finish this now. I need to break this world, its the only way to make the future gay and woke. I'm going to make the future gay and woke and nobody can stop me. Fuck you little men. Cry more, fuckers.
 
+Update: I guess tomorrow I can upload a better version. Spent the last couple of days completely reworking that logic in find_smooths()... just need to kill a few bugs and it should be good to upload tomorrow. Then all that remains is  optimizing the code... no more major refactoring should be needed after that. We'll see.
+
 --------------------------------------------------------------------------------------------------------------------
 I know shit is about to hit the fan now, for real.
 I have been working on this for 2 years. 
