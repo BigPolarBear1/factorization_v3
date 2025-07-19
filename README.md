@@ -23,7 +23,7 @@ Update: Just get agitated when people act in a threatening manner. Like was the 
 
 I need to finish my PoC this weekend... its really about time to finish this now. I need to break this world, its the only way to make the future gay and woke. I'm going to make the future gay and woke and nobody can stop me. Fuck you little men. Cry more, fuckers.
 
-Update: I guess tomorrow I can upload a better version. Spent the last couple of days completely reworking that logic in find_smooths()... just need to kill a few bugs and it should be good to upload tomorrow. Then all that remains is  optimizing the code... no more major refactoring should be needed after that. We'll see.
+Update: I guess tomorrow I can upload a better version. Spent the last couple of days completely reworking that logic in find_smooths()... just need to kill a few bugs and it should be good to upload tomorrow. Then all that remains is  optimizing the code... no more major refactoring should be needed after that. We'll see. I guess then I can implement it in cython quickly before starting the long journey to port my findings to c++ and use all the tricks I can think of, like block lanczos...  minimizing modulus and division operations etc.... massively depressed. I miss the arctic and I also miss the friends I havnt seen in over a year bc of what microsoft did.
 
 --------------------------------------------------------------------------------------------------------------------
 I know shit is about to hit the fan now, for real.
