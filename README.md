@@ -10,7 +10,6 @@ I am busy refactoring all the logic within the find_smooth function. I'll probab
 I'm working on creating a single hashmap for each iN value (quadratic coefficient) which we can then use to basically build smooths. 
 It's a little complicated to do it in an algorithmically sound way so I've spent the last week going over multiple iterations of refactoring.. but I think its nearly ready now, or atleast I have narrowed down the best way to do it now.
 
-Update: Ran a half marathon again today. Doing it every sunday (in addition to all my other runs throughout the week). I really need to build up to 30km though... or even more... like, just go running all day long. That will surely annoy my surveillance team. hahahahaha. It's not that they are doing a poor job, it's just that I'm a polar bear and I know everything. Can't compete against a polar bear. I hope you people know this by now.
 
 --------------------------------------------------------------------------------------------------------------------
 I know shit is about to hit the fan now, for real.
