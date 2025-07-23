@@ -22,6 +22,9 @@ Update: Just insomnia and depression. Cant get work done. Its hard to not dwell 
 
 So many days of anger. This isnt who I am, but I cant help but feel this endless anger bc of everything that happened. I really hope if there is any justice in this world, all these people, they just drop dead. I really need these people to just stop existing. Bc I can't move on otherwise.
 
+There is just something about getting harassed, threatened with a gun, and then also have the company that you worked so hard for, treat you like that right when all that shit was going on... to then also have to say goodbye to all your friends that you had known for years.. there is a rage in me that wont ever go away anymore. And I blame the fbi too, because fuck those people. The problem with spooks and feds in general is that they are really good at bullshitting. I liked my former manager, bc he always did what he said, never once did he say something and not do it. Everyone else in this world is just full of shit. Literally everyone else (except my former teamlead also I guess), is full of shit and cowardice. I am so tired of the cowardice of people and how full of shit they are. Microsoft will pay. And america will pay too, bc screw you for your legal harassment here in belgium for sending angry mails to the fbi, where were you fucking cowards when that piece of shit was coming after me with a gun? Go to hell. Pay the price. 
+And I hope all my enemies drop dead. I hope they all just die. 
+
 --------------------------------------------------------------------------------------------------------------------
 I know shit is about to hit the fan now, for real.
 I have been working on this for 2 years. 
