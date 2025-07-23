@@ -27,6 +27,8 @@ And I hope all my enemies drop dead. I hope they all just die.
 
 3 days after I was threatened with a gun, someone died in their house from a driveby shooting next to a trail I went running every day in Sammamish. I hope the people who were in that house were the people who threatened me with a gun. You live by the sword you die by the sword. I have 0 respect for these people. 0 respect and 0 sympathy. Bc these people they ruin lifes. What kind of shit culture teaches people to pull guns on unarmed people? Fucking cowards.
 
+I guess I too am very violent. But I am a polar bear, I don't go out of my way to harass strangers and chase them with a gun. Only people who threaten my safety or have wronged my friends. And the FBI bc they subpoenaed my google account and are full of shit.  I don't regret harassing the FBI. Neither do I regret hacking the FBI, it was too easy since they use microsoft slop lol. I also hacked the 1st cyber protection battalion, but they don't know it yet. They all made it really easy by using microsoft's trash.
+
 --------------------------------------------------------------------------------------------------------------------
 I know shit is about to hit the fan now, for real.
 I have been working on this for 2 years. 
