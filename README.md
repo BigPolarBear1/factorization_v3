@@ -31,6 +31,8 @@ I guess I too am very violent. But I am a polar bear, I don't go out of my way t
 
 This world is so dumb. There is very few people I like. I liked my former manager. Most people I hate though. Like, I actually have a deep hatred for humans. It wasn't always like this. For a few years when living in Vancouver, I almost became a human too. But then humans showed their true colors again in Redmond. Reminded me why I hate them so much. Some days I tell myself i'm going to fix the world with math. But to be honest, humans are beyond saving and they deserve endless misery. I can mentally cope with a lot of bullshit direct at me... I probably would have gotten over getting threatened with a gun and getting fired literal weeks later and being put in a spot where I suddenly had no more valid visa. But then they came after my manager, one of the handful of humans I like... they came after him with blatant lies. Now I a m a bear again. And I will devour this world, and all my enemies will drop dead. I promise you, if you fired my manager, you are going to drop dead. Weird shit happens, people drop dead all the time. Good luck assholes.
 
+Oh and I know msft stalks me, bc 0 opsec, and yes, this is a threat, the microsoft employees who fired me manager are going to drop dead. You will see. They thought they could get away with it, but now they are about to drop dead. They wont drop dead by human hands. They will just drop dead magically. Have a heart attack. Something like that. Consequences.
+
 --------------------------------------------------------------------------------------------------------------------
 I know shit is about to hit the fan now, for real.
 I have been working on this for 2 years. 
