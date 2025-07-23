@@ -20,6 +20,8 @@ Update: I hope that some of the weirder stuff that has happened in the last two 
 
 Update: Just insomnia and depression. Cant get work done. Its hard to not dwell on the past when my current life has been reduced to this. I often wonder why getting threatened with a gun affects me this much, but I don't think it was this incident in isolation, it was everything that happened back then in just a handful of months in addition to getting treated like complete trash by microsoft and them also going after my manager out of retaliation, claiming he promoted me for no reason, portraying me as incompetent and just straight up lies like that. They are lucky they waited until I left the US, because had I still been there, I would have gotten violent, 100%. After everything that happened, yea, I would have gotten very violent. They shouldn't have gone after my manager. The only person in this fucking shit industry who actually supported and helped me rather then pointing fingers for dropping 0days like all the fucking 0 braincell infosec shitheads (yea, I still remember all your names, dont ever cross my path bc ill fucking put you on disability fuckers).
 
+So many days of anger. This isnt who I am, but I cant help but feel this endless anger bc of everything that happened. I really hope if there is any justice in this world, all these people, they just drop dead. I really need these people to just stop existing. Bc I can't move on otherwise.
+
 --------------------------------------------------------------------------------------------------------------------
 I know shit is about to hit the fan now, for real.
 I have been working on this for 2 years. 
