@@ -1,18 +1,18 @@
-Update 16 June:
+Update 24 June:
 
-Uploaded QSv3_036.py 
+Uploaded QSv3_041.py 
 
-use: python3 Qsv3_036.py -keysize 120
-This one massively improves the building of the iN map. Even for a factor base of 1000, it takes only a few seconds. 
-Also sped up the lifting code a little by using a faster root finding method.
+use: python3 Qsv3_041.py -keysize 120
+Improved the previous version. Will factor 120 in a little over a minute with a factor base of 1000. 
+Do be aware this version eats a lot of ram. For a factor base of 1000 and 8 workers you need around 28gb of ram. I'll address this later.
 
-I am busy refactoring all the logic within the find_smooth function. I'll probably upload it somewhere the week of the 21st of July. 
-I'm working on creating a single hashmap for each iN value (quadratic coefficient) which we can then use to basically build smooths. 
-It's a little complicated to do it in an algorithmically sound way so I've spent the last week going over multiple iterations of refactoring.. but I think its nearly ready now, or atleast I have narrowed down the best way to do it now.
+To do: There is still a bunch of bugs which reduce the accuracy of the logic in check_4_smooths. So that's one part of the PoC we can definitely still see a lot of improvement.
+Next I will need to move all of the lifting code to the launch function and do all the lifting we want to do when we create the iN map outside of the code in the workers. 
+This will should save us a lot of time. In addition, that together with creating the iN map is stuff we eventually want to precalculate for any arbitrary N on a database saved on disk. Since it's just finding solutions mod p ... hence a lot of that can easily be precalculated and fetched from disk... up until a certain bound atleast. After all that I think I'll just have cython spit out some c code... and start modifying that to use stuff like block lanczos. 
 
 Important: The real strength of this iteration is that we can basically precalculate much of it and just have it sitting on a disk. Then pull from disk and load into RAM the solutions depending on the integer you are factoring (solutions mod p<sup>a</sup><sub>i</sub>). That is the real strength. That is why this way of doing it has a shot at RSA-1024 if you are well funded. When I port everything to c++ I will also write a worker that you can run independently that will construct a database on disk.. so many steps of the algorithm can be skipped by just pulling what you need from disk. I have no choice but to go the entire mile, until the bitter end... even though I know I have won already, I still cannot find employment and I am still treated as a pariah. So be it. I will go after rsa-1024, I will go until the bitter end. You people just want to buy time, and perhaps you are also hoping that I will end my life out of desperation. I hate all of you.
 
-------------------------------------------- RANT NOT RELATED TO MATH RESEARCH BELOW-------------------------------------------------------------------------
+------------------------------------------- RANT NOT RELATED TO MATH RESEARCH BELOW-----------------------------------
 I know shit is about to hit the fan now, for real.
 I have been working on this for 2 years. 
 2 years ago, I told the msft people who were firing me that I was working on factorization (the lawyers, investigators and HR who was making the decision after my mental breakdown due getting harassed in Redmond).
