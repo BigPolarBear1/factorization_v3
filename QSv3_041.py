@@ -20,7 +20,7 @@ import math
 key=0                 #Define a custom modulus to factor
 keysize=50            #Generate a random modulus of specified bit length
 workers=8 #max amount of parallel processes to use
-sieve_interval=100#10000000
+sieve_interval=32#10000000
 base=1000
 g_enable_custom_factors=0
 g_p=107
