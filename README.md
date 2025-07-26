@@ -1,3 +1,5 @@
+i dont know, my life is over i guess. just no more dignity in living like this. 
+
 Update 24 June:
 
 Uploaded QSv3_041.py 
