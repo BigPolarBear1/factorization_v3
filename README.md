@@ -1,5 +1,3 @@
-i dont know, my life is over i guess. just no more dignity in living like this. 
-
 Update 24 June:
 
 Uploaded QSv3_041.py 
@@ -15,6 +13,8 @@ This will should save us a lot of time. In addition, that together with creating
 Important: The real strength of this iteration is that we can basically precalculate much of it and just have it sitting on a disk. Then pull from disk and load into RAM the solutions depending on the integer you are factoring (solutions mod p<sup>a</sup><sub>i</sub>). That is the real strength. That is why this way of doing it has a shot at RSA-1024 if you are well funded. When I port everything to c++ I will also write a worker that you can run independently that will construct a database on disk.. so many steps of the algorithm can be skipped by just pulling what you need from disk. I have no choice but to go the entire mile, until the bitter end... even though I know I have won already, I still cannot find employment and I am still treated as a pariah. So be it. I will go after rsa-1024, I will go until the bitter end. You people just want to buy time, and perhaps you are also hoping that I will end my life out of desperation. I hate all of you.
 
 Update: Started moving the lifting logic outside of the worker threads to compute it when we're computing the iN map. After that I will address some of the bugs and also already begin with porting the biggest bottlenecks to cython. The fastest implementations of QS cant go past about 320-bit (which are written in low level languages and highly optimized, so its as expected my pure python implementation is nowhere near right now). So I am hoping to get a PoC working that can get past that. If I can just pull that off, I can already prove with hard data that I'm onto something. And after that I'll just keep going and keep optimizing everything. I will set a factorization record no matter the cost.
+
+Update: Very grim day. Just the worst depression ever. On the bright side, I finished moving that lifting code outside of the worker threads. I also just realized my findings can be used to factor very large numbers with very small factor bases... so I will upload that soon-ish I guess. There's still some bugs in the PoC also, but I'm a bit tired of fixing bugs and just want to make some progress for a while to feel less depressed. Next I'll setup a sqlite database too, and just offload calculated solutions mod p to it, so we can retrieve it when we factor different integers. And then I will start porting functions to cython. Or atleast the ones that are bottlenecking the algorithm.
 
 ------------------------------------------- RANT NOT RELATED TO MATH RESEARCH BELOW-----------------------------------
 I know shit is about to hit the fan now, for real.
