@@ -19,6 +19,9 @@ The thing I hate the most, is that for a while, I was finally finding the courag
 
 Im a real woman. I dont care what people say. Tired of people. People just show their own jealousy itby always crying about people like me. Cry more stupid haters. Hahaha. 
 
+Stress. One of the few friends I have and occassionally talk to online went dark. I know she was transitioning and really struggling with her family situation and all that. I know I worry way too quickly. There could be endless reasons she went offline. Just was having a bad time myself and didnt reach out for a while, now she's offline. Just really stressed. If anything bad happened, this would be the one I definitely couldnt cope with.
+
+
 ------------------------------------------- RANT NOT RELATED TO MATH RESEARCH BELOW-----------------------------------
 I know shit is about to hit the fan now, for real.
 I have been working on this for 2 years. 
