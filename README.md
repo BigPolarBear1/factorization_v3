@@ -4,6 +4,8 @@ AND FUCK YOU ALL MOST OF ALL FOR TREATING ME LIKE THIS, AGAIN. I WAS WILLING TO 
 
 AND FUCK MICROSOFT, FUCKING SHITHEAD TECH BROS. AND FUCK THE ASSHOLES POINTING A GUN AT ME BEING ALL LIKE "WELCOME TO AMERICA BITCH" ..... YEA, I GOT A MUCH BIGGER GUN, WELCOME TO POLAR BEAR COUNTRY BITCHES. HAHAHA. WHERE WE ARE GOING, WE WONT BE NEEDING OUR SANITY. I WILL BREAK YOU ALL. ILL BREAK YOUR FUCKING MINDS. YOU WILL ALL BURN FOR THIS.
 
+As a polar bear you can sense when a wolf pack is stalking you. And I have been sensing a wolf pack nearby for months now. Ofcourse wolves also know they are completely outmatched against a polar bear. 
+
 Update 24 June:
 
 Uploaded QSv3_041.py 
