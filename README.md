@@ -1,3 +1,5 @@
+I feel really depressed. i dont want to be alone right now. My head really doesnt feel in the right place today.
+
 Just depressed. Its been over a year since ive seen any friends. i dont have autonomy anymore. I guess we've arrived at the end. 
 
 
