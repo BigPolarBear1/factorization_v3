@@ -1,3 +1,6 @@
+Just depressed. Its been over a year since ive seen any friends. i dont have autonomy anymore. I guess we've arrived at the end. 
+
+
 https://www.instagram.com/essbee.or.bear
 
 Made an instagram. Going to be more on social media. And be myself. Be a woman. Also I was thinking about doing onlyfans, but they require social media for verification... so I'll just do instagram first, so if that works out. Or something. Guess onlyfans isn't really my thing anyway.
