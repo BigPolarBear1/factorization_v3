@@ -1,1 +1,4 @@
 I will rewrite the entire PoC this weekend. I've been learning about self-initializing quadratic sieve (using the large prime variation) ... so I am going to use that as a starting point, and begin improving it with my own findings.... I'll upload a reworked version shortly... I'm too stubborn trying to do my own thing, and sometimes its good, but sometimes it also isn't.
+
+
+Anyway... I know I'm right... and I have a feeling the truth is going to reveal itself very soon... learning about self-initializing QS.. definitely was something I should have done sooner... I don't know why I skipped it and instead looked at number field sieve. But I see it now... and all I need to do now I construct a PoC that out-performs msieve... and it's game over. Watch what will happen.... stupid assholes. 
