@@ -43,4 +43,4 @@ Major things still left to do:
 
 I will begin addressing these things now. And also optimize whereever I can. If we can push past 110 digits on a laptop... then the fun begins. But until then... the doubt and agony remains.. but there is yet hope.
 
-References: https://stackoverflow.com/questions/79330304/optimizing-sieving-code-in-the-self-initializing-quadratic-sieve-for-pypy
+References from which I copied and modified some code (i.e the randomized modulus selection logic for the linear coefficient, which in their version is the divisors of the quadratic coefficient and the guassian elimination logic): https://stackoverflow.com/questions/79330304/optimizing-sieving-code-in-the-self-initializing-quadratic-sieve-for-pypy
