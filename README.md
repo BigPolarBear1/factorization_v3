@@ -34,11 +34,11 @@ This gets us a little closer then v2.
 Currently it is build using cython, but there are no optimizations such as static typing yet, so it is basically not doing anything yet for performance. 
 
 Major things still left to do:
--Experiment with lifting (since we have already figured out the math, we should check if it makes a difference)</br> 
--Implement bottlenecks in C or atleast Cython (i.e add static typing) and use a lib for large numbers</br>  
+-Experiment with lifting (since we have already figured out the math, we should check if it makes a difference)</br>
+-Implement bottlenecks in C or atleast Cython (i.e add static typing) and use a lib for large numbers</br>
 -Implement large prime variation (presumably doubles the performance)</br> 
 -Implement a faster method for the linear algebra portion. Block Lanczos would be ideal. (lets see when this becomes an issue first)</br> 
--The factor_base (building iN map) is still a major bottleneck. Much of this could be saved to an offline database.. but I need to think how to speed it up some more.</br>  
+-The factor_base (building iN map) is still a major bottleneck. Much of this could be saved to an offline database.. but I need to think how to speed it up some more.</br>
 -Lots of small optimizations still to be done (i.e skip small primes for the sieve interval).. I should also think if there is a point in a negative sieve_interval (going the negative direction).</br> </br>  
 
 I will begin addressing these things now. And also optimize whereever I can. If we can push past 110 digits on a laptop... then the fun begins. But until then... the doubt and agony remains.. but there is yet hope.
