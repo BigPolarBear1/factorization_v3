@@ -8,7 +8,7 @@
 
 ##To do: Insert sources as reference from which I have modified or copied code (Note to self: Important, do not forget!!!!!!)
 
-##Reference #1: https://stackoverflow.com/questions/79330304/optimizing-sieving-code-in-the-self-initializing-quadratic-sieve-for-pypy
+##Reference #1: https://stackoverflow.com/questions/79330304/optimizing-sieving-code-in-the-self-initializing-quadratic-sieve-for-pypy (copied and modified some of the code to randomly find a good modulus for the linear coefficient, which in their code is the divisors for the quadratic coefficient and some code for faster linear algebra)
 
 ###notes: use with python3 QSv3_048.py -keysize 200
 ###Make sure keysize is above 100 bit, else you need to lower a bunch of parameters in the code.
@@ -901,6 +901,7 @@ def main(lkeysize,lworkers,debug,lbase,lkey):
     launch(n,primeslist1)     
     duration = default_timer() - start
     print("\nFactorization in total took: "+str(duration))
+
 
 
 
