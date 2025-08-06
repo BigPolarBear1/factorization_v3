@@ -33,7 +33,7 @@ This gets us a little closer then v2.
 
 Currently it is build using cython, but there are no optimizations such as static typing yet, so it is basically not doing anything yet for performance. 
 
-Major things still left to do:
+Major things still left to do:</br>
 -Experiment with lifting (since we have already figured out the math, we should check if it makes a difference)</br>
 -Implement bottlenecks in C or atleast Cython (i.e add static typing) and use a lib for large numbers</br>
 -Implement large prime variation (presumably doubles the performance)</br> 
