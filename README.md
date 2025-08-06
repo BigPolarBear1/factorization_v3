@@ -20,11 +20,11 @@ python3 run_qs.py -keysize 160 -base 4000 </br>
 Running time (100 seconds)</br></br>
 
 To factor 180-bit:</br>
-python3 run_qs.py -keysize 160 -base 6000 </br> 
+python3 run_qs.py -keysize 180 -base 6000 </br> 
 Running time (400 seconds)</br></br>
 
 To factor 200-bit:</br>
-python3 run_qs.py -keysize 160 -base 8000 </br> 
+python3 run_qs.py -keysize 200 -base 8000 </br> 
 Running time (800 seconds)</br></br>
 
 ---------------------------------------------------------------------------
