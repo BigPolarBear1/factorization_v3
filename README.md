@@ -28,7 +28,7 @@ python3 run_qs.py -keysize 160 -base 8000 </br>
 Running time (<to add> seconds)</br></br>
 
 ---------------------------------------------------------------------------
-Notes and to do: So the uploaded will get to above 200-bit, or 60 digits. The assumed hard cap for what would be factorable on a single machine using quadratic sieve would be around 100-110 digits.
+Notes and to do: The uploaded will get to above 200-bit, or 60 digits. I borrowed some of the logic from SIQS and incorporate it into my own work. The assumed hard cap for what would be factorable on a single machine using quadratic sieve would be around 100-110 digits.
 This gets us a little closer then v2.
 
 Currently it is build using cython, but there are no optimizations such as static typing yet, so it is basically not doing anything yet for performance. 
