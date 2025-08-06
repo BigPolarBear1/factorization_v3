@@ -51,3 +51,5 @@ References from which I copied and modified some code (i.e the randomized modulu
 Anyway, if I die, it was the americans. They rather threaten me with a gun in the US and then kick me out, then to acknowledge anything I do. My former manager was the only good american. All other americans are pieces of shit. Fuck america. Go to hell.
 
 ps: Get fucked by a polar bear.
+
+pps: I'll try to update a better version tomorrow. Some easy gains can immediatly be made by implementation the large prime variation. And I think sieving into the negative direction will also boost performance. I hope to get that d one atleast tomrrow. Then next I really need to run some test with lifting to see if it helps. Which I will try to get done before the end of the week. And after that I will start tackling all the other stuff and begin optimizing in cython.. 
