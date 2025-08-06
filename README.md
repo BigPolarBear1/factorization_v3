@@ -1,11 +1,28 @@
-My mood just crashed really hard. I might just end it. Just tired. Nothing is happening. All the traffic I keep seeing, it's just stalkers making fun of me. That's all it is. 
-Like they were all jealous of my CVEs and now they can come see how I've fallen and laugh at me to feel better about their own shit life. 
-Just this fucking shit world. I'm so tired.
+New personal best! Big update!!</br>
+I have uploaded the new PoC files in the folder PoC-Files.</br>
+To compile using cython:</br></br>
+From the PoC-Files folder: python3 setup.py build_ext --inplace</br></br>
+The below benchmarks assumes 8 CPU cores available (benchmarks ran from an ubuntu VM):</br></br>
+To factor 100-bit:</br>
+python3 run_qs.py -keysize 100 -base 500 </br> 
+Running time (5 seconds)</br></br>
 
-I keep thinking, I just got to fix this PoC. Because bunding P+Q into the linear coefficient of a quadratic, it seems quite smart... and it seems like it would improve on multiple polynomial quadratic sieve... I think it would probably run better and longer before running out of steam. But then again, maybe I'm just running around my own tail. Doing shit that's basically to same to whats alraedy out there. If this was novel, I would know by now, someone would have told me. There is no way there would be so me grand conspiracy to silenlty get rid of 1024-bit RSA keys before the Russians and Chinese catch on. Shit like that only happens in movies or books, not in real life. Maybe I am suffering from psychotic symptoms. Just falling deeper into delusions. It's hard to know. There's nothing left anymore in my life. You know, hanging out with my former teamlead in Vancouver and all the other friends I had there... for once in my life, everything was perfect. For a little while, I was really happy. I just cant get over all the devastation anymore. So much has been taken away. And there is nothing left. Persistent unemployment. Nobody will even consider me for a job. I don't even get interviews. I'm stuck in life. It's over. Who am I even kidding anymore. Bye.
+To factor 120-bit:</br>
+python3 run_qs.py -keysize 120 -base 1000 </br> 
+Running time (9 seconds)</br></br>
 
-Finished implementing the SIQS logic into my own work. Definitely performing much much much better now. And I havn't even written the "large prime variation" related code yet. The main difference is that I'm not using the roots of my quadratic. I'm purely using the linear coefficient. Intuitively it sounds like that should be faster then using the roots... I understand it now... like bundling P+Q together is great. But now I need to outperform msieve... it's the only way to proof I havnt lost my mind. A few hours ago I was ready to end it... but I just need to try atleast to finish this code, to know for sure if my work will work or not. Lets see tomorrow. Its already outperforming the uploaded code just by switching to using a sieve interval the way SIQS does. We'll see... if I'm not going mad, if all the suspicions I have are real, then microsoft better give my former manager many millions for the bullshit they did. And then I want to go visit my friends (my former manager, my former teamlead, and all the other friends I used to have). I really miss my friends. I'm in the least gay city of Belgium and I hate it here. Vancouver was really gay. I cant even found a hairdresser here bc I dont know which ones arn't transphobes. I miss living in a really gay place where I can be myself without fear. And I miss my friends. Hell, I miss goig to the mountains with my friends playing Punjabi music. That was some good shit. Born to Shine by Diljit Dosanjh. Life used to be innocent and fun. I hate what it has become now. 
+To factor 140-bit:</br>
+python3 run_qs.py -keysize 140 -base 2000 </br> 
+Running time (33 seconds)</br></br>
 
-That's really the gist of it. Using the linear coefficient. It's moves everything up one level. We can use the roots like SIQS does... no problem, but then you're working with either one of the factors mod p. I think what people missed is that that constant need to be a multiple of N mod p, so our number system "aligns" and isn't shifted all over the place. I don't know how to say it in math words. I see the structure in my head. The problem with this world is, it doesn't matter if you can see things in your head, if you cant put fancy technical words on it, nobody will ever care. It was the same with vuln research. I didn't know all the fancy technical stuff... but I could see everything in my head. I think it's called abstract reasoning. I think I'm just really autistic. I swear, if tomorrow I don't overtake msieve, I'm going to hang myself. I really cant live like this anymore. Just pain every day, thinking about a past I can't go back to. People I cant see again. I just can't overcome it, I just can't move on from it.
+To factor 160-bit:</br>
+python3 run_qs.py -keysize 160 -base 4000 </br> 
+Running time (100 seconds)</br></br>
 
-Update: I did it!! We are now able to blaze past 200-bits. And it's still really barebones with a lot of functionality missing. So time to start pushing now. Find the limits. I'll upload a PoC to factor 200-bits this evening.
+To factor 180-bit:</br>
+python3 run_qs.py -keysize 160 -base 6000 </br> 
+Running time (<to add> seconds)</br></br>
+
+To factor 200-bit:</br>
+python3 run_qs.py -keysize 160 -base 8000 </br> 
+Running time (<to add> seconds)</br></br>
