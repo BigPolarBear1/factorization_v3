@@ -44,6 +44,8 @@ Major things still left to do:</br>
 
 I will begin addressing these things now. And also optimize whereever I can. If we can push past 110 digits on a laptop... then the fun begins. But until then... the doubt and agony remains.. but there is yet hope.
 
+I'm not sure how it compares to regular SIQS, but this lends itself pretty well to be paralellized by quadratic coefficient. That's one big advantage I can think of.
+
 References from which I copied and modified some code (i.e the randomized modulus selection logic for the linear coefficient, which in their version is the divisors of the quadratic coefficient and the guassian elimination logic): https://stackoverflow.com/questions/79330304/optimizing-sieving-code-in-the-self-initializing-quadratic-sieve-for-pypy
 
 Anyway, if I die, it was the americans. They rather threaten me with a gun in the US and then kick me out, then to acknowledge anything I do. My former manager was the only good american. All other americans are pieces of shit. Fuck america. Go to hell.
