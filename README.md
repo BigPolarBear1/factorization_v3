@@ -52,4 +52,4 @@ Anyway, if I die, it was the americans. They rather threaten me with a gun in th
 
 ps: Get fucked by a polar bear.
 
-pps: I'll try to update a better version tomorrow. Some easy gains can immediatly be made by implementation the large prime variation. And I think sieving into the negative direction will also boost performance. I hope to get that d one atleast tomrrow. Then next I really need to run some test with lifting to see if it helps. Which I will try to get done before the end of the week. And after that I will start tackling all the other stuff and begin optimizing in cython.. 
+pps: I'll try to update a better version tomorrow. Some easy gains can immediatly be made by implemeting the large prime variation. And I think sieving into the negative direction will also boost performance. I hope to get that d one atleast tomrrow. Then next I really need to run some test with lifting to see if it helps. Which I will try to get done before the end of the week. And after that I will start tackling all the other stuff and begin optimizing in cython.. 
