@@ -25,7 +25,7 @@ Running time (400 seconds)</br></br>
 
 To factor 200-bit:</br>
 python3 run_qs.py -keysize 160 -base 8000 </br> 
-Running time (<to add> seconds)</br></br>
+Running time (800 seconds)</br></br>
 
 ---------------------------------------------------------------------------
 Notes and to do: The uploaded will get to above 200-bit, or 60 digits. I borrowed some of the logic from SIQS and incorporate it into my own work. The assumed hard cap for what would be factorable on a single machine using quadratic sieve would be around 100-110 digits.
