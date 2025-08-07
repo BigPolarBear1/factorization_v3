@@ -48,3 +48,6 @@ Once all of that is done, I think I will finish factorization_v3 and move on to 
 Oh and ofcourse once I hit a point where the linear algebra section becomes a bottleneck, implementing block lanczos would be great.
 
 I'll push updates regulary to address all these things. I want to atleast outperform msieve.. that is my goal for v3.
+
+
+Update: I am depressed. I was doing some interesting stuff in with this research about a month or two months ago. I just really want to backtrack and continue from there. But on the other hand, if my research is any better then what's already out there, then this should improve msieve's SIQS implementation... even if it is by a tiny amount. Hence I should go the extra mile here and make it happen. Atleast it would give me some kind of proof I can make noise about... post on forums, etc. Without that proof, people will just laugh at me like they always do. Truely a shit industry. Just like microsoft. Easier for their ego to downplay everything I do in my life. I don't understand why people who try half as hard, with half the talent can earn six figure salaries doing fuck all and I can't even get a job interview lol.
