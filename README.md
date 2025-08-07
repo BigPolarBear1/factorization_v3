@@ -35,7 +35,7 @@ Running time (2500 seconds)</br></br>
 
 References
 
-Reference #1: https://stackoverflow.com/questions/79330304/optimizing-sieving-code-in-the-self-initializing-quadratic-sieve-for-pypy (I copied a bunch of code from this and modified it to fit my own work... mainly as related to the randomized modulus selection for linear coefficients (which they do for the divisors of their quadratic coefficients). They use pypy and the solution proposes to write part in c++, I may actually move to that approach as well rather then using cything. Just start porting everything to c++)
+Reference #1: https://stackoverflow.com/questions/79330304/optimizing-sieving-code-in-the-self-initializing-quadratic-sieve-for-pypy (I copied a bunch of code from this and modified it to fit my own work... mainly as related to the randomized modulus selection for linear coefficients (which they do for the divisors of their quadratic coefficients). They use pypy and the solution proposes to write part in c++, I may actually move to that approach as well rather then using cython. Just start porting everything to c++ until just the outer-most logic is still in python)
 
 ---------------------------------------------------------------------------
 Update: I have just added the large prime variation and minimum prime threshold for sieving. This roughly doubled the performance.
