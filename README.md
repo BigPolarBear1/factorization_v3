@@ -28,7 +28,7 @@ Running time (17 seconds)</br></br>
 
 To factor 180-bit:</br>
 pypy3 QSv3_050.py -keysize 180 -base 4000 </br> 
-Running time (109 seconds)</br></br>
+Running time (90 seconds)</br></br>
 
 To factor 200-bit:</br>
 pypy3 QSv3_050.py -keysize 200 -base 6000 </br> 
