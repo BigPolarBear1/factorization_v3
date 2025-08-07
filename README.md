@@ -48,17 +48,7 @@ Update: I have just added the large prime variation and minimum prime threshold 
 Next I need to investigate if sieving in the negative direction is going to help in my specific usecase (since it looks quite different from regular SIQS since we use linear coefficients).
 After that I will also need to investigate lifting. Since it can be done reasonably fast and I've already figured out the math for it and have most of the code in place already.
 
-After that I will need to actually do low level optimizations, it's currently being cythonized, but without static typing, it's not adding much (if anything) to performance compared to regular python.
-Plus I will also need to implement using a large number library since that will help too.
+After that I will need to start moving critical parts of the code to c++. I hope to eventually move 90% to c++ as pypy eats up a lot of ram and the only reason I'm not doing c++ from scratch is becaues I am depressed and in my depressed state it feels like an herculean task. The performance is still quite low right now. It's not optimized for pypy either as the PoC on stackoverflow is. But I don't want to waste time on that and just jump straight into c++.
 
-And lastly there is a bunch fo small things I need to look at to get performance increases, and just general code flow stuff.
-Once all of that is done, I think I will finish factorization_v3 and move on to factorization_v4 where I will continue with pure number theory for a while until I get a breakthrough that allows me to improve this work.
-
-Oh and ofcourse once I hit a point where the linear algebra section becomes a bottleneck, implementing block lanczos would be great.
-
-I'll push updates regulary to address all these things. I want to atleast outperform msieve.. that is my goal for v3.
-
-
-Update: I am depressed. I was doing some interesting stuff in with this research about a month or two months ago. I just really want to backtrack and continue from there. But on the other hand, if my research is any better then what's already out there, then this should improve msieve's SIQS implementation... even if it is by a tiny amount. Hence I should go the extra mile here and make it happen. Atleast it would give me some kind of proof I can make noise about... post on forums, etc. Without that proof, people will just laugh at me like they always do. Truely a shit industry. Just like microsoft. Easier for their ego to downplay everything I do in my life. I don't understand why people who try half as hard, with half the talent can earn six figure salaries doing fuck all and I can't even get a job interview lol.
-
+My primary goal is to beat msieve. I'm not happy about this research direction at all. Looking back, I was doing some interesting stuff about a month or two ago and I really want to backtrack and continue doing research in that direction in addition to doing more pure number theoretical research. But if any tiny piece in my work (i.e using linear coefficients) is any different from what's already out there... then this should in theory outperform msieve... hence for my own sanity, I must go the extra mile here and outperform msieve. And the moment I succeed, I have something I can share on the internet and make noise about. It's best to back up claims with hard proof, otherwise it's a losing battle.
 
