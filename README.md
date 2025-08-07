@@ -1,36 +1,41 @@
 UPDATE: Just added large prime variation.
 
-New personal best! Big update!!</br>
-I have uploaded the new PoC files in the folder PoC-Files.</br>
-To compile using cython:</br></br>
-From the PoC-Files folder: python3 setup.py build_ext --inplace</br></br>
+Run this with pypy3 for best performance.
+I will move most to pure c++ in the future.
+
+To install pypy3: 
+
+sudo add-apt-repository ppa:pypy/ppa
+sudo apt update
+sudo apt install pypy3
+
 The below benchmarks assumes 8 CPU cores available (benchmarks ran from an ubuntu VM):</br></br>
 To factor 100-bit:</br>
-python3 run_qs.py -keysize 100 -base 500 </br> 
+pypy3 run_qs.py -keysize 100 -base 500 </br> 
 Running time (4 seconds)</br></br>
 
 To factor 120-bit:</br>
-python3 run_qs.py -keysize 120 -base 1000 </br> 
+pypy3 run_qs.py -keysize 120 -base 1000 </br> 
 Running time (4 seconds)</br></br>
 
 To factor 140-bit:</br>
-python3 run_qs.py -keysize 140 -base 1000 </br> 
+pypy3 run_qs.py -keysize 140 -base 1000 </br> 
 Running time (8 seconds)</br></br>
 
 To factor 160-bit:</br>
-python3 run_qs.py -keysize 160 -base 2000 </br> 
+pypy3 run_qs.py -keysize 160 -base 2000 </br> 
 Running time (33 seconds)</br></br>
 
 To factor 180-bit:</br>
-python3 run_qs.py -keysize 180 -base 4000 </br> 
+pypy3 run_qs.py -keysize 180 -base 4000 </br> 
 Running time (109 seconds)</br></br>
 
 To factor 200-bit:</br>
-python3 run_qs.py -keysize 200 -base 6000 </br> 
+pypy3 run_qs.py -keysize 200 -base 6000 </br> 
 Running time (450 seconds)</br></br>
 
 To factor 220-bit:</br>
-python3 run_qs.py -keysize 220 -base 10000 </br> 
+pypy3 run_qs.py -keysize 220 -base 10000 </br> 
 Running time (2500 seconds)</br></br>
 
 References
