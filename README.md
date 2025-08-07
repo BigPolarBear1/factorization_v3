@@ -11,31 +11,31 @@ sudo apt install pypy3</br></br>
 
 The below benchmarks assumes 8 CPU cores available (benchmarks ran from an ubuntu VM):</br></br>
 To factor 100-bit:</br>
-pypy3 run_qs.py -keysize 100 -base 500 </br> 
+pypy3 QSv3_050.py -keysize 100 -base 500 </br> 
 Running time (4 seconds)</br></br>
 
 To factor 120-bit:</br>
-pypy3 run_qs.py -keysize 120 -base 1000 </br> 
+pypy3 QSv3_050.py -keysize 120 -base 1000 </br> 
 Running time (4 seconds)</br></br>
 
 To factor 140-bit:</br>
-pypy3 run_qs.py -keysize 140 -base 1000 </br> 
+pypy3 QSv3_050.py -keysize 140 -base 1000 </br> 
 Running time (8 seconds)</br></br>
 
 To factor 160-bit:</br>
-pypy3 run_qs.py -keysize 160 -base 2000 </br> 
+pypy3 QSv3_050.py -keysize 160 -base 2000 </br> 
 Running time (33 seconds)</br></br>
 
 To factor 180-bit:</br>
-pypy3 run_qs.py -keysize 180 -base 4000 </br> 
+pypy3 QSv3_050.py -keysize 180 -base 4000 </br> 
 Running time (109 seconds)</br></br>
 
 To factor 200-bit:</br>
-pypy3 run_qs.py -keysize 200 -base 6000 </br> 
+pypy3 QSv3_050.py -keysize 200 -base 6000 </br> 
 Running time (450 seconds)</br></br>
 
 To factor 220-bit:</br>
-pypy3 run_qs.py -keysize 220 -base 10000 </br> 
+pypy3 QSv3_050.py -keysize 220 -base 10000 </br> 
 Running time (2500 seconds)</br></br>
 
 References
