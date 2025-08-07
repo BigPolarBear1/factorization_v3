@@ -1,3 +1,6 @@
+UPDATE FINAL: I will rewrite everything in c. Using cython or pypy is always going to be suboptimal. Its time to face the pain train and grind it out. I outperform msieve or my life will never change, and the only way to even have a shot at that is to just write everything in C. So this is my last update for a while...  there is just no alternatives in my life anymore... I just grind it out until the bitter end or I find the courage to just end it all lol. I just hate this world, I hate everyone. Everything that happened after the summer of 2023... it left me a shell of my former self... the world finally show its true ugliness I guess. And all the haters who had been crying my entire career finally got their smug satisfaction I guess, while they have their fancy six figure jobs, doing fuck all (i was better then all of those at microsoft and they know it despite their attempts to downplay me and retroactively downgrade the severity ratings of my work years later in order to rewrite history)... go to hell.
+
+
 UPDATE: Just added large prime variation.
 
 Run this with pypy3 for best performance.
