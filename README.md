@@ -3,11 +3,11 @@ UPDATE: Just added large prime variation.
 Run this with pypy3 for best performance.
 I will move most to pure c++ in the future.
 
-To install pypy3: 
+To install pypy3: </br></br>
 
-sudo add-apt-repository ppa:pypy/ppa
-sudo apt update
-sudo apt install pypy3
+sudo add-apt-repository ppa:pypy/ppa</br>
+sudo apt update</br>
+sudo apt install pypy3</br></br>
 
 The below benchmarks assumes 8 CPU cores available (benchmarks ran from an ubuntu VM):</br></br>
 To factor 100-bit:</br>
