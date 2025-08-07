@@ -29,7 +29,9 @@ To factor 200-bit:</br>
 python3 run_qs.py -keysize 200 -base 6000 </br> 
 Running time (450 seconds)</br></br>
 
-
+To factor 220-bit:</br>
+python3 run_qs.py -keysize 220 -base 10000 </br> 
+Running time (2500 seconds)</br></br>
 
 ---------------------------------------------------------------------------
 Update: I have just added the large prime variation and minimum prime threshold for sieving. This roughly doubled the performance.
