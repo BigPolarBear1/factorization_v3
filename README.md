@@ -43,4 +43,6 @@ Plus I will also need to implement using a large number library since that will 
 And lastly there is a bunch fo small things I need to look at to get performance increases, and just general code flow stuff.
 Once all of that is done, I think I will finish factorization_v3 and move on to factorization_v4 where I will continue with pure number theory for a while until I get a breakthrough that allows me to improve this work.
 
+Oh and ofcourse once I hit a point where the linear algebra section becomes a bottleneck, implementing block lanczos would be great.
+
 I'll push updates regulary to address all these things. I want to atleast outperform msieve.. that is my goal for v3.
