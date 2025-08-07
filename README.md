@@ -9,7 +9,7 @@ sudo add-apt-repository ppa:pypy/ppa</br>
 sudo apt update</br>
 sudo apt install pypy3</br></br>
 
-The below benchmarks assumes 8 CPU cores available (benchmarks ran from an ubuntu VM):</br></br>
+The below benchmarks assumes 8 CPU cores available (benchmarks ran from an ubuntu VM) and have been tested on a machine with 64gb of ram.. lower worker count if ram is an issue: </br></br>
 To factor 100-bit:</br>
 pypy3 QSv3_050.py -keysize 100 -base 500 </br> 
 Running time (4 seconds)</br></br>
