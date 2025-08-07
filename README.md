@@ -1,3 +1,5 @@
+UPDATE: Just added large prime variation.
+
 New personal best! Big update!!</br>
 I have uploaded the new PoC files in the folder PoC-Files.</br>
 To compile using cython:</br></br>
