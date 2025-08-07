@@ -7,7 +7,7 @@ From the PoC-Files folder: python3 setup.py build_ext --inplace</br></br>
 The below benchmarks assumes 8 CPU cores available (benchmarks ran from an ubuntu VM):</br></br>
 To factor 100-bit:</br>
 python3 run_qs.py -keysize 100 -base 500 </br> 
-Running time (5 seconds)</br></br>
+Running time (4 seconds)</br></br>
 
 To factor 120-bit:</br>
 python3 run_qs.py -keysize 120 -base 1000 </br> 
