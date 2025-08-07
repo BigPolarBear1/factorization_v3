@@ -34,7 +34,7 @@ workers=8 #max amount of parallel processes to use
 quad_co_per_worker=1 #Amount of quadratic coefficients to check. Keep as small as possible.
 base=4000
 sieve_size=100000
-g_debug=1 #0 = No debug, 1 = Debug, 2 = A lot of debug
+g_debug=0 #0 = No debug, 1 = Debug, 2 = A lot of debug
 g_lift_lim=0.5
 thresvar=40  ##Log value base 2 for when to check smooths with trial factorization. Eventually when we fix all the bugs we should be able to furhter lower this.
 matrix_mul=1.0 ##1.0 = square.. increase to overshoot min smooths
@@ -975,5 +975,6 @@ if __name__ == "__main__":
     parse_args()
     print_banner()
     main()
+
 
 
