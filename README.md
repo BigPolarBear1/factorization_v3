@@ -4,7 +4,8 @@ UPDATE FINAL: I will rewrite everything in c. Using cython or pypy is always goi
 UPDATE: Just added large prime variation.
 
 Run this with pypy3 for best performance.
-I will move most to pure c++ in the future.
+I will move most to pure C in the future.
+A lot of gains can be made by adding things like loop unrolling in pypy.. but not going to waste time and just move straight to pure C now.
 
 To install pypy3: </br></br>
 
@@ -52,8 +53,6 @@ Next I need to investigate if sieving in the negative direction is going to help
 After that I will also need to investigate lifting. Since it can be done reasonably fast and I've already figured out the math for it and have most of the code in place already.
 
 Note: If you want to improve this code yourself in pypy.. apperently using loop unrolling can give some big boosts... but I'm not going to waste time and move straight to rewriting it completely in C now.
-
-After that I will need to start moving critical parts of the code to c++. I hope to eventually move 90% to c++ as pypy eats up a lot of ram and the only reason I'm not doing c++ from scratch is becaues I am depressed and in my depressed state it feels like an herculean task. The performance is still quite low right now. It's not optimized for pypy either as the PoC on stackoverflow is. But I don't want to waste time on that and just jump straight into c++.
 
 My primary goal is to beat msieve. I'm not happy about this research direction at all. Looking back, I was doing some interesting stuff about a month or two ago and I really want to backtrack and continue doing research in that direction in addition to doing more pure number theoretical research. But if any tiny piece in my work (i.e using linear coefficients) is any different from what's already out there... then this should in theory outperform msieve... hence for my own sanity, I must go the extra mile here and outperform msieve. And the moment I succeed, I have something I can share on the internet and make noise about. It's best to back up claims with hard proof, otherwise it's a losing battle.
 
