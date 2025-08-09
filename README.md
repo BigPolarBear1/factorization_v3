@@ -1,4 +1,4 @@
-*makes biting noises with my polar bear jaws* you hear that assholes? Thats me about to devour you all. Fuck you. Give my regards to microsoft.
+\*makes biting noises with my polar bear jaws\* you hear that assholes? Thats me about to devour you all. Fuck you. Give my regards to microsoft.
 
 ps: To any cipherpunks reading this, wanting to hack shit. Just plug in the roots (add them to the hashmap also for each linear coefficient mod p)... that will yield much smaller values then the smooths we are generating right now. This is already about as fast as SIQS.... can you imagine how fast it will be if you add this improvement? Do you know how fucked people are? hahahahahaha. Go to hell losers. Fuck you. Get eaten by a polar bear you fucking assholes. I know I got my prey trapped now, and ready to go in for the kill now. Go to hell fuckers. Shouldn't have made an enemy of a fucking polar bear. You fucking morrons.
 
