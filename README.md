@@ -1,4 +1,4 @@
-Hey nazi MAGA fucktards. Fuck you. Going to war against you losers. Fucking transphobes. HAha. Go cry you pathetic losers. Remember when you fucking americans pointed a gun at me acting tough being like "welcome to america, bitch?", yea well, who has the biggest gun now? Fuck you. FUCK YOU 10000 TIMES OVER. I will destroy you. There wont be nothing left of you people after this. FUCK YOU. GO TO HELL.
+Hey nazi MAGA fucktards. Fuck you. Going to war against you losers. Fucking transphobes. HAha. Go cry you pathetic losers. Remember when you fucking americans pointed a gun at me acting tough being like "welcome to america, bitch?", yea well, who has the biggest gun now? Fuck you. FUCK YOU 10000 TIMES OVER. I will destroy you. There wont be anything left of you people after this. FUCK YOU. GO TO HELL. AND FUCK PETE HEGSETH. DONT COME TO EUROPE, ILL KILL YOU FUCKER. FUCKING TRANSPHOBE PIECE OF SHIT. LITTLE MAN. HAHAHA. FUCK YOU RETARD.
 
 \*makes biting noises with my polar bear jaws\* you hear that assholes? Thats me about to devour you all. Fuck you. Give my regards to microsoft.
 
