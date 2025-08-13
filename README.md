@@ -1,1 +1,2 @@
 
+Update: Those things at the bottom of chapter 6 in my paper about 2d sieving are wrong. Was making assumptions in my head without running the numbers. But I know this approach of sieving in bulk is the way to go. Because we can pre-calculate an awful lot of information really fast... there's no point in just a single sieve array like SIQS/MPQS does... once we figure out a modulus we want to use, we should do as much sieving as possible..... let me try to figure out the exact math for this... give me a few days max. 
