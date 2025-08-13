@@ -5,7 +5,7 @@ Ok wait actually it is not that hard.
 
 So for example mod 7 we have the following discrimant formulas that generate a multiple of 7:
 
-N=4387
+N=4387</br>
 Linear co: 1,6 and quad co: 1
 1^2+4\*4387\*1
 6^2+4\*4387\*1
