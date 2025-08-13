@@ -18,3 +18,8 @@ etc, do this for all linear coefficients... (this is all information we can pull
 Now we can create a 2d sieve interval where the increments in the width are mod 7. And increments in the heights represent the quadratic coefficient, and we save a mapping to remember which linear  coefficient that is coupled with.
 Now we can do a lot of sieving at once.... let me get that code done.
 
+Then when you do this for composite moduli there is a bunch of optimizations you can do to speed up sieving over your 2d interval.
+
+Ok ok. This will work. I have to do massive refactoring though. Just start with the entire factor base, generate a modulus based on some parameter (i'll have to figure that out). Then from the hashmap grab all solutions for that modulus so we have all possible quadratic / linear coefficient pairings mod m... and then just construct a 2d sieve interval for the whole thing. That will be fast bc a very costly step in SIQS is polynomial generations.. but the way we do it, it's all very quick. Even the precalculations during hashmap creation is very quick, and I can probably speed that up quite a bit more.
+
+In theory I could even construct one big sieve interval for the entire factor base. But that is probably going to take too long. Hmm. AAAAAAAaaaaanyway, feeling confident a breakthrough is around the corner now. Just finally have some clarity to see the strengths of my appraoch vs the traditional way of doig it.
