@@ -6,13 +6,13 @@ Ok wait actually it is not that hard.
 So for example mod 7 we have the following discrimant formulas that generate a multiple of 7:
 
 N=4387</br>
-Linear co: 1,6 and quad co: 1
-1^2+4\*4387\*1
-6^2+4\*4387\*1
+Linear co: 1,6 and quad co: 1</br>
+1^2+4\*4387\*1</br>
+6^2+4\*4387\*1</br></br>
 
-Linear co: 2,5 and quad co: 4
-2^2+4\*4387\*4
-5^2+4\*4387\*4
+Linear co: 2,5 and quad co: 4</br>
+2^2+4\*4387\*4</br>
+5^2+4\*4387\*4</br></br>
 
 etc, do this for all linear coefficients... (this is all information we can pull from the hashmap without addiitonal calculations).
 Now we can create a 2d sieve interval where the increments in the width are mod 7. And increments in the heights represent the quadratic coefficient, and we save a mapping to remember which linear  coefficient that is coupled with.
