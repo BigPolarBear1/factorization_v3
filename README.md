@@ -17,3 +17,5 @@ The biggest thing on the to-do list for 2d_sieving is checking quadratic coeffic
 Anyway, I'll go for a run. It's 31c outside today, so good day for suffering. I'll fix these things in the coming days. I can't possibly see why this wouldn't improve the default way of doing things.. I just got to be smart about it.
 
 Starting to lose my patience with this fucking irl twilight zone shit. The problem is that unless you actually lock in and do counter-surveillance, you can't really call that shit out without coming across as a crazy person. But seeing as I have nothing to hide, and I'm dumping all my work on github anyway because you fucking assholes didn't give me any other options.. I'm not going to expend that energy, not worth it, beneath me to be honest. If you wanna go polar bear watching, whatever. Literally your waste of time, not mine. Hahahaha. Losers.
+
+Guys, i'm going to run marathon distance sunday, same route as last sunday when I did 30k. So if you want to assasinate me, that's your oppurtunity right there. But I'm only giving you one try, because if you fail, it is my turn, and I don't fail. I will maul you like a polar bear.
