@@ -4,7 +4,7 @@
 
 ##To do: Insert sources as reference from which I have modified or copied code (Note to self: Important, do not forget!!!!!!)
 
-###notes: use with python3 QSv3_055_2d_sieving_WIP.py -base 100 -keysize 100
+###notes: use with python3 QSv3_055_2d_sieving_WIP.py -base 500 -keysize 100
 
 ##To do: Find most optimal parameters for randomized modulus selection
 ##To do: Dont just sieve with exact cmod match, we should calculate some threshold here... will see big gains from doing this.
@@ -1004,5 +1004,6 @@ if __name__ == "__main__":
     parse_args()
     print_banner()
     main()
+
 
 
