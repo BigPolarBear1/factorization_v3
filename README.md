@@ -16,4 +16,4 @@ The biggest thing on the to-do list for 2d_sieving is checking quadratic coeffic
 
 Anyway, I'll go for a run. It's 31c outside today, so good day for suffering. I'll fix these things in the coming days. I can't possibly see why this wouldn't improve the default way of doing things.. I just got to be smart about it.
 
-I am definitely under surveillance. What happened today guys, you missed me leaving my house and panicked? Nice diplomatic plates btw. This bullshit is going on for literal months now. What's your plan? Starting to piss me off big time.
+
