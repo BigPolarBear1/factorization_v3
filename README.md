@@ -1,35 +1,11 @@
+Just uploaded my work in progress on implementing 2d sieving, it is still slower then the regular version but it should outperform the regular version once I work through the to-do list.
 
-Update: Those things at the bottom of chapter 6 in my paper about 2d sieving are wrong. Was making assumptions in my head without running the numbers. But I know this approach of sieving in bulk is the way to go. Because we can pre-calculate an awful lot of information really fast... there's no point in just a single sieve array like SIQS/MPQS does... once we figure out a modulus we want to use, we should do as much sieving as possible..... let me try to figure out the exact math for this... give me a few days max. 
+Use:
 
-Ok wait actually it is not that hard.
+pypy3 QSv3_055_2d_sieving_WIP.py -keysize 100 -base 500
 
-So for example mod 7 we have the following discrimant formulas that generate a multiple of 7:
+My other PoC will easily factor over 200 bit, but I hope to improve that with 2d sieving.
 
-N=4387</br>
-Linear co: 1,6 and quad co: 1</br>
-1^2+4\*4387\*1</br>
-6^2+4\*4387\*1</br></br>
+To use the old PoC:
 
-Linear co: 2,5 and quad co: 4</br>
-2^2+4\*4387\*4</br>
-5^2+4\*4387\*4</br></br>
-
-etc, do this for all linear coefficients... (this is all information we can pull from the hashmap without addiitonal calculations).
-Now we can create a 2d sieve interval where the increments in the width are mod 7. And increments in the heights represent the quadratic coefficient, and we save a mapping to remember which linear  coefficient that is coupled with.
-Now we can do a lot of sieving at once.... let me get that code done.
-
-Then when you do this for composite moduli there is a bunch of optimizations you can do to speed up sieving over your 2d interval.
-
-Ok ok. This will work. I have to do massive refactoring though. Just start with the entire factor base, generate a modulus based on some parameter (i'll have to figure that out). Then from the hashmap grab all solutions for that modulus so we have all possible quadratic / linear coefficient pairings mod m... and then just construct a 2d sieve interval for the whole thing. That will be fast bc a very costly step in SIQS is polynomial generations.. but the way we do it, it's all very quick. Even the precalculations during hashmap creation is very quick, and I can probably speed that up quite a bit more.
-
-In theory I could even construct one big sieve interval for the entire factor base. But that is probably going to take too long. Hmm. AAAAAAAaaaaanyway, feeling confident a breakthrough is around the corner now. Just finally have some clarity to see the strengths of my appraoch vs the traditional way of doig it.
-
-Ok just finished the code to construct the 2d interval. All checks out. Everything works. Now just one more function to write to process the interval and check for smooths.. and then we'll find out if this is better or not... either tonight or tomorrow I guess.
-
-Update: Finished a first rough draft. Going to change some things tomorrow though. Right now it is iterating all possible quadratic coefficients within a modulus. But the better approach would be to precalculate an interval up to a certain bound.... say all quadratic coefficients up to 1000, and then also make a datastructure that holds every prime in the factor base that can end up being a divisor at that quadratic coefficient. Then again construct a randomized modulus, and go over each quadratic coefficient and see how many primes of the modulus it contains, it doesn't need to contain all of them.... just enough to make it worthwhile to sieve. And then the big trick should be when we calculate the linear congruences to fill out the interval for each prime in the factor base... we should be able to also fill it out in the 2nd dimension... that's really what I want to achieve in the end. I'll do that tomorrow. Just struggling mentally big time.  
-
-I am very stressed and very depressed. I havnt seen any of my friends for over a year now bc of what microsoft did. My life in vancouver and the PNW seems like a far away dream. Most of it has faded from memory by now. I remember many of the good times still though. Just pain bc it is in such contrast with what my life has become now. I just cant come back from what happened. Its just everything together. Getting threatened with a gun and then everything that happened right after. I feel like a wild animal. That is the best description for my mental state ever since. I feel like if someone became confrontational with me... I might legit blow a fuze and go berserk (physically). I wish I had money so I could go on an arctic expedition... I really need some dangerous solo adventuring right now in the bitter cold.. somehow that always fixes everything... just broke, stuck in this room, feeling like this, reliving the past. Oh well.... lets get some more work done tomorrow... this should 100% be an improvement on SIQS, bc it only saves time and computation.. I just need to grind it out. It's just hard, to keep grinding for years, while my life has been reduced to nothing. 
-
-Alright, all the main logic is implemented... now to optimize and improve everything. I should be able to upload something soon... 
-
-I truely hate this "damned if I do, damned if I don't" situation I have gotten myself into. And what I hate the most is that nobody believes in me. I feel very alone and unsupported in this endeavour. Honestly, despite knowing the consequences of succeeding, at this point I think I'm really just pressing on to prove to myself I am still quite sane. Because the complete indifference from everyone else surely is making me question my own sanity... I still feel optimistic I'll have my answer in the coming days as atleast v3 draws to a close now.
+pypy3 QSv3_050.py -keysize 200 -base 6000
