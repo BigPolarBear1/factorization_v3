@@ -12,4 +12,4 @@ Additionally this would then be perfect to be further optimized with SIMD I gues
 Let me start optimizing that code.
 
 Because each process is now responsible for a range of quadratic coefficients, the process at index 0 (which has the smallest quadratic coefficient range) will yield the most smooth. Hence I think it is better to move parallelization to the sieving process itself instead.
-There is still a lot of work to do with this 2d sieving. But I am feeling extremely optimistic about this approach. I should also fix the paper soon, so that once the PoC is ready I can make some noise about it. It's definitely wildly different from default SIQS.
+There is still a lot of work to do with this 2d sieving. But I am feeling extremely optimistic about this approach (it may not seem like it yet, but just wait... you will see soon! I know what I'm doing now). I should also fix the paper soon, so that once the PoC is ready I can make some noise about it. It's definitely wildly different from default SIQS.
