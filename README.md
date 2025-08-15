@@ -1,21 +1,15 @@
-Just uploaded my work in progress on implementing 2d sieving, it is still slower then the regular version but it should outperform the regular version once I work through the to-do list.
+Uploaded QSv3_056_2d_sieving_WIP.py
 
-Use:
+To use: pypy3 QSv3_056_2d_sieving_WIP.py -base 500 -keysize 100
 
-pypy3 QSv3_055_2d_sieving_WIP.py -keysize 100 -base 500
+TO use the old PoC (that one will easily factor above 200 bit):
 
-My other PoC will easily factor over 200 bit, but I hope to improve that with 2d sieving.
+pypy3 QSv3_050.py -base 6000 -keysize 200
 
-To use the old PoC:
+Made some more improvements to 2d sieving. The biggest bottleneck right now is constructing the 2d sieve interval.
+So it is time now to optimize that. In theory instead of constructing row by row, we should be able to fill out the interval in 2d dimension. Hence having to execute a whole less code.
+Additionally this would then be perfect to be further optimized with SIMD I guess.
+Let me start optimizing that code.
 
-pypy3 QSv3_050.py -keysize 200 -base 6000
-
-I'll also edit the bottom of chapter 6 in the paper once I outperform the old PoC with 2d sieving... there's some errors in it right now, so just ignore that section on 2d sieving.
-
-The biggest thing on the to-do list for 2d_sieving is checking quadratic coefficients with some but not all primes from the randomized modulus. Because if your quadratic sieve interval is only 1000, then the odds of finding all primes from the randomized modulus concentrated at one interval step becomes less and less as we increase keysize. So we need some formula to determine when there is enough primes present there to get a benefit from sieving. And yes, we work with a subset of the primes in the factor_base... because we could just take into account all possible primes, not just those inside the randomized modulus.. but I'm hoping to gain some advantage later while constructing the 2d sieving interval to fill out the interval in multiple dimensions in one go and not just construct row after row and having to calculate many linear congruences.
-
-Anyway, I'll go for a run. It's 31c outside today, so good day for suffering. I'll fix these things in the coming days. I can't possibly see why this wouldn't improve the default way of doing things.. I just got to be smart about it.
-
-I am really depressed. Lately it is a rollercoaster... depression and anger. That is all I feel anymore. And I don't even know anymore who I'm really angry at. Guess I'm just really dissappointed how things turned out and sad due to never seeing my friends anymore. I guess when I finish this 2d sieving stuff, I'll start making some noise about it before someone steals it or something. I do not trust humans. Some humans will do anything to get ahead in this rat race. I guess sunday I'll go run that marathon, going to be a warm fucking day too, I might just drop dead from heat exhaustion. Now that would be an heroic way to go... almost as good as become part of the frozen landscape in the arctic on a mad expedition.... which I'm too broke for atm... so a marathon will have to do. I've found myself increasing my running mileage like a crazy person these last few weeks... I just mentally cannot cope anymore and I don't know what else to do to stay sane.
-
-I really struggle sleeping. I am stressed out of my mind. This is serious shit, and a lot is at stake, and Im just really stressed bc I cant tell if Im facing this shit alone or if anyone elsr out there sees what Im doing. I guess at some point you try to believe in something greater and blindly step into the abyss. I care very little about myself, but I do care about my family, friends and the people around me.. and the stress is destroying my brain.
+Because each process is now responsible for a range of quadratic coefficients, the process at index 0 (which has the smallest quadratic coefficient range) will yield the most smooth. Hence I think it is better to move parallelization to the sieving process itself instead.
+There is still a lot of work to do with this 2d sieving. But I am feeling extremely optimistic about this approach. I should also fix the paper soon, so that once the PoC is ready I can make some noise about it. It's definitely wildly different from default SIQS.
