@@ -31,3 +31,5 @@ Ran a marathon today. Right at the start though, a few minutes after I left my h
 Update: Alright, got some more work done. got it all layed out so that it is ready now to be optimized with SIMD. I'll just do numpy arrays and cython.. if I cant get a considerable improvement over what I already I have, I'll just stop and move to factorization_v4... else I'll keep going here, maybe write it in C, update the paper and spread it on the internet (since nobody seems to care about my work anyway).
 
 Anyway... it should be good... once SIMD is working I should be able to create massive 2d sieve intervals really fast. I'll be pulling smooths left and right. 
+
+Hmm, they stopped polling my repos. Probably was just some stalkers I guess. Or dumb threat intel tech bros. 6am cant sleep. I should really finnish this work soon. I can run a marathon now, but this math journey feels like 2^1000000000000000000000000 marathons, I am very tired.
