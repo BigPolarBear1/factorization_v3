@@ -1,3 +1,5 @@
+Note: If I die before I finish my work. It was the americans bc they are transphobic shitheads and they mad bc I'm destroying their cryptologic advantage and pete hegseth is a little man, fucking cowards.
+
 Uploaded QSv3_056_2d_sieving_WIP.py
 
 To use: pypy3 QSv3_056_2d_sieving_WIP.py -base 500 -keysize 100
