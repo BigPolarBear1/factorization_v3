@@ -66,3 +66,5 @@ There is some super exact math I can use to determine the bitlength of my smooth
 People are so fucked tomorrow once I get some sleep. I see it clearly now. And my work IS novel and it DOES improve on SIQS. I see it now. Go to hell assholes. Fuck you. Fuck belgium most of all. Grow some balls you fucking american lapdogs. Fuck you. 
 
 After years of finding critical issues and doing security research, this is how im treated. You hide it behind tlp and put surveillance on me, only for me to wonder if im losing my fucking sanity. I see it now. Fuck you. I am moving to China, go to hell.
+
+This clown show ends tomorrow. Go to hell fucking transphobes. I know whats up. Burn in hell shitheads. 0 chance I will ever be on your side. I tried. Fuck you losers.
