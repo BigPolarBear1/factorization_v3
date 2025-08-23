@@ -1,6 +1,6 @@
 Uploaded QSv3_simd.pyx v001
 
-To build (from the PoC_Files folder): python3 setup.py build_ext --inplace
+To build (from the PoC_Files folder): python3 setup.py build_ext --inplace</br>
 To run: python3 run_qs.py -base 1000 -keysize 140 -debug 1 -lin_size 100_000 -quad_size 20
 
 To use the old PoC (that one will easily factor above 200 bit using pypy3):
