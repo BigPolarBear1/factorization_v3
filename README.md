@@ -22,6 +22,8 @@ There's many things still to do:
 
 5. One big thing I also need to address is building the iN map... because being able to precompute this quickly is one of the main advantages of my number theory. Right now it still takes too long.
 
-6. etc etc.....
+6. Change how parallezation is done. The way I'm doing now eats away too much ram and is extremely suboptimal. I.e things such as the partial smooth relation hashmap arn't shared amongst workers.
+
+7. etc etc.....
 
 It will be really fast once everything is done. The implementation right now is still kind of sloppy... but anyway, if I die tomorrow from running, you can do it yourself too now.
