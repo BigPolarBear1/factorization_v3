@@ -67,4 +67,4 @@ People are so fucked tomorrow once I get some sleep. I see it clearly now. And m
 
 After years of finding critical issues and doing security research, this is how im treated. You hide it behind tlp and put surveillance on me, only for me to wonder if im losing my fucking sanity. I see it now. Fuck you. I am moving to China, go to hell.
 
-This clown show ends tomorrow. Go to hell fucking transphobes. I know whats up. Burn in hell shitheads. 0 chance I will ever be on your side. I tried. Fuck you losers.
+This clown show ends tomorrow. Go to hell fucking transphobes. I know whats up. Burn in hell shitheads. 0 chance I will ever be on your side. I tried. Fuck you losers. Oh and fuck Belgium most of all. I expected this from america, but not the country i was born in. I dont even feel belgian anymore. I feel disgusted to call myself belgian. fuck you. Domme idioten allemaal.
