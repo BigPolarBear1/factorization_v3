@@ -24,7 +24,9 @@ There's many things still to do:
 
 6. Change how parallezation is done. The way I'm doing now eats away too much ram and is extremely suboptimal. I.e things such as the partial smooth relation hashmap arn't shared amongst workers.
 
-7. etc etc.....
+7. I really really really need to implement lifting aswell. Because if we cap our quadratic coefficient to a range from, for example, 1 to 10_000, then working within that limit we can fairly quickly calculate p-adic linear coefficinet solutions. Which in turn also allows us to work efficiently with a much smaller factor base... which then also speed up other areas of the algorithm such as testing for smooths. I think this may be a key ingredient... but let me address some of the more urgent items on this list first.
+
+8. etc etc.....
 
 It will be really fast once everything is done. The implementation right now is still kind of sloppy... but anyway, if I die tomorrow from running, you can do it yourself too now.
 
