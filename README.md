@@ -27,3 +27,6 @@ There's many things still to do:
 7. etc etc.....
 
 It will be really fast once everything is done. The implementation right now is still kind of sloppy... but anyway, if I die tomorrow from running, you can do it yourself too now.
+
+Note: If you have a quadratic coefficient and a linear coefficient in mod m. You can exactly calculate the amount of bits your smooth will be after dividing by the modulus. Hence small coefficients and a large modulus are more likely to yield smooths.
+There may be a way to pull these from our precalculated datastructure efficiently... but I will investigate this idea some more in v4. I think for v3, this will be good for now.
