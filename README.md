@@ -21,3 +21,5 @@ I want to move all of the heavy computational burden to before the main loop... 
 And I also need to use proper threading, since worker support doens't work right now. And a bunch of other things...  anyway, minimizing the code and then fixing array indexing seems to be the big ticket work item I need to address.
 
 I kind of got distracted for a little bit unsure on what the best appraoch is... but from experimenting, most important is reducing code. Using contiguous memory access without all the python abstraction or numpy strided access. When all of that is done, maybe we can get some more juice using SIMD. But it's not the most important tool. Unless you have some specialized SIMD hardware or something. 
+
+And where my work shines is that we can switch polynomials without recomputing roots. I just got to optimize my shit code. The only thing holding me back is my shit code. Nothing else. Anyway, got it now, I know what to do.. time to grind it out. 
