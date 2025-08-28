@@ -14,3 +14,5 @@ pypy3 QSv3_050.py -base 6000 -keysize 200
 I've further optimized some things. I also tested with another PoC, I seem to be only getting half the amount of smooths, so I think I need to check my sieve interval.. or perhaps sieve in the negative direction. Let me think what's going on.
 It's awfully slow. Hell, it's slower then the old version. This is purely because we've added a bunch more indexing and unless we use typed memory views or similar, indexing will be really really really agonizingly slow. So that's what's happening with that.
 That will be the next thing I'll start to address now.. but it should be good once everything is optimized.. since again... we don't need to keep recalculating roots and polynomials. I just need to get rid of all the crappy python abstractions inside my main loop.
+
+Oh and ofcourse the sieve row... that one shouldn't be the full length of lin_sieve_size... only about the amount SIMD can do at once. But I need to do some testing to make sure the code still ends up SIMD optimized.. I may have to learn cpu intrinsics eventually.. but SIMD or not.. just working on contiguous memory is much more important.
