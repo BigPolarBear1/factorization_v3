@@ -5,20 +5,17 @@ Update 28 August 2025
 Uploaded QSv3_simd.pyx 
 
 To build (from the PoC_Files folder): python3 setup.py build_ext --inplace</br>
-To run: python3 run_qs.py -base 2000 -keysize 150 -debug 1 -lin_size 100_000 -quad_size 5
+To run: python3 run_qs.py -base 2000 -keysize 150 -debug 1 -lin_size 100_000 -quad_size -10
+
+note: Only one worker at a time works for now... I need to rework that part.
 
 To use the old PoC (that one will easily factor above 200 bit using pypy3):
 
 pypy3 QSv3_050.py -base 6000 -keysize 200
 
-I've further optimized some things. I also tested with another PoC, I seem to be only getting half the amount of smooths, so I think I need to check my sieve interval.. or perhaps sieve in the negative direction. Let me think what's going on.
-It's awfully slow. Hell, it's slower then the old version. This is purely because we've added a bunch more indexing and unless we use typed memory views or similar, indexing will be really really really agonizingly slow. So that's what's happening with that.
-That will be the next thing I'll start to address now.. but it should be good once everything is optimized.. since again... we don't need to keep recalculating roots and polynomials. I just need to get rid of all the crappy python abstractions inside my main loop.
-
-Oh and ofcourse the sieve row... that one shouldn't be the full length of lin_sieve_size... only about the amount SIMD can do at once. But I need to do some testing to make sure the code still ends up SIMD optimized.. I may have to learn cpu intrinsics eventually.. but SIMD or not.. just working on contiguous memory is much more important.
-
-I'm also gonna do some refactoring. Less code inside that loop is better. That's the main thing. So get rid of create_residue_map. Just precompute those sieve_rows with a legnth of 256 or 512 (depending on how much SIMD uses).. that way memory isn't an issue... and makes that entire create_residue_map function unneeded. The main thing is, I need to throw as much code out of my main loop as humanly possible. That will by far give the biggest boost. I'll upload a better version tomorrow... going for a run now.
-
-God damn, paralyzed by all this trauma. When I go outside running, just this insane hypervigilance. I need to finish my work. Figure out a way to earn some money so I can take some vacation for a while. Let me go take a shower and make some food, then just remove things from that main loop in my code. Just move as many lines of code outside of that loop as I can. I'm still trying to figure out what works and what doesn't, but from just messing around, nothing matters more then reducing lines of code... so let me give that a try. 
-
-The worst part about trauma. is how exhausting it is. And some days I feel bad, because even when people are trying to be friendly, I just feel like I'm a bear who is about to tear someone to shreds. And I just cant help it. It's why I like being alone in nature, it's the only time I can relax. I wont ever forgive Microsoft. AT one of the most traumatic moments in my life, they decided to make everything so much worse. I won't ever forgive them and they will pay a price one day.
+Added another round of refactoring. The approach I've settled now on is to get rid of as much code as possible. Since this seems to be the most important thing and then precompute as much as possible also.
+I'll do some more big changes tomorrow. I also figured out we can just use the coefficient on the other side of the congruence to sieve in the negative direction.. that should hopefully double the amount of smooths.
+Then the sieve row and simd function... we need to chunk that part, so it doesn't have to construct a huge sieve row each time... and we can precompute the chunks.
+And when all of that is done... the real optimizing begins... we need to use memory views, get rid of all the python abstraction, debug the generated C code. 
+I want to move all of the heavy computational burden to before the main loop... I also need to optimize constructing the iN map at the start of the algo... that needs to use numpy arrays to save memory.
+And I also need to use proper threading, since worker support doens't work right now. And a bunch of other things...  anyway, minimizing the code and then fixing array indexing seems to be the big ticket work item I need to address.
