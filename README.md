@@ -5,7 +5,7 @@ Update 28 August 2025
 Uploaded QSv3_simd.pyx 
 
 To build (from the PoC_Files folder): python3 setup.py build_ext --inplace</br>
-To run: python3 run_qs.py -base 2000 -keysize 150 -debug 1 -lin_size 100_000 -quad_size -10
+To run: python3 run_qs.py -base 2000 -keysize 150 -debug 1 -lin_size 100_000 -quad_size -10  (note the actual factor base per quadratic coefficient will be about +/- half of the -base parameter)
 
 note: Only one worker at a time works for now... I need to rework that part.
 
