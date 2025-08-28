@@ -19,3 +19,5 @@ Then the sieve row and simd function... we need to chunk that part, so it doesn'
 And when all of that is done... the real optimizing begins... we need to use memory views, get rid of all the python abstraction, debug the generated C code. 
 I want to move all of the heavy computational burden to before the main loop... I also need to optimize constructing the iN map at the start of the algo... that needs to use numpy arrays to save memory.
 And I also need to use proper threading, since worker support doens't work right now. And a bunch of other things...  anyway, minimizing the code and then fixing array indexing seems to be the big ticket work item I need to address.
+
+I kind of got distracted for a little bit unsure on what the best appraoch is... but from experimenting, most important is reducing code. Using contiguous memory access without all the python abstraction or numpy strided access. When all of that is done, maybe we can get some more juice using SIMD. But it's not the most important tool. Unless you have some specialized SIMD hardware or something. 
