@@ -26,4 +26,4 @@ And where my work shines is that we can switch polynomials without recomputing r
 
 Update: Ergh, just did the math. I'm a fucking idiot. If you have a coefficient, you just subtract the modulus to do negative sieving. Simple as that. I thought it would just loop back and generate the same smooths twice, but it doens't. I should not make these stupid assumptions in my head without running the numbers. Let me add that first thing tomorrow.... that will double the smooths... fucking hell. Lol. I do wonder though... i.e if we have 66 as coefficient and 148 ... then 148^2 - 4\*4387 will yield a smaller number then 66^2+4\*4387 ... so it may be good to swap the coefficients I'm using as a test.
 
-Cant sleep. Brain is overactive. I should be able to make fast progress now the next few days since ive narrowed done what I need to do and what will result in the biggest performance gains. 
+Cant sleep. Brain is overactive. I should be able to make fast progress now the next few days since ive narrowed down what I need to do and what will result in the biggest performance gains. 
