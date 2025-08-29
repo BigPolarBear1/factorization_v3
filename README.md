@@ -5,7 +5,7 @@ Update 28 August 2025
 Uploaded QSv3_simd.pyx 
 
 To build (from the PoC_Files folder): python3 setup.py build_ext --inplace</br>
-To run: python3 run_qs.py -base 2000 -keysize 150 -debug 1 -lin_size 100_000 -quad_size -10  (note the actual factor base per quadratic coefficient will be about +/- half of the -base parameter)
+To run: python3 run_qs.py -base 2000 -keysize 150 -debug 0 -lin_size 100_000 -quad_size -10  (note the actual factor base per quadratic coefficient will be about +/- half of the -base parameter)
 
 note: Only one worker at a time works for now... I need to rework that part.
 
@@ -13,21 +13,11 @@ To use the old PoC (that one will easily factor above 200 bit using pypy3):
 
 pypy3 QSv3_050.py -base 6000 -keysize 200
 
-Added another round of refactoring. The approach I've settled now on is to get rid of as much code as possible. Since this seems to be the most important thing and then precompute as much as possible also.
-I'll do some more big changes tomorrow. 
-Then the sieve row and simd function... we need to chunk that part, so it doesn't have to construct a huge sieve row each time... and we can precompute the chunks.
-And when all of that is done... the real optimizing begins... we need to use memory views, get rid of all the python abstraction, debug the generated C code. 
-I want to move all of the heavy computational burden to before the main loop... I also need to optimize constructing the iN map at the start of the algo... that needs to use numpy arrays to save memory.
-And I also need to use proper threading, since worker support doens't work right now. And a bunch of other things...  anyway, minimizing the code and then fixing array indexing seems to be the big ticket work item I need to address.
+Alright alright. Getting there now. 150 bit takes about a minute. But I know how to cut it down to mere seconds. I'll fix it tomorrow bc I have to go somewhere now. 
+So what I added today is sieving into the negative direction and using the coefficients of the other side of the congruence so we subtract N instead of adding.
+When sieving in the other direction I noticed I was hitting a lot of duplicate coefficient... so I fixed that by only using primes that are smaller then p/2. 
+That resulted in an overall speed boost, even though in theory we now have one sieve interval per modulus.. but it seems to work. Which now also means I need to make sure generating the modulus is as fast as possible. I'll look at that eventually.
+Big bottlenecks are things like preparing the sieve row (we should chunk it), and ofcourse all the lame python indexing. pypy3 is faster because it solves it with JIT... but with cython we should be able to go faster... it's just a bit more work.
+Anyway.... tomorrow I'll have plenty of time. I'm going to move as much as I can out of that main loop.... and THEN people will see..... they will see I was right all along. 
 
-I kind of got distracted for a little bit unsure on what the best appraoch is... but from experimenting, most important is reducing code. Using contiguous memory access without all the python abstraction or numpy strided access. When all of that is done, maybe we can get some more juice using SIMD. But it's not the most important tool. Unless you have some specialized SIMD hardware or something. 
-
-And where my work shines is that we can switch polynomials without recomputing roots. I just got to optimize my shit code. The only thing holding me back is my shit code. Nothing else. Anyway, got it now, I know what to do.. time to grind it out. 
-
-Update: Ergh, just did the math. I'm a fucking idiot. If you have a coefficient, you just subtract the modulus to do negative sieving. Simple as that. I thought it would just loop back and generate the same smooths twice, but it doens't. I should not make these stupid assumptions in my head without running the numbers. Let me add that first thing tomorrow.... that will double the smooths... fucking hell. Lol. I do wonder though... i.e if we have 66 as coefficient and 148 ... then 148^2 - 4\*4387 will yield a smaller number then 66^2+4\*4387 ... so it may be good to swap the coefficients I'm using as a test.
-
-Cant sleep. Brain is overactive. I should be able to make fast progress now the next few days since ive narrowed down what I need to do and what will result in the biggest performance gains. 
-
-Update: Alright had some sleep. Time to first start with swapping those coefficient so we subtract N instead of adding. I think on average that will yield smaller smooths. Once that is done, I will move everything out of the main loop. That main loop needs to be as tight as possible. 
-
-Cant wait to finish this version. I need to move to version 4 asap. The real price is there. There's something amazing waiting to be discovered, and I need to go back to doing pure research. Pull it out of the void. People know I'm right, and they don't want me to succeed. That's why all of this is happening. They literally hope I will end my own life before I succeed. That's why they chase 0day buyers away from me and make sure I cant find employment. I will succeed, even if it is the last and only thing I do in my life. I'll find a way. I'm never stopping. You people made this personal by going after my manager. This is the only way there can ever be justice.
+And after that I'm moving to v4... because this v3 is a distraction... I see something else, something much bigger... and I have to figure it out.... I need to succeed even if it takes the rest of my life.
