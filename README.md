@@ -14,7 +14,7 @@ To use the old PoC (that one will easily factor above 200 bit using pypy3):
 pypy3 QSv3_050.py -base 6000 -keysize 200
 
 Added another round of refactoring. The approach I've settled now on is to get rid of as much code as possible. Since this seems to be the most important thing and then precompute as much as possible also.
-I'll do some more big changes tomorrow. I also figured out we can just use the coefficient on the other side of the congruence to sieve in the negative direction.. that should hopefully double the amount of smooths.
+I'll do some more big changes tomorrow. 
 Then the sieve row and simd function... we need to chunk that part, so it doesn't have to construct a huge sieve row each time... and we can precompute the chunks.
 And when all of that is done... the real optimizing begins... we need to use memory views, get rid of all the python abstraction, debug the generated C code. 
 I want to move all of the heavy computational burden to before the main loop... I also need to optimize constructing the iN map at the start of the algo... that needs to use numpy arrays to save memory.
@@ -23,3 +23,5 @@ And I also need to use proper threading, since worker support doens't work right
 I kind of got distracted for a little bit unsure on what the best appraoch is... but from experimenting, most important is reducing code. Using contiguous memory access without all the python abstraction or numpy strided access. When all of that is done, maybe we can get some more juice using SIMD. But it's not the most important tool. Unless you have some specialized SIMD hardware or something. 
 
 And where my work shines is that we can switch polynomials without recomputing roots. I just got to optimize my shit code. The only thing holding me back is my shit code. Nothing else. Anyway, got it now, I know what to do.. time to grind it out. 
+
+Update: Ergh, just did the math. I'm a fucking idiot. If you have a coefficient, you just subtract the modulus to do negative sieving. Simple as that. I thought it would just loop back and generate the same smooths twice, but it doens't. I should make this stupid assumptions in my head without running the numbers. Let me add that first thing tomorrow.... that will double the smooths... fucking hell. Lol. I do wonder though... i.e if we have 66 as coefficient and 148 ... then 148^2 - 4\*4387 will yield a smaller number then 66^2+4\*4387 ... so it may be good to swap the coefficients I'm using as a test.
