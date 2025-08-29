@@ -15,7 +15,7 @@ pypy3 QSv3_050.py -base 6000 -keysize 200
 
 Alright alright. Getting there now. 150 bit takes about a minute. But I know how to cut it down to mere seconds. I'll fix it tomorrow bc I have to go somewhere now. 
 So what I added today is sieving into the negative direction and using the coefficients of the other side of the congruence so we subtract N instead of adding.
-When sieving in the other direction I noticed I was hitting a lot of duplicate coefficient... so I fixed that by only using primes that are smaller then p/2. 
+When sieving in the other direction I noticed I was hitting a lot of duplicate coefficient... so I fixed that by only using coefficients that are smaller then p/2. 
 That resulted in an overall speed boost, even though in theory we now have one sieve interval per modulus.. but it seems to work. Which now also means I need to make sure generating the modulus is as fast as possible. I'll look at that eventually.
 Big bottlenecks are things like preparing the sieve row (we should chunk it), and ofcourse all the lame python indexing. pypy3 is faster because it solves it with JIT... but with cython we should be able to go faster... it's just a bit more work.
 Anyway.... tomorrow I'll have plenty of time. I'm going to move as much as I can out of that main loop.... and THEN people will see..... they will see I was right all along. 
