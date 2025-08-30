@@ -14,7 +14,7 @@ To use the old PoC (that one will easily factor above 200 bit using pypy3):
 pypy3 QSv3_050.py -base 6000 -keysize 200
 
 I've added chunking. the total lin_size is calculated like this : lin_Size = lin_size * chunk_size. 
-You need to keep the chunk_size as big as possible for as long as RAM allows for it and keep the lin_size as small as possible. That will yield the best performance.
+You need to keep the chunk_size as big as possible (5120 or 51200 seems to be good, small intervals will perform better) for as long as RAM allows for it and keep the lin_size as small as possible. That will yield the best performance.
 
 Currently only one worker is supported for the main loop. You probably just want to work with multiple quadratic coefficients only once I implement parallelism. The only reason you would switch quadratic coefficient right now is if you run out of good moduli, which is unlikely to happen fast. But it's great for parallelism. 
 
