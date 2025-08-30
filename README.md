@@ -9,23 +9,8 @@ To run: python3 run_qs.py -base 2000 -keysize 150 -debug 0 -lin_size 1 -quad_siz
 
 note: Only one worker at a time works for now... I need to rework that part.
 
-To use the old PoC (that one will easily factor above 200 bit using pypy3):
+Alright, I have gutted the worker support, so I can better profile the code. about 40 seconds to factor 150 bit. Buuuut, nearly all of that time in spent in construct_interval_simd().
+Sadly cython doesn't support line-by-line profiling. But I'm fairly sure it is the python indexing causing this. There is something causing a massive slow down in that function and once that is fixed 150-bit should take about a second.
+Because the total times that function gets called, vs the time we spent in the function doesn't make sense, something is definitely broken there.
 
-pypy3 QSv3_050.py -base 6000 -keysize 200
-
-I've added chunking. the total lin_size is calculated like this : lin_Size = lin_size * chunk_size. 
-You need to keep the chunk_size as big as possible (5120 or 51200 seems to be good, small intervals will perform better) for as long as RAM allows for it and keep the lin_size as small as possible. That will yield the best performance.
-
-Currently only one worker is supported for the main loop. You probably just want to work with multiple quadratic coefficients only once I implement parallelism. The only reason you would switch quadratic coefficient right now is if you run out of good moduli, which is unlikely to happen fast. But it's great for parallelism. 
-
-Tomorrow I will reduce the code in the main loop as much as possible and do further optimizing. 150 bit with one worker shouldn't take more then a second. Only after that will I implement parallelism. Lets see if we can achieve this tomorrow... but I think I can.
-
-precompute and move things out of the main loop (in addition to static typing).. just got to hammer down on that now. I know this will work. I've bled for this for over 2 years. Moment of truth now. Nothing left to lose.
-
-Oh btw, I also noticed that small sieve intervals perform better. Its bc we've precomputed everything. Regular SIQS doesnt have this luxury. I know this will work. I will make the future gay by breaking all the PKI schemes. Thats all there is left to do anymore. I just cant get over the trauma of what happened. Everything is too late now. Too late now to change course. I will fix this world by breaking PKI schemes. 
-
-Depression. I've completely isolated myself these last two years. All I can think about anymore is finishing my math. Because in my head it is the only way that exists that I can get justice for what microsoft did to my former manager. There is very few people in this world I would willingly sacrifice my life for. But my former manager is definitely part of that group. And I know it is because he helped me when nobody else did, when everyone else was too busy dismissing me as some cyber criminal or cyber terrorist for dropping 0days. There has to be justice for what microsoft did to him, I just cant let it go. There is no way. I'm a bear, I'm not like you humans, loyalty to people who have helped me and are my friends actually means something to me. I will succeed no matter the cost. I feel bad sometimes, because I know I also have other friends and family, and I feel like I'm not there for them anymore due to isolating myself ot the extreme. I guess part of it is also a response to trauma. Isolating myself to protect myself. Perhaps math has also become an escape from this world. It too is a complicated world, but there is nothing unpredictable in math. I must succeed, no matter the price. What microsoft did, I cannot forgive them. And you can portray me as a terrorist for this, but if I ever meet one of the people directly responsible for firing my manager, I will fucking murder them, and I am dead serious about that. I will end their life for what they did.
-
-Some days, it drives me insane, because it feels like someone is pulling the exact strings to force me to do all this. Out of all of the random sequences of events that could have happened in 2023-2024, the literally one random sequence of events happened that drove me down this path. And microsoft going after my manager, that was the final trigger, the one trigger that made any alternative impossible. I can't help but feel like I'm being manipulated into doing this. But then again, the world is a shit place, and something like this was bound to happen eventually. 
-
-Update: Going to learn a bit about cython profiling today. To get a better idea where my code is bottlenecking and where I need to focus my attention. Then I'll start tackling that next week and upload updates quickly... the code isn't bad as it is... but just looking at the generated c code, there is a lot of things like "get_item()" for list indexing being used in my most inner loops. Which is really really really slow. But let me do it the proper way with profiling and go from there. No point in guessing where my bottlenecks are.
+I'm also removing the old pypy3 PoC since this one is coming close now in terms of performance... definitely once I figured out what is bottlenecking that function.
