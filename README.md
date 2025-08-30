@@ -22,4 +22,4 @@ Tomorrow I will reduce the code in the main loop as much as possible and do furt
 
 precompute and move things out of the main loop (in addition to static typing).. just got to hammer down on that now. I know this will work. I've bled for this for over 2 years. Moment of truth now. Nothing left to lose.
 
-Oh btw, I also noticed that small sieve intervals perform better. Its bc we've precomputed everything. Regular SIQS doesnt have this luxury. I know this work. I will make the future gay by breaking all the PKI schemes. Thats all there is left to do anymore. I just cant get over the trauma of what happened. Everything is too late now. Too late now to change course. I will fix this world by breaking PKI schemes. 
+Oh btw, I also noticed that small sieve intervals perform better. Its bc we've precomputed everything. Regular SIQS doesnt have this luxury. I know this will work. I will make the future gay by breaking all the PKI schemes. Thats all there is left to do anymore. I just cant get over the trauma of what happened. Everything is too late now. Too late now to change course. I will fix this world by breaking PKI schemes. 
