@@ -19,3 +19,5 @@ You need to keep the chunk_size as big as possible for as long as RAM allows for
 Currently only one worker is supported for the main loop. You probably just want to work with multiple quadratic coefficients only once I implement parallelism. The only reason you would switch quadratic coefficient right now is if you run out of good moduli, which is unlikely to happen fast. But it's great for parallelism. 
 
 Tomorrow I will reduce the code in the main loop as much as possible and do further optimizing. 150 bit with one worker shouldn't take more then a second. Only after that will I implement parallelism. Lets see if we can achieve this tomorrow... but I think I can.
+
+precompute and move things out of the main loop (in addition to static typing).. just got to hammer down on that now. I know this will work. I've bled for this for over 2 years. Moment of truth now. Nothing left to lose.
