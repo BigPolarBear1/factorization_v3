@@ -9,10 +9,4 @@ To run: python3 run_qs.py -base 2000 -keysize 150 -debug 0 -lin_size 1 -quad_siz
 
 note: Only one worker at a time works for now... I need to rework that part.
 
-Alright, I have gutted the worker support, so I can better profile the code. about 40 seconds to factor 150 bit. Buuuut, nearly all of that time in spent in construct_interval_simd().
-Sadly cython doesn't support line-by-line profiling. But I'm fairly sure it is the python indexing causing this. There is something causing a massive slow down in that function and once that is fixed 150-bit should take about a second.
-Because the total times that function gets called, vs the time we spent in the function doesn't make sense, something is definitely broken there.
-
-I'm also removing the old pypy3 PoC since this one is coming close now in terms of performance... definitely once I figured out what is bottlenecking that function.
-
-Anyway, I'm running 50k tomorrow and I should probably take a break for now to prepare and get some good sleep. I'll figure it out on monday. I might try to simulate line by line profiling by just making a bunch of smaller functions inside construct_interval_simd to isolate the root cause. And I should also look at thte C code, there may be some weird type conversion shit going on added extra overhead. But that's really the core problem... once that is fixed it really shouldn't take more then a second. And then we should slowly start seeing the benefits of our appraoch..... 
+Improved things some more. Below 30 seconds now to factor 150-bit with one worker. Which is still not good enough. Still a lot of awfull bottlenecking going on. It's definitely faster then what I had before.. because if I would run this with multiple workers (which I need to reimplement first), this shouldn't take more then a few seconds. I wonder if I need to rethink my whole SIMD approach... I should do some testing with like strided writes, to double check I'm actually getting a speed advantage. I guess if we have primes that are larger then the chunk size we actually get a slow down vs strided writes. Ergh. Maybe I need a mixed approach. Let me fix it monday. This shouldn't take more then a second to factor 150-bit. I'll keep optimizing until I achieve that.
