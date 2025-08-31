@@ -7,8 +7,8 @@ Uploaded QSv3_simd.pyx
 To build (from the PoC_Files folder): python3 setup.py build_ext --inplace</br>
 To run: (note the actual factor base per quadratic coefficient will be about +/- half of the -base parameter)
 
-140 bit: python3 run_qs.py -base 1000 -keysize 140 -debug 0 -lin_size 100_000 -quad_size -1 (3 seconds)</br>
-160 bit: python3 run_qs.py -base 2000 -keysize 160 -debug 0 -lin_size 100_000 -quad_size -1 (20 seconds)</br>
+140 bit: python3 run_qs.py -base 1000 -keysize 140 -debug 0 -lin_size 100_000 -quad_size -1 (2 seconds)</br>
+160 bit: python3 run_qs.py -base 2000 -keysize 160 -debug 0 -lin_size 100_000 -quad_size -1 (8 seconds)</br>
 180 bit: python3 run_qs.py -base 4000 -keysize 180 -debug 0 -lin_size 100_000 -quad_size -1 (51 seconds)</br>
 200 bit: python3 run_qs.py -base 6000 -keysize 200 -debug 0 -lin_size 100_000 -quad_size -1 (232 seconds)</br>
 
