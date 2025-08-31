@@ -33,3 +33,5 @@ Anyway, let me start reading about this linear congruence trick to understand ho
 
 Update2: I just realized that where SIQS has to use tonelli, we are now using linear congruence (we dont use tonelli at all in the algorithm)...and I can apply that linear congruence trick in multiple places and hyper optimize the entire thing! HAH! Check mate. Lets see tomorrow.
 
+Update: Hmmpf, there is a bunch of tricks I should probably apply. Anyway, linear congruences first.. I know that can easily be optimized to the point it is negilible. Just depressed. Living like this.. I  miss my former manager. I was respected and supported in every way. My managers never misgendered me. They always treated me with the most respect. Sometimes when I'm outside running and I hear people saying shitty things (people really dont want trans people visible in public) it just really makes me miss those moments. Microsoft has taken everything away from me. And not just from me, they also went after my manager.
+
