@@ -5,12 +5,15 @@ Update 30 August 2025
 Uploaded QSv3_simd.pyx 
 
 To build (from the PoC_Files folder): python3 setup.py build_ext --inplace</br>
-To run: python3 run_qs.py -base 2000 -keysize 150 -debug 0 -lin_size 1 -quad_size -1 </br> (note the actual factor base per quadratic coefficient will be about +/- half of the -base parameter)
+To run: (note the actual factor base per quadratic coefficient will be about +/- half of the -base parameter)
 
+140 bit: python3 run_qs.py -base 1000 -keysize 140 -debug 0 -lin_size 1 -quad_size -1 (12 seconds)
+160 bit: python3 run_qs.py -base 2000 -keysize 160 -debug 0 -lin_size 10 -quad_size -1 (35 seconds)
+180 bit: python3 run_qs.py -base 4000 -keysize 180 -debug 0 -lin_size 100 -quad_size -1 (310 seconds) (starts to slow down, read below.. will fix soon)
 note: Only one worker at a time works for now... I need to rework that part.
 
 Improved things some more. Below 30 seconds now to factor 150-bit with one worker. Which is still not good enough. Still a lot of awfull bottlenecking going on. It's definitely faster then what I had before.. because if I would run this with multiple workers (which I need to reimplement first), this shouldn't take more then a few seconds. I wonder if I need to rethink my whole SIMD approach... I should do some testing with like strided writes, to double check I'm actually getting a speed advantage. I guess if we have primes that are larger then the chunk size we actually get a slow down vs strided writes. Ergh. Maybe I need a mixed approach. Let me fix it monday. This shouldn't take more then a second to factor 150-bit. I'll keep optimizing until I achieve that.
 
-I mean, it demonstrates the math already. But let me fix that monday. It's bottleneckig in SIMD_1() right now... but as I'm about to head to sleep bc I need to run 50k tomorrow.. I realized this will actually perform worse for large primes. I need to use strided writes for sure for large primes. Otherwise it's just writing chunks with only zeroes and wasting cpu cycles. That should then fix that bottleneck... and hopefully bring it down to below 20 seconds. Then I need to start optimizing all the other shit.
+I mean, it demonstrates the math already. But let me fix that monday. It's bottleneckig in SIMD_1() right now, which should not be the bottleneck for this type of algorithm... but as I'm about to head to sleep bc I need to run 50k tomorrow.. I realized this will actually perform worse for large primes. I need to use strided writes for sure for large primes. Otherwise it's just writing chunks with only zeroes and wasting cpu cycles. That should then fix that bottleneck... and hopefully bring it down to below 20 seconds. Then I need to start optimizing all the other shit.
 
 Oh and ofcourse the linear congruences, those too take up a good chunk of time.. but there is some special trick to make it go really fast (for mod pow).. so I need to implement that. That should then bring it close to 10 seconds. And the rest I can optimize by using things such as typed memory views and adding static typing in general. And that will then hopefully bring it all down to about a second. We'll see next week. Time to die tomorrow (run 50k). Only time I feel free of pain anymore lately. On my long runs, alone in nature. Best shit ever.
