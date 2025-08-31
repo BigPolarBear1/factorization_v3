@@ -23,3 +23,4 @@ Once I'm happy with the mainloop, I'll shift my efforts to the precomputational 
 
 And eventually I'll check about doing SIMD too. 
 
+I'll solve the linear congruence bottleneck on Monday, its actually the biggest bottleneck now but there's a very well documented trick for it using constants... I'm hoping that not having to recalculate roots for my polynomials will allow me to overtake msieve's performance.. but I have to do everything right.. cant just do stupid shit like I was doing with the SIMD stuff anyway going to run 50k now. 
