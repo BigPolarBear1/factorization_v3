@@ -10,7 +10,7 @@ To run: (note the actual factor base per quadratic coefficient will be about +/-
 140 bit: python3 run_qs.py -base 1000 -keysize 140 -debug 0 -lin_size 100_000 -quad_size -1 (2 seconds)</br>
 160 bit: python3 run_qs.py -base 2000 -keysize 160 -debug 0 -lin_size 100_000 -quad_size -1 (8 seconds)</br>
 180 bit: python3 run_qs.py -base 4000 -keysize 180 -debug 0 -lin_size 100_000 -quad_size -1 (51 seconds)</br>
-200 bit: python3 run_qs.py -base 6000 -keysize 200 -debug 0 -lin_size 100_000 -quad_size -1 (232 seconds)</br>
+200 bit: python3 run_qs.py -base 6000 -keysize 200 -debug 0 -lin_size 100_000 -quad_size -1 (196 seconds)</br>
 
 Currently this only works with 1 worker. I have gutted the worker support to better be able to profile the code. Will fix later.
 
