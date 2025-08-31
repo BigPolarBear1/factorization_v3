@@ -673,7 +673,7 @@ cdef construct_interval(int procnum,list ret_array,partials,n,primeslist,hmap,ga
 
 @cython.boundscheck(False)
 @cython.wraparound(False)
-cdef process_interval(int procnum,list ret_array,cnp.int16_t[::1] interval,n,int quad_co,lin_co,list cfact,partials,int large_prime_bound,list local_primes,int threshold,cmod):
+cdef process_interval(int procnum,list ret_array,cnp.int16_t[::1] interval,n,int quad_co,lin_co,list cfact,partials,large_prime_bound,list local_primes,int threshold,cmod):
     ##To do: Knowing the linear co we can calculate a much more accurate threshold value
     interval_len=len(interval)
     cdef Py_ssize_t j=0
@@ -967,6 +967,7 @@ def main(l_keysize,l_workers,l_debug,l_base,l_key,l_lin_sieve_size,l_quad_sieve_
     launch(n,primeslist1)     
     duration = default_timer() - start
     print("\nFactorization in total took: "+str(duration))
+
 
 
 
