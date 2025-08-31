@@ -14,6 +14,9 @@ To run: (note the actual factor base per quadratic coefficient will be about +/-
 180 bit: python3 run_qs.py -base 4000 -keysize 180 -debug 0 -lin_size 100_000 -quad_size -1 (51 seconds)</br>
 200 bit: python3 run_qs.py -base 6000 -keysize 200 -debug 0 -lin_size 100_000 -quad_size -1 (196 seconds)</br>
 220 bit: python3 run_qs.py -base 10000 -keysize 220 -debug 0 -lin_size 100_000 -quad_size -1 (770 seconds)</br>
+240 bit: python3 run_qs.py -base 10000 -keysize 240 -debug 0 -lin_size 100_000 -quad_size -1 (2 hours)</br> (+/- 73 digits)
+The PoC is still very unoptimized... lets see how far we can push it. Msieve will really struggle around 350-bit (a highly optimized SIQS PoC), so we need to push beyond that to be succesful.
+
 Currently this only works with 1 worker. I have gutted the worker support to better be able to profile the code. Will fix later.
 
 The more I started thinking about SIMD, the more I realized how wrong my approach was. If its only 256-bit writes, you only get an advantage if the data you are writing is spaced very close together (so you're not just writing a bunch of zeroes).
