@@ -19,7 +19,7 @@ I removed it, and it sped up everything a lot. I need to actually do some readin
 
 Anyway, by far the biggest bottleneck is now the linear congruences. But there is a well documented trick to massively speed that up. So I'll implement that next. Then we should be near the final shape of the algorithm.
 What remains after that will be fixing indexing so we dont call into get_item() due to python abstractions. And adding static typing everywhere.
-Once I'm happy with the mainloop, I'll shift my efforts to the precomputational part (I have barely touched that part so far, so there's lots of room for improvement there), since that is the strength of my findings, being able to shift all the burden there. 
+Once I'm happy with the mainloop, I'll shift my efforts to the precomputational part (I have barely touched that part so far, so there's lots of room for improvement there), since that is the strength of my findings, being able to shift all the burden there. Also wonder if I can apply that linear congruence trick to computing the iN map.. that would be amazing.. since that linear congruence is the biggest bottleneck there. Then there is no limit the the size of factor bases we can precompute... and then I would definitely feel vindicated about my work. In addition it needs to be placed in contiguous memory to save RAM.
 
 And eventually I'll check about doing SIMD too. 
 
