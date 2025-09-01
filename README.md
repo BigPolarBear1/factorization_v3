@@ -38,3 +38,5 @@ etc
 
    So there is definitely something happening that shouldn't be happening. I'm almost 100% sure it is indexing into python lists that grow in size as the factor base goes up. Because if we for exmple factor a 160-bit number, we can literally half the time it takes by using -base 1000 instead of -base 2000. Which doesn't make any sense.
 
+Update: Back from running. Let me shower and get food. After that I'll address the bottlenecking in those two functions. Just make all the lists numpy arrays in those two functions and create typed memory views or whatever. Then hopefully we can grind away at 90 digit numbers within a day. And then we'll see whats left to do... I'm hoping I can just keep going round and round and get rid of bottlenecks until I outperform msieve. The next few days will tell...
+
