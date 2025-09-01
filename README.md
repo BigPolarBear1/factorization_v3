@@ -2,17 +2,17 @@ Note: I know I am right. I know people know I am right. I know how you people tr
 
 Disclaimer about v3: My main goal for this version is to outperform standard SIQS by being able to quickly precalculate what is in SIQS the roots of the polynomials (but here are coefficients mod m). In theory being able to solve that bottleneck should allow us to outperform standard SIQS. And once I am able to proof this with a PoC, I hope to make some noise about it and find a way to get funded for v4, and I don't care if that means moving to Asia. I'll do whatever it takes to work on this. Sure as hell have not been gettig respect here in the west.
 
-Update 31 August 2025
+Update 1 September 2025
 
 Uploaded QSv3_simd.pyx 
 
 To build (from the PoC_Files folder): python3 setup.py build_ext --inplace</br></br>
-To run: (note the actual factor base per quadratic coefficient will be about +/- half of the -base parameter)
+To run: (note the actual factor base per quadratic coefficient will be about +/- half of the -base parameter and currently worker support is also not working)
 
 140 bit: python3 run_qs.py -keysize 140 -base 1000 -debug 1 -lin_size 100_000  -quad_size 1 (2 seconds)    </br>
 160 bit: python3 run_qs.py -keysize 160 -base 1000 -debug 1 -lin_size 100_000  -quad_size 1 (8 seconds)    </br>
 180 bit: python3 run_qs.py -keysize 180 -base 2000 -debug 1 -lin_size 100_000  -quad_size 1 (16 seconds)   </br>
-200 bit: 
+200 bit: python3 run_qs.py -keysize 200 -base 6000 -debug 1 -lin_size 100_000  -quad_size 1 (100 seconds) </br>
 
 The PoC is still very unoptimized... lets see how far we can push it. Msieve will really struggle around 350-bit (a highly optimized SIQS PoC), so we need to push beyond that to be succesful.
 
