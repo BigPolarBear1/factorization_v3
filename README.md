@@ -26,7 +26,7 @@ Thirdly, the precomputing of the factor_base, I know how to makes this much much
 
 We're getting very close ot the performance of optimized C scripts that are public, atleast below 200 bits. And we still have an awful lot of optimizing left to do and right now, it's still bottle necking MASSIVELY in places that it shouldn't, so a lot of speed gains should still be achievable. I am feeling very optimistic about this. We're nearly there now. Few more days. And a big problem is, as we go up in bit size, that bottlenecking in those functions becomes really severe.. so I am fairly sure it is happening due to slow indexing in factor_base related lists. So while we have gained speed at the <200 bits... we won't see much improvement until we address those bottlenecks. Let me go for a run. I'll do some proper profiling to max sure it is an indexing issue and tomorrow upload an improved PoC.
 
-For 220 bit with -base 10000 we get this:
+For 220 bit with -base 10000 we get this:</br>
 Seconds</br>
 225.76 QSv3_simd.pyx:598(temp_split) note: This shouldn't happen </br>
 154.445 QSv3_simd.pyx:282(launch)  note: Ignore this one, this is due to building the factor base. We'll fix that later. </br>
