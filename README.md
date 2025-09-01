@@ -9,14 +9,17 @@ Uploaded QSv3_simd.pyx
 To build (from the PoC_Files folder): python3 setup.py build_ext --inplace</br></br>
 To run: (note the actual factor base per quadratic coefficient will be about +/- half of the -base parameter)
 
-140 bit: python3 run_qs.py -base 1000 -keysize 140 -debug 0 -lin_size 100_000 -quad_size -1 (2 seconds)</br>
-160 bit: python3 run_qs.py -base 2000 -keysize 160 -debug 0 -lin_size 100_000 -quad_size -1 (8 seconds)</br>
-180 bit: python3 run_qs.py -base 4000 -keysize 180 -debug 0 -lin_size 100_000 -quad_size -1 (51 seconds)</br>
-200 bit: python3 run_qs.py -base 6000 -keysize 200 -debug 0 -lin_size 100_000 -quad_size -1 (196 seconds)</br>
-220 bit: python3 run_qs.py -base 10000 -keysize 220 -debug 0 -lin_size 100_000 -quad_size -1 (770 seconds)</br>
-240 bit: python3 run_qs.py -base 20000 -keysize 240 -debug 0 -lin_size 100_000 -quad_size -1 (2 hours)</br> (+/- 73 digits)
+140 bit: python3 run_qs.py -keysize 140 -base 1000 -debug 1 -lin_size 100_000  -quad_size 1 (2 seconds)
+160 bit: 
+
 The PoC is still very unoptimized... lets see how far we can push it. Msieve will really struggle around 350-bit (a highly optimized SIQS PoC), so we need to push beyond that to be succesful.
 
-Currently this only works with 1 worker. I have gutted the worker support to better be able to profile the code. Will fix later.
+Alright, solved the linear congruence bottleneck.
 
-OMG. So PoC is now bottlenecking at calculating linear congruences. But I was doing some reading about number theory. The way you solve this is with what I call "partial results" in my paper. But the way I was doing it was over complicated. You just have to calculated one inverse of the total modulus to achieve the same. So we can calculate these "partial results" really fast. Ok ok, fuck. I'm stupid. It's these obvious things that I suspected were possible but I never even took 10 minutes of my life to just check it. My brain is highly illogical at times.
+To do:
+
+It is now bottlenecking in temp_split() and construct_interval_2(). Which should not be bottlenecks. So I need to investigate why this is happening. I'm guessing slow python indexing.
+Secondly, I need to go over all linear co permutations instead of doing just one linear co, since there is a trick to do this very quickly. We may need to remove the negative sieving to avoid duplicate coefficients, but overall it should yield a speed boost.
+Thirdly, the precomputing of the factor_base, I know how to makes this much much much faster. But since it doesn't affect the main loop of the algorithm I'm keeping that optimization for the end.
+
+We're getting very close ot the performance of optimized C scripts that are public. And we still have an awful lot of optimizing left to do and right now, it's still bottle necking MASSIVELY in places that it shouldn't, so a lot of speed gains should still be achievable. I am feeling very optimistic about this. We're nearly there now. Few more days.
