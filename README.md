@@ -36,5 +36,5 @@ Seconds</br>
 41.670 QSv3_simd.pyx:734(generate_modulus) note: We'll rework this plus iterating lin co's mod m will nullify this bottleneck </br>
 etc
 
-   So there is definitely something happening that shouldn't be happening. 
+   So there is definitely something happening that shouldn't be happening. I'm almost 100% sure it is indexing into python lists that grow in size as the factor base goes up. Because if we for exmple factor a 160-bit number, we can literally half the time it takes by using -base 1000 instead of -base 2000. Which doesn't make any sense.
 
