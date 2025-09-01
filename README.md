@@ -33,7 +33,7 @@ For 220 bit with -base 10000 we get this:
    105316  102.659    0.001  426.118    0.004 QSv3_simd.pyx:625(construct_interval_2) note: This shouldn't happen </br>
 1038832228   52.506    0.000   52.506    0.000 QSv3_simd.pyx:615(miniloop_non_simd) note: not happy about this, but if we must it can be fixed with SIMD </br>
 520261040   45.047    0.000   45.047    0.000 QSv3_simd.pyx:139(modinv) note: we can precompute these if we must </br>
-   105316   41.670    0.000   49.811    0.000 QSv3_simd.pyx:734(generate_modulus) note: We'll rework this </br>
+   105316   41.670    0.000   49.811    0.000 QSv3_simd.pyx:734(generate_modulus) note: We'll rework this plus iterating lin co's mod m will nullify this bottleneck </br>
    281670   27.924    0.000   27.924    0.000 QSv3_simd.pyx:566(factorise_fast)  </br>
    105316   21.559    0.000   21.645    0.000 QSv3_simd.pyx:646(create_lin_co)  </br>
         1    9.658    9.658    9.658    9.658 QSv3_simd.pyx:231(solve_bits) </br>
