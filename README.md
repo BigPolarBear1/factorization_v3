@@ -25,3 +25,19 @@ Secondly, I need to go over all linear co permutations instead of doing just one
 Thirdly, the precomputing of the factor_base, I know how to makes this much much much faster. But since it doesn't affect the main loop of the algorithm I'm keeping that optimization for the end.
 
 We're getting very close ot the performance of optimized C scripts that are public, atleast below 200 bits. And we still have an awful lot of optimizing left to do and right now, it's still bottle necking MASSIVELY in places that it shouldn't, so a lot of speed gains should still be achievable. I am feeling very optimistic about this. We're nearly there now. Few more days. And a big problem is, as we go up in bit size, that bottlenecking in those functions becomes really severe.. so I am fairly sure it is happening due to slow indexing in factor_base related lists. So while we have gained speed at the <200 bits... we won't see much improvement until we address those bottlenecks. Let me go for a run. I'll do some proper profiling to max sure it is an indexing issue and tomorrow upload an improved PoC.
+
+For 220 bit with -base 10000 we get this:
+
+520471672  225.762    0.000  270.724    0.000 QSv3_simd.pyx:598(temp_split)
+        1  154.445  154.445  703.494  703.494 QSv3_simd.pyx:282(launch)  -Ignore this one, this is due to building the factor base. We'll fix that later.
+   105316  102.659    0.001  426.118    0.004 QSv3_simd.pyx:625(construct_interval_2)
+1038832228   52.506    0.000   52.506    0.000 QSv3_simd.pyx:615(miniloop_non_simd)
+520261040   45.047    0.000   45.047    0.000 QSv3_simd.pyx:139(modinv)
+   105316   41.670    0.000   49.811    0.000 QSv3_simd.pyx:734(generate_modulus)
+   281670   27.924    0.000   27.924    0.000 QSv3_simd.pyx:566(factorise_fast)
+   105316   21.559    0.000   21.645    0.000 QSv3_simd.pyx:646(create_lin_co)
+        1    9.658    9.658    9.658    9.658 QSv3_simd.pyx:231(solve_bits)
+   105316    6.558    0.000   34.482    0.000 QSv3_simd.pyx:699(process_interval)
+
+   So there is definitely something happening that shouldn't be happening. 
+
