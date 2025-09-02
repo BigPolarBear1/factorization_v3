@@ -40,3 +40,5 @@ etc
 
 Update: Back from running. Let me shower and get food. After that I'll address the bottlenecking in those two functions. Just make all the lists numpy arrays in those two functions and create typed memory views or whatever. Then hopefully we can grind away at 90 digit numbers within a day. And then we'll see whats left to do... I'm hoping I can just keep going round and round and get rid of bottlenecks until I outperform msieve. The next few days will tell...
 
+Update: Bah, wasting time messing with numpy. If I convert lists to numpy arrays, I actually get a slow down. I'm trying to figure out why. I should probably follow this to the letter: https://cython-docs2.readthedocs.io/en/latest/src/tutorial/numpy.html
+And if that doesn't work I'll swap everything to the python arrays module. I should also probably manually add a bunch of overflow check and whatnot... because working with very large numbers, if anywhere in the code some hidden type conversions happen that shouldn't happen.. we get screwed over. Ergh. I hope I resolve this shit today.
