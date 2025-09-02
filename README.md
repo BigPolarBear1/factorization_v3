@@ -42,3 +42,5 @@ Update: Back from running. Let me shower and get food. After that I'll address t
 
 Update: Bah, wasting time messing with numpy. If I convert lists to numpy arrays, I actually get a slow down. I'm trying to figure out why. I should probably follow this to the letter: https://cython-docs2.readthedocs.io/en/latest/src/tutorial/numpy.html
 And if that doesn't work I'll swap everything to the python arrays module. I should also probably manually add a bunch of overflow check and whatnot... because working with very large numbers, if anywhere in the code some hidden type conversions happen that shouldn't happen.. we get screwed over. Ergh. I hope I resolve this shit today.
+
+Update: Blah, after wasting an entire day, I get it now. Got to check the generated C code and make sure there arn't type conversion all over the place in our inner loops.
