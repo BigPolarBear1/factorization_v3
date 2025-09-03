@@ -50,3 +50,5 @@ Update: I'll try to upload a better version tomorrow. Kind of slowly understandi
 I think once everything is optimized to the maximum and I have a better understanding of this cython stuff, what works and what doesn't... I really want to explore this idea of 2d sieving again too. I think it's interesting, but it needs to be implemented correctly. Hmm.
 
 I really need to also try out p-adic lifting, bc we can calculate it quickly and it allows us to find more smooths with a smaller factor base. Which is really beneficial. Ah man, so much work so little time. Mentally I am really at the end of my rope.
+
+Update: Bad day. Incredibly depressed. Waking up with suicidal thoughts again. It's the inevitable outcome slowly creeping over the horizon. What else do I do, cyberrime? I should get iterating linear coefficients done today. There's also a trick to quickly calculate the distance in the sieve interval. I wonder if I can use it to make my 2d interval idea work too... I just got to keep grinding a litte longer, find the strength. I also been experience these worsening issues with my gut for the last few months, feel like I'm dying mentally and physically. Fuck it. 
