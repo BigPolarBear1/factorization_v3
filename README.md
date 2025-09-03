@@ -21,3 +21,7 @@ And that is how you construct your 2d sieve interval with little to no overhead.
 I mean, the math is all there and that stack overflow PoC shows me how to do those calculations. 
 
 Ok, 2d sieving or death. Lets make it happen. One final effort. 
+
+Update: So i've added the trick to very quickly calculating linear coefficient enumerations using precalculated constants. Then we can do the same to get the dist1 and dist2 variables for creating the sieve interval... but using purely coefficients that looks a little different.. I think it uses different constant based on the legendre symbol... I need to manually run the numbers to figure out what the constants should be. That, I hope to finish today. 
+
+Then tomorrow I will try to port that same trick to quadratic coefficients.... and somehow get the math right to quickly perform 2d sieving in a way that actually gives us an advantage, if it all possible. I'm struggling with brain fog due to depression a lot.. have been for some months. Life is not great.
