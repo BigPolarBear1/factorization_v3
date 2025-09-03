@@ -14,3 +14,10 @@ To get any strength out of this number theory compared to normal SIQS, you need 
 Looking at this stack overflow PoC, seeing this trick they do to enumerate root values for multiple linear coefficients within the same quadratic coefficient... I think I can do the same by enumerating quadratic coefficients within a modulus.  I think some approach like that is how you succesfully do 2d sieving. Let me bash my head against that today.
 
 I'm so awfully depressed. Today is really bad. Having a lot of suicidal thoughts. 
+
+That is it. If you know one quadratic coefficient in mod m, then you can very quickly calculate all the other ones with no overhead.
+And we can very quickly calculate its linear coefficients with little to no overhead. 
+And that is how you construct your 2d sieve interval with little to no overhead. 
+I mean, the math is all there and that stack overflow PoC shows me how to do those calculations. 
+
+Ok, 2d sieving or death. Lets make it happen. One final effort. 
