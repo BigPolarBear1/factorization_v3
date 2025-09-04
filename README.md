@@ -1,3 +1,6 @@
+UPDATE: DURING THE NIGHT OF 3 SEPTEMBER 2025. IT FINALLY CLICKED IN MY HEAD (READ BOTTOM). I WILL SHOW YOU HOW TO FACTOR LARGE NUMBERS TOMORROW!!! IT'S TIME! IT'S NOT 2D SIEVIG OR SIQS. IT'S USING THESE OPTIMIZATIONS FROM SIQS TO IMRPOVE factorization_v2 (without sieve intervals)!!!!! I KNOW HOW TO DO IT! 
+
+
 To build (from the PoC_Files folder): python3 setup.py build_ext --inplace</br></br>
 To run: (note the actual factor base per quadratic coefficient will be about +/- half of the -base parameter and currently worker support is also not working)
 
