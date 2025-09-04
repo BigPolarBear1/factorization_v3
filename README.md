@@ -38,5 +38,3 @@ Bah when I finished running I heard someone saying to his wife "look at that fag
 Ah man, today is not a good day. I feel like I'm about to have a nervous breakdown again. Just this shit man. I can't cope with this non-stop hypervigilance all the time anymore. The city where I live, its not a gay/queer friendly place. There is a lot of very religious people here. They do not want to see a trans person with a rainbow flag on their running kit running outside all the time in their neighbourhood. I know how it is. And I want those people to provoke me, to give me an excuse. I want to events from the US to happen again. And I don't want to turn my back again when it happens. I don't care if someone dies.
 
 
-
-fuck it, gonna use some 0days to hack belgium. have a bunch on an encrypted external ssd that i never disclosed. fuck the belgium military, going to hack those pussies. fucking losers. bash your fucking heads in pieces of shit.
