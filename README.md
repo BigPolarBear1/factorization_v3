@@ -30,3 +30,5 @@ My initial intuition and appraoch with the residue map wasn't bad. But I need to
 
 Update: Yea, I need to zero in on 2d sieving for now. I have a bunch of other ideas, but they will take a lot of further research. I also see some connection to number field sieve's approach... but again... I need time and I'm depressed, I need something tangible asap.. so 2d sieving... lets go.
 
+Update: Made some more progress toward 2d sieving. So you can't just enumerate possible quadratic coefficients mod m. You need to sieve them within a range (i.e 1 - 1000000), and only proceed if all the modulus primes are found. However, this will still yield many many many many quadratic coefficients, quickly, so that's not an issue at all. Eventually that will save us a whole lot of modular inverse calls... but I wonder where else I can gain advantages. Another advantage with working with just one modulus for longer is that we'll have a lot more similar factors in our results.... does that mean I need less smooths to be successful? All things I'll need to test. Anyway, time for a run. Always got to run. No matter how shit everything is. If I stop running, depression has won. 
+
