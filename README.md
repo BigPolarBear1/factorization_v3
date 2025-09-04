@@ -39,4 +39,5 @@ Ah man, today is not a good day. I feel like I'm about to have a nervous breakdo
 
 Shit day. Guess thats to be expected when I nearly killed someone. One day someone is going to provoke me and all hell will break loose. And fuck it all. I'm ready to die. My life ended two years ago. 
 
+its funny, also like those stalkers who had been harassing me online for 7+ years. it's funny how the internet makes these people feel safe, because if I ever see them in real life. I will straight up kill them without second thought. Before 2 years ago, I wasn't violent. But after everything that has happened. Yea. I'm living the final years of my life now. I have accepted my death already.
 
