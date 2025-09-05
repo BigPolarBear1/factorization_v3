@@ -4,7 +4,7 @@ Uploaded 2d sieving.
 To build: python3 setup.py build_ext --inplace</br>
 To run: python3 run_qs.py -base 4000 -keysize 200 -debug 1 -lin_size 100_000 -quad_size 100</br>
 
-The math is working. Its mainly bottlenecking due to refreshing the modulus every 10 smooths and calling into sieve_quads... but I'm going to rework that logic when I get back. No point in calculating all of it if we refresh the modulus after 10 smooths (which is deteremined by the mod_refresh parameter... I'm not sure what the best value there is, I'll experiment later.. but for very big numbers when smooths become more rare, it won't matter anyway, it just slows down smaller numbers).
+The math is working. Its mainly bottlenecking due to refreshing the modulus every 10 smooths and calling into sieve_quads... but I'm going to rework that logic when I get back from running. No point in calculating all of it if we refresh the modulus after 10 smooths (which is deteremined by the mod_refresh parameter... I'm not sure what the best value there is, I'll experiment later.. but for very big numbers when smooths become more rare, it won't matter anyway, it just slows down smaller numbers).
 
 I also having implemented some tricks to gain an advantage from 2d sieving. But what I do already notice is that is is very effective at finding smooths. More so then just using one quadratic coefficient. It seems some quadratic coefficients just yield more smooths for certain moduli or something like that. Anyway... I need to optimize the code yet.
 
