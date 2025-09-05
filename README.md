@@ -10,7 +10,7 @@ I also havn't yet implemented any tricks to gain an advantage from 2d sieving. B
 
 Then there is some additional stuff I want to explore... like really targeted smooth finding. I.e if we find a smooth candidate, we explicitliy go looking for factors with negative exponent in our 2d sieving setup. The math to do it is all there... I just need to figure out if it makes algorithmically sense.
 
-Depression is getting worse and worse and worse. Plus there is a plane flying overhead at regular intervals that doesn't show up on flight radar. Pretty sure I have a hardware implant and they are collecting the data.. something like that. Whatever. 
+Depression is getting worse and worse and worse. Plus there is a plane flying overhead at regular intervals that doesn't show up on flight radar. Pretty sure I have a hardware implant and they are collecting the data.. something like that. Whatever. Not like I'm going to connect my cache of 0days to this laptop anyway lol. I know how you people operate. I know and see every move you people make. Fucking dumbasses. 
 
 If a visa can be arranged through the Chinese embassy, I am leaving this place. I know exactly what people are doing. 
 Could have just apologized to my manager and paid him some money, like a year ago, and I would have been perfectly fine selling my work to the west.
