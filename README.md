@@ -1,4 +1,4 @@
-Update: One thing I must check for sure is, if we pull all smooths from a single modulus. Can we take square roots over the modulus like number field sieve does? .. or find some connection to number field sieve... I will quickly have a look at this next.  Because that could also dramatically reduce the number of required smooths... even if we are forced to work with a single modulus.
+Update: One thing I must check for sure is, if we pull all smooths from a single modulus. Can we take square roots over the modulus like number field sieve does? .. or find some connection to number field sieve... I will quickly have a look at this next.  Because that could also dramatically reduce the number of required smooths... even if we are forced to work with a single modulus. Remembering last time I messed around with this, not having all my smooths in the same modulus was a headache... this may actually solve it now. Then we have succesfully merged quadratic sieve and number field sieve. So fucking depressed. This fucking last year man. How they treat me. Like I don't see it. 
 
 Uploaded 2d sieving. 
 
