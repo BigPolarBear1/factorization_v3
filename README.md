@@ -11,3 +11,5 @@ I have a bunch in mind. Plus we also need to speed up calculating sieve interval
 
 What I really want to explore is targeted smooth finding. Factor a smooth candidate and then go hunting for other smooths that contain its factors with odd exponents, in the hopes of being succesful with way less smooths. 
 If I can get an aproach like that working.. that could be beneficial. And I'll have to think some more how to possibly get advantages out of 2d sieving.
+
+Update: I'm doing some experiments right now. Just pulling smooths from as few moduli as posible (meaning all smooths will have more similar factors) seems to massively reduce the amount of smooths required to be succesful. I think this approach is the way to go. I will zero in hard on this now. Because if I can get this to work really really well... then we can potentially factor very big numbers requiring only a fraction of smooths. How cool would that be?
