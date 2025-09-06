@@ -1,3 +1,5 @@
+Update: One thing I must check for sure is, if we pull all smooths from a single modulus. Can we take square roots over the modulus like number field sieve does? .. or find some connection to number field sieve... I will quickly have a look at this next.  Because that could also dramatically reduce the number of required smooths... even if we are forced to work with a single modulus.
+
 Uploaded 2d sieving. 
 
 
@@ -20,4 +22,4 @@ Update: Made some more changes. It will now go to the linear algebra step every 
 
 Update: I did some quick testing, and deliberatly hunting smooths with similar factorization (after the modulus is subtracted) it does dramatically decrease the required amount of smooths. So yes, that is how you properly leverage my findings. I'm going to need a few days to implement targeted smooth hunting... and then another few days to also add p-adic lifitng to further reduce the amount of required smooths. Hopefully to the point where only a few smooths will yield a succesful factorization. That would be cool.
 
-Update: One thing I must check for sure is, if we pull all smooths from a single modulus. Can we take square roots over the modulus like number field sieve does? .. or find some connection to number field sieve... hmm.
+
